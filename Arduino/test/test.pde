@@ -1,4 +1,5 @@
- /* Read Quadrature Encoder
+// nur ein Kommentar
+/* Read Quadrature Encoder
   * Connect Encoder to Pins encoder0PinA, encoder0PinB, and +5V.
   *
   * Sketch by max wolf / www.meso.net
