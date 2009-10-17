@@ -1,8 +1,13 @@
-#include "WProgram.h"
+//example use of LCD4Bit library
 
-void setup();
-void loop();
-void blink();
+
+
+#undef int
+#include <stdio.h> 
+#include <LCD4Bit.h>
+LCD4Bit lcd = LCD4Bit(1);
+
+
 int state = LOW;
 
 
@@ -11,30 +16,57 @@ int state = LOW;
  int ledPin = 13;                // LED connected to digital pin 13
  volatile int encoder = LOW;
  int encoder_old = LOW;
+ int minimum = 0;
+ int maximum = 500;
+ int faktor = 4;
+ int val = 0;
+ int val_old = 0;
 
+ float f=0;
+
+ char buffer[4]    = "";
+ 
+ 
 void setup()
 {
-  pinMode(ledPin, OUTPUT);
-   attachInterrupt(0, blink, FALLING); // pin 2
+   lcd.init();
+   pinMode(ledPin, OUTPUT);
+   attachInterrupt(1, blink, FALLING); // pin 2
    pinMode (encoder0PinB,INPUT);
    Serial.begin (9600);
 }
 
 void loop()
 {
-  if (encoder > encoder_old+3)
+      val=encoder/faktor;
+ 
+      if (val < minimum)
+            {val=minimum;
+             encoder=minimum*faktor;}
+    
+      if (val > maximum)
+            {val=maximum;
+             encoder=maximum*faktor;}
+
+  if (val !=val_old)
    { 
-     Serial.print ("+");
-     Serial.print (encoder);
-     encoder_old=encoder;
+    // Serial.print (encoder);
+    // Serial.print (" ");
+     Serial.print (val);
+     Serial.print (" ");
+     
+      val_old=val;
+      
+         sprintf(buffer,"%3d",val);
+         lcd.clear();
+         lcd.printIn("Poti:     ");
+         lcd.printIn(buffer);
+       
+       //lcd.cursorTo(1, 10); 
+      // lcd.printIn(buffer);
+       
+
    } 
-   
-  if (encoder < encoder_old-3)
-   {
-     Serial.print ("-");
-     Serial.print (encoder);
-     encoder_old=encoder;
-   }        
 
 
 
@@ -53,9 +85,19 @@ void blink()
 
      }
   
-  //   state = !state;
+     state = !state;
 }
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 /*
  } 
@@ -114,16 +156,3 @@ Serial data received while in the function may be lost. You should declare as vo
 that you modify within the attached function. 
 
 */
-
-int main(void)
-{
-	init();
-
-	setup();
-    
-	for (;;)
-		loop();
-        
-	return 0;
-}
-
