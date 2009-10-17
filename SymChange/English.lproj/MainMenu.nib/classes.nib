@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = Horn; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyObject; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {load = id; open = id; save = id; tree = id; }; 
+            CLASS = SymChange; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                CITO = NSTextField; 
+                Event = NSTextField; 
+                Letterbox = NSTextField; 
+                Mega = NSTextField; 
+                Multi = NSTextField; 
+                Raetsel = NSTextField; 
+                Traditional = NSTextField; 
+                Virtual = NSTextField; 
+                chosenFile = NSTextField; 
+                myOutlet1 = NSTextField; 
+                myOutlet2 = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

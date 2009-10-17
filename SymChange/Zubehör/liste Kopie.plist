@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hint</key>
+	<string>custom15</string>
+	<key>Kreuz</key>
+	<string>custom14</string>
+	<key>Parkplatz</key>
+	<string>custom13</string>
+	<key>Weg</key>
+	<string>custom18</string>
+	<key>cito</key>
+	<string>custom5</string>
+	<key>event</key>
+	<string>custom4</string>
+	<key>final</key>
+	<string>custom11</string>
+	<key>free1</key>
+	<string>custom21</string>
+	<key>free2</key>
+	<string>custom22</string>
+	<key>free3</key>
+	<string>custom23</string>
+	<key>free4</key>
+	<string>custom24</string>
+	<key>hanswurst</key>
+	<string>custom20</string>
+	<key>letterbox</key>
+	<string>custom3</string>
+	<key>mega</key>
+	<string>custom6</string>
+	<key>multi</key>
+	<string>custom2</string>
+	<key>myOutlet1</key>
+	<string>custom9</string>
+	<key>myOutlet2</key>
+	<string>custom10</string>
+	<key>raetsel</key>
+	<string>custom7</string>
+	<key>spur</key>
+	<string>custom12</string>
+	<key>stop</key>
+	<string>custom19</string>
+	<key>traditional</key>
+	<string>custom1</string>
+	<key>virtual</key>
+	<string>custom8</string>
+	<key>webcam</key>
+	<string>custom16</string>
+	<key>webcam found</key>
+	<string>custom17</string>
+</dict>
+</plist>

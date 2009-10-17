@@ -1,0 +1,3240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx
+ version="1.0"
+creator="GPSBabel - http://www.gpsbabel.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/0"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<time>2006-11-21T18:37:36Z</time>
+<bounds minlat="51.152532930" minlon ="7.073082989" maxlat="51.876299959" maxlon="8.204999920" />
+<wpt lat="51.579716625" lon="7.328599943">
+  <ele>65.495117</ele>
+  <name>001</name>
+  <cmt>10-NOV-06 18:54:24</cmt>
+  <desc>10-NOV-06 18:54:24</desc>
+  <sym>Custom 14</sym>
+</wpt>
+<wpt lat="51.580333281" lon="7.326366585">
+  <ele>62.130493</ele>
+  <name>002</name>
+  <cmt>10-NOV-06 19:24:00</cmt>
+  <desc>10-NOV-06 19:24:00</desc>
+  <sym>Custom 14</sym>
+</wpt>
+<wpt lat="51.580499997" lon="7.321999948">
+  <ele>58.765747</ele>
+  <name>003</name>
+  <cmt>10-NOV-06 20:07:58</cmt>
+  <desc>10-NOV-06 20:07:58</desc>
+  <sym>Custom 14</sym>
+</wpt>
+<wpt lat="51.579733305" lon="7.319933306">
+  <ele>65.735352</ele>
+  <name>004</name>
+  <cmt>10-NOV-06 20:20:27</cmt>
+  <desc>10-NOV-06 20:20:27</desc>
+  <sym>Custom 14</sym>
+</wpt>
+<wpt lat="51.577999927" lon="7.318333285">
+  <ele>63.812744</ele>
+  <name>005</name>
+  <cmt>10-NOV-06 20:31:30</cmt>
+  <desc>10-NOV-06 20:31:30</desc>
+  <sym>Custom 14</sym>
+</wpt>
+<wpt lat="51.581449918" lon="7.320149979">
+  <ele>61.169189</ele>
+  <name>006</name>
+  <cmt>10-NOV-06 20:55:14</cmt>
+  <desc>10-NOV-06 20:55:14</desc>
+  <sym>Custom 14</sym>
+</wpt>
+<wpt lat="51.653033299" lon="7.538766610">
+  <ele>110.196045</ele>
+  <name>007</name>
+  <cmt>12-NOV-06 13:25:44</cmt>
+  <desc>12-NOV-06 13:25:44</desc>
+  <sym>Custom 4</sym>
+</wpt>
+<wpt lat="51.652666591" lon="7.531299926">
+  <ele>112.118652</ele>
+  <name>008</name>
+  <cmt>12-NOV-06 13:35:14</cmt>
+  <desc>12-NOV-06 13:35:14</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.377999922" lon="7.853166936">
+  <name>GC2BD7</name>
+  <cmt>schwiegermuttercache by rafter</cmt>
+  <desc>schwiegermuttercache by rafter</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.303116921" lon="7.544866959">
+  <name>GC9D2D</name>
+  <cmt>Dahler Cache Nr. 1/Dahl cache</cmt>
+  <desc>Dahler Cache Nr. 1/Dahl cache</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.321499944" lon="7.722449983">
+  <name>GC9F2C</name>
+  <cmt>Himingbjorg by tyr (3/25)</cmt>
+  <desc>Himingbjorg by tyr (3/25)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.262082979" lon="7.120999983">
+  <name>GCA687</name>
+  <cmt>Spooky W&apos;Tal-Cache: Ghost Trai</cmt>
+  <desc>Spooky W&apos;Tal-Cache: Ghost Trai</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.550149964" lon="7.328282939">
+  <name>GCBA0D</name>
+  <cmt>Emschercache by Stefan vom Ruh</cmt>
+  <desc>Emschercache by Stefan vom Ruh</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.414082926" lon="7.952382937">
+  <name>GCBD13</name>
+  <cmt>MariaHilf! by schmart &amp; uta (1</cmt>
+  <desc>MariaHilf! by schmart &amp; uta (1</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.397316940" lon="8.064899929">
+  <name>GCC1D7</name>
+  <cmt>Kaiserspfrtchen by countryjoke</cmt>
+  <desc>Kaiserspfrtchen by countryjoke</desc>
+  <sym>Custom 7</sym>
+</wpt>
+<wpt lat="51.263366919" lon="7.321149940">
+  <name>GCC67F</name>
+  <cmt>Holzkopf by Qwertz (3/25)</cmt>
+  <desc>Holzkopf by Qwertz (3/25)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.409416972" lon="7.789966967">
+  <name>GCEF12</name>
+  <cmt>Edelburg cache by Kalle vom Ha</cmt>
+  <desc>Edelburg cache by Kalle vom Ha</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.238966947" lon="7.263982929">
+  <name>GCG79Y</name>
+  <cmt>European IMC No.1 P-D - Glaube</cmt>
+  <desc>European IMC No.1 P-D - Glaube</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.260499973" lon="7.286466965">
+  <name>GCG7A0</name>
+  <cmt>European IMC No.1 S-D - Wasser</cmt>
+  <desc>European IMC No.1 S-D - Wasser</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.365399994" lon="7.643216942">
+  <name>GCG8AB</name>
+  <cmt>Elfen II oder Saarland meets S</cmt>
+  <desc>Elfen II oder Saarland meets S</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.429866971" lon="7.192616975">
+  <name>GCGQTP</name>
+  <cmt>Waldlauf by Havrix (25/25)</cmt>
+  <desc>Waldlauf by Havrix (25/25)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.570166955" lon="8.097366979">
+  <name>GCGWWC</name>
+  <cmt>UlRais Cache by UlRai (2/25)</cmt>
+  <desc>UlRais Cache by UlRai (2/25)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.672399938" lon="7.249616934">
+  <name>GCGXC2</name>
+  <cmt>Stahlkoloss by A.t.l.a.s. (1/2</cmt>
+  <desc>Stahlkoloss by A.t.l.a.s. (1/2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.284482945" lon="7.456932999">
+  <name>GCGY2G</name>
+  <cmt>Landart one by Landart-Cacher-</cmt>
+  <desc>Landart one by Landart-Cacher-</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.242799992" lon="7.501099929">
+  <name>GCGY6V</name>
+  <cmt>Glr-Cache by der Nachtfalke (3</cmt>
+  <desc>Glr-Cache by der Nachtfalke (3</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.207466917" lon="7.307532951">
+  <name>GCH4YY</name>
+  <cmt>Baby-Cache by mdornseif (2/3)</cmt>
+  <desc>Baby-Cache by mdornseif (2/3)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.712649921" lon="7.428249959">
+  <name>GCHAV5</name>
+  <cmt>Seliheim I by the loazzolo tea</cmt>
+  <desc>Seliheim I by the loazzolo tea</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.431682995" lon="7.193299932">
+  <name>GCHDB3</name>
+  <cmt>Waldlauf II (extended version)</cmt>
+  <desc>Waldlauf II (extended version)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.876299959" lon="7.520816932">
+  <name>GCHDHT</name>
+  <cmt>Snoopys Luck by DL5YCX (25/25)</cmt>
+  <desc>Snoopys Luck by DL5YCX (25/25)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.345399935" lon="7.194482954">
+  <name>GCHNE3</name>
+  <cmt>sloopy by PsychoM (15/2)</cmt>
+  <desc>sloopy by PsychoM (15/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.387499971" lon="8.121149959">
+  <name>GCHPJR</name>
+  <cmt>Riesenburgschatz by onkel patr</cmt>
+  <desc>Riesenburgschatz by onkel patr</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.475949921" lon="7.216332983">
+  <name>GCHTA7</name>
+  <cmt>Das Bermuda3eck by Havrix feat</cmt>
+  <desc>Das Bermuda3eck by Havrix feat</desc>
+  <sym>Custom 13</sym>
+</wpt>
+<wpt lat="51.501816977" lon="8.014832977">
+  <name>GCHXHY</name>
+  <cmt>Haarige Angelegenheit by sulki</cmt>
+  <desc>Haarige Angelegenheit by sulki</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.382199926" lon="8.136782963">
+  <name>GCHZAM</name>
+  <cmt>Berens Kppken by onkel patrick</cmt>
+  <desc>Berens Kppken by onkel patrick</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.626766929" lon="7.261649994">
+  <name>GCJ465</name>
+  <cmt>Alter Baum by Ramrod88 (15/15)</cmt>
+  <desc>Alter Baum by Ramrod88 (15/15)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.281349957" lon="7.781649940">
+  <name>GCJ6G6</name>
+  <cmt>Neuenrade-Cache Part One: Runn</cmt>
+  <desc>Neuenrade-Cache Part One: Runn</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.449999968" lon="7.233332992">
+  <name>GCJ6R6</name>
+  <cmt>Gluecksburg by hexaman (3/25)</cmt>
+  <desc>Gluecksburg by hexaman (3/25)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.439832970" lon="7.250499967">
+  <name>GCJ8HZ</name>
+  <cmt>1+2+cache in Bochums Sden by h</cmt>
+  <desc>1+2+cache in Bochums Sden by h</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.381899938" lon="8.171132924">
+  <name>GCJ8RC</name>
+  <cmt>BB&apos;s on tour (1): Sauerland by</cmt>
+  <desc>BB&apos;s on tour (1): Sauerland by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.478932956" lon="7.220966918">
+  <name>GCJ98Y</name>
+  <cmt>Via Illuminati - Der Pfad der</cmt>
+  <desc>Via Illuminati - Der Pfad der</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.364432974" lon="7.631816966">
+  <name>GCJA7J</name>
+  <cmt>Gipfeltour by ts1 (15/35)</cmt>
+  <desc>Gipfeltour by ts1 (15/35)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.423916994" lon="7.233282952">
+  <name>GCJAFX</name>
+  <cmt>Am Hang by hexaman (35/3)</cmt>
+  <desc>Am Hang by hexaman (35/3)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.731516998" lon="7.240266921">
+  <name>GCJBCT</name>
+  <cmt>Im Wald und auf der Heide by d</cmt>
+  <desc>Im Wald und auf der Heide by d</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.331549929" lon="8.085782938">
+  <name>GCJBWA</name>
+  <cmt>Hhe 500 by onkel patrick (25/3</cmt>
+  <desc>Hhe 500 by onkel patrick (25/3</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.445916975" lon="7.243782962">
+  <name>GCJCCC</name>
+  <cmt>Ortszeit in Bochum by hexaman</cmt>
+  <desc>Ortszeit in Bochum by hexaman</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.400182964" lon="7.243666956">
+  <name>GCJE94</name>
+  <cmt>Katzenstein Und Pferdewiese by</cmt>
+  <desc>Katzenstein Und Pferdewiese by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.407549987" lon="7.226899965">
+  <name>GCJGFZ</name>
+  <cmt>Irrgarten by PanTau (2/15)</cmt>
+  <desc>Irrgarten by PanTau (2/15)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.162666986" lon="7.325816983">
+  <name>GCJGHB</name>
+  <cmt>Wuppership Down by Die Firlefa</cmt>
+  <desc>Wuppership Down by Die Firlefa</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.389166964" lon="7.188332984">
+  <name>GCJHMX</name>
+  <cmt>Hhenschnitt by hexaman (35/3)</cmt>
+  <desc>Hhenschnitt by hexaman (35/3)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.524649952" lon="7.224182971">
+  <name>GCJM91</name>
+  <cmt>Flottmann-Cache by The real Te</cmt>
+  <desc>Flottmann-Cache by The real Te</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.421666956" lon="7.210999997">
+  <name>GCJNN1</name>
+  <cmt>Ruhrdoppel rechts by hexaman (</cmt>
+  <desc>Ruhrdoppel rechts by hexaman (</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.389949918" lon="7.153266957">
+  <name>GCJNN3</name>
+  <cmt>Ruhrdoppel links by PanTau (su</cmt>
+  <desc>Ruhrdoppel links by PanTau (su</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.379699940" lon="7.980816951">
+  <name>GCJTBE</name>
+  <cmt>Burg Hachen by Eulensucher (2/</cmt>
+  <desc>Burg Hachen by Eulensucher (2/</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.499999948" lon="7.199999923">
+  <name>GCJWEH</name>
+  <cmt>Gut Holz! by hexaman (2/2)</cmt>
+  <desc>Gut Holz! by hexaman (2/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.419199994" lon="7.183899963">
+  <name>GCJX5Q</name>
+  <cmt>Monoalphabetische Substitution</cmt>
+  <desc>Monoalphabetische Substitution</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.591382977" lon="8.156716973">
+  <name>GCJY42</name>
+  <cmt>Winzi(n)ger Cache by sulki (1/</cmt>
+  <desc>Winzi(n)ger Cache by sulki (1/</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.585266953" lon="7.234899988">
+  <name>GCK0GC</name>
+  <cmt>King Louie by jobear d (1/15)</cmt>
+  <desc>King Louie by jobear d (1/15)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.484699957" lon="7.194632990">
+  <name>GCK649</name>
+  <cmt>Jahrhunderthalle Anniversary-C</cmt>
+  <desc>Jahrhunderthalle Anniversary-C</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.538066948" lon="7.221416943">
+  <name>GCK89Y</name>
+  <cmt>Wakefield by Vascodagama (3/15</cmt>
+  <desc>Wakefield by Vascodagama (3/15</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.398182958" lon="7.184049999">
+  <name>GCK8JG</name>
+  <cmt>Altstadtrundgang Hattingen by</cmt>
+  <desc>Altstadtrundgang Hattingen by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.275716983" lon="7.312049959">
+  <name>GCK91R</name>
+  <cmt>IMC No. 2 P-DE - No Wind over</cmt>
+  <desc>IMC No. 2 P-DE - No Wind over</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.468516933" lon="7.233332992">
+  <name>GCKAFB</name>
+  <cmt>Geologischer Garten by Gnarfy</cmt>
+  <desc>Geologischer Garten by Gnarfy</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.680582939" lon="7.182066925">
+  <name>GCKAJH</name>
+  <cmt>Haard-Cache by Ruhrpott Team (</cmt>
+  <desc>Haard-Cache by Ruhrpott Team (</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.563366968" lon="7.321632989">
+  <name>GCKBV6</name>
+  <cmt>Magische 15 by didi04 (1/1)</cmt>
+  <desc>Magische 15 by didi04 (1/1)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.864166986" lon="7.548099943">
+  <name>GCKDB4</name>
+  <cmt>Der Knabe im Moor by Gnocchi-T</cmt>
+  <desc>Der Knabe im Moor by Gnocchi-T</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.503982944" lon="7.287766999">
+  <name>GCKDV0</name>
+  <cmt>Lechts und Rinks by Vascodagam</cmt>
+  <desc>Lechts und Rinks by Vascodagam</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.468999982" lon="7.229832960">
+  <name>GCKE2D</name>
+  <cmt>-----Begin PGP Message----- by</cmt>
+  <desc>-----Begin PGP Message----- by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.268332945" lon="7.196666943">
+  <name>GCKFAT</name>
+  <cmt>IMC No. 2 S-DE - Luft &amp; Wind /</cmt>
+  <desc>IMC No. 2 S-DE - Luft &amp; Wind /</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.382216942" lon="7.075149966">
+  <name>GCKK5X</name>
+  <cmt>Ab in den Sden IV - Der lteste</cmt>
+  <desc>Ab in den Sden IV - Der lteste</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.621499993" lon="7.180849956">
+  <name>GCKKWY</name>
+  <cmt>Hirschjagd by jobear d (1/1)</cmt>
+  <desc>Hirschjagd by jobear d (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.421716996" lon="7.985216947">
+  <name>GCKP5N</name>
+  <cmt>Der schwarze Abt by Eulensuche</cmt>
+  <desc>Der schwarze Abt by Eulensuche</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.195199918" lon="7.498899931">
+  <name>GCKPAR</name>
+  <cmt>Matrix by nikpul adopted by Wo</cmt>
+  <desc>Matrix by nikpul adopted by Wo</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.421666956" lon="7.263332997">
+  <name>GCKPK5</name>
+  <cmt>Stationszeichen by hexaman (4/</cmt>
+  <desc>Stationszeichen by hexaman (4/</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.437049927" lon="7.280782945">
+  <name>GCKTX7</name>
+  <cmt>Kemnade I - Witch by volkersau</cmt>
+  <desc>Kemnade I - Witch by volkersau</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.430932982" lon="7.271449948">
+  <name>GCKTXF</name>
+  <cmt>Kemnade II - Lost telephonnumb</cmt>
+  <desc>Kemnade II - Lost telephonnumb</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.424382944" lon="7.263282957">
+  <name>GCKTXP</name>
+  <cmt>Kemnade III - Which day is tod</cmt>
+  <desc>Kemnade III - Which day is tod</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.415949995" lon="7.255050000">
+  <name>GCKTXR</name>
+  <cmt>Kemnade IV - Oktopussy by volk</cmt>
+  <desc>Kemnade IV - Oktopussy by volk</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.431366997" lon="7.282066969">
+  <name>GCKTXV</name>
+  <cmt>Kemnade V - Number Mystery by</cmt>
+  <desc>Kemnade V - Number Mystery by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.656649923" lon="7.245932920">
+  <name>GCKV5W</name>
+  <cmt>Stimberg - Cache by dampfjojo</cmt>
+  <desc>Stimberg - Cache by dampfjojo</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.612582989" lon="7.257832959">
+  <name>GCKX82</name>
+  <cmt>Johannistal by TeamBlack (15/1</cmt>
+  <desc>Johannistal by TeamBlack (15/1</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.545982985" lon="7.337299939">
+  <name>GCM005</name>
+  <cmt>Just a Cache V by Vascodagama</cmt>
+  <desc>Just a Cache V by Vascodagama</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.405666992" lon="7.224999955">
+  <name>GCM0QK</name>
+  <cmt>Wallfahrt nach Lourdes by PanT</cmt>
+  <desc>Wallfahrt nach Lourdes by PanT</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.535249958" lon="7.261649994">
+  <name>GCM6B3</name>
+  <cmt>Die lange Unsichtbare by Otz (</cmt>
+  <desc>Die lange Unsichtbare by Otz (</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.382899983" lon="7.088999972">
+  <name>GCM97N</name>
+  <cmt>Ruhrhalbinsel - KurzUndBndig b</cmt>
+  <desc>Ruhrhalbinsel - KurzUndBndig b</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.563932998" lon="7.236449970">
+  <name>GCM9GQ</name>
+  <cmt>The return of the Stationszeic</cmt>
+  <desc>The return of the Stationszeic</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.274816934" lon="7.224999955">
+  <name>GCMD0N</name>
+  <cmt>Schwebebahn-Cache by Frazer (2</cmt>
+  <desc>Schwebebahn-Cache by Frazer (2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.507299999" lon="7.270449987">
+  <name>GCME2J</name>
+  <cmt>Red and Green by rolandum (3/3</cmt>
+  <desc>Red and Green by rolandum (3/3</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.471782941" lon="8.099699998">
+  <name>GCMEK0</name>
+  <cmt>Bei der Wolfskuhle by Wegpunkt</cmt>
+  <desc>Bei der Wolfskuhle by Wegpunkt</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.536116982" lon="7.267916976">
+  <name>GCMEX3</name>
+  <cmt>Der Pfnpf-Pferde-Pfreunde-Pfad</cmt>
+  <desc>Der Pfnpf-Pferde-Pfreunde-Pfad</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.184366979" lon="7.304916959">
+  <name>GCMF66</name>
+  <cmt>Wupper-Schein by Team Liner (2</cmt>
+  <desc>Wupper-Schein by Team Liner (2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.429832941" lon="7.248132918">
+  <name>GCMFHN</name>
+  <cmt>Henkenberg by dampfjojo (15/15</cmt>
+  <desc>Henkenberg by dampfjojo (15/15</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.424099971" lon="7.213866943">
+  <name>GCMFVJ</name>
+  <cmt>Alte Ruhr-Schleuse by italofil</cmt>
+  <desc>Alte Ruhr-Schleuse by italofil</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.452332987" lon="7.125799963">
+  <name>GCMGCW</name>
+  <cmt>SuMa: Farbspiel? by Susanne&amp;Ma</cmt>
+  <desc>SuMa: Farbspiel? by Susanne&amp;Ma</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.518699974" lon="7.278649919">
+  <name>GCMGGJ</name>
+  <cmt>Bist du schtig? by Frau Simone</cmt>
+  <desc>Bist du schtig? by Frau Simone</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.578882961" lon="7.263382953">
+  <name>GCMH0N</name>
+  <cmt>Strange Melody by Vascodagama</cmt>
+  <desc>Strange Melody by Vascodagama</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.328282999" lon="7.165116956">
+  <name>GCMJYH</name>
+  <cmt>Der Weg zum Tausendsten by Doc</cmt>
+  <desc>Der Weg zum Tausendsten by Doc</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.345382920" lon="7.705549970">
+  <name>GCMJYX</name>
+  <cmt>Hermannslndchen by Team Pike20</cmt>
+  <desc>Hermannslndchen by Team Pike20</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.347866980" lon="7.684116941">
+  <name>GCMK06</name>
+  <cmt>Hermanns Bonus Cache by Team P</cmt>
+  <desc>Hermanns Bonus Cache by Team P</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.322049964" lon="7.351966929">
+  <name>GCMM64</name>
+  <cmt>Haufer-Kopf by Santa-Fee (15/3</cmt>
+  <desc>Haufer-Kopf by Santa-Fee (15/3</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.712249937" lon="7.229766995">
+  <name>GCMMNN</name>
+  <cmt>FCCNC - Flaesheim Colour Coded</cmt>
+  <desc>FCCNC - Flaesheim Colour Coded</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.316232923" lon="7.086732918">
+  <name>GCMP3Y</name>
+  <cmt>Der Schatz am Hardenberger Sch</cmt>
+  <desc>Der Schatz am Hardenberger Sch</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.286849994" lon="7.977417000">
+  <name>GCMPB5</name>
+  <cmt>Der Bergmer by dd6ubs (2/2)</cmt>
+  <desc>Der Bergmer by dd6ubs (2/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.321166931" lon="7.350166999">
+  <name>GCMPCN</name>
+  <cmt>Funkende-Cache by Santa-Fee (1</cmt>
+  <desc>Funkende-Cache by Santa-Fee (1</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.330582993" lon="7.748382920">
+  <name>GCMQ7G</name>
+  <cmt>Nadelblatt by matzepuma (1/1)</cmt>
+  <desc>Nadelblatt by matzepuma (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.611499963" lon="7.196532916">
+  <name>GCMQG8</name>
+  <cmt>Easy Going II - P.n.f.* by job</cmt>
+  <desc>Easy Going II - P.n.f.* by job</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.152532930" lon="7.377916966">
+  <name>GCMTV0</name>
+  <cmt>Ufer Rummel by Die Firlefanzis</cmt>
+  <desc>Ufer Rummel by Die Firlefanzis</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.348882951" lon="7.136516981">
+  <name>GCMV49</name>
+  <cmt>Radio Langenberg by PsychoM (3</cmt>
+  <desc>Radio Langenberg by PsychoM (3</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.458199983" lon="7.293117000">
+  <name>GCMX8G</name>
+  <cmt>ex oriente lux ex occidente ge</cmt>
+  <desc>ex oriente lux ex occidente ge</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.433832953" lon="7.118982961">
+  <name>GCMZMH</name>
+  <cmt>Abenteuerspielplatz by kohalas</cmt>
+  <desc>Abenteuerspielplatz by kohalas</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.451116940" lon="7.964766948">
+  <name>GCN00X</name>
+  <cmt>Bremer Licht by Eulensucher (1</cmt>
+  <desc>Bremer Licht by Eulensucher (1</desc>
+  <sym>Custom 13</sym>
+</wpt>
+<wpt lat="51.579299960" lon="7.260899981">
+  <name>GCN23D</name>
+  <cmt>Spielst du noch oder loggst du</cmt>
+  <desc>Spielst du noch oder loggst du</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.470099939" lon="7.315416969">
+  <name>GCN2BR</name>
+  <cmt>Rest in Peace in Langendreer b</cmt>
+  <desc>Rest in Peace in Langendreer b</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.617882950" lon="7.421416948">
+  <name>GCN2C2</name>
+  <cmt>Handgemacht / Handicrafts by e</cmt>
+  <desc>Handgemacht / Handicrafts by e</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.566666923" lon="7.566666948">
+  <name>GCN2CB</name>
+  <cmt>Die Geschichte vom Ei by Froli</cmt>
+  <desc>Die Geschichte vom Ei by Froli</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.716782954" lon="7.433149936">
+  <name>GCN3Z4</name>
+  <cmt>Stimmt sie? by loazzolo (35/15</cmt>
+  <desc>Stimmt sie? by loazzolo (35/15</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.726582991" lon="7.426149957">
+  <name>GCN3Z9</name>
+  <cmt>Acht und Zehn / Eight and Ten</cmt>
+  <desc>Acht und Zehn / Eight and Ten</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.694599995" lon="7.501516929">
+  <name>GCN3ZC</name>
+  <cmt>Angstkuhle by loazzolo (25/1)</cmt>
+  <desc>Angstkuhle by loazzolo (25/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.721182950" lon="7.186749978">
+  <name>GCN5EY</name>
+  <cmt>Noch&apos;n Haard-Cache by Ejtsch-P</cmt>
+  <desc>Noch&apos;n Haard-Cache by Ejtsch-P</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.395899979" lon="8.052499993">
+  <name>GCN7NJ</name>
+  <cmt>Alte Burg Arnsberg by schmart</cmt>
+  <desc>Alte Burg Arnsberg by schmart</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.433332972" lon="7.121666931">
+  <name>GCNBKH</name>
+  <cmt>Top 100/2005 by kohalas (25/2)</cmt>
+  <desc>Top 100/2005 by kohalas (25/2)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.516349940" lon="7.234299928">
+  <name>GCND21</name>
+  <cmt>Dadideldum... by Vascodagama (</cmt>
+  <desc>Dadideldum... by Vascodagama (</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.533332933" lon="7.233332992">
+  <name>GCND5Q</name>
+  <cmt>Tief im Westen by Dirch vom Dr</cmt>
+  <desc>Tief im Westen by Dirch vom Dr</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.358149983" lon="7.581166970">
+  <name>GCNDCR</name>
+  <cmt>Steltenberg-Cache by TeamCaRa</cmt>
+  <desc>Steltenberg-Cache by TeamCaRa</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.683332957" lon="7.816666933">
+  <name>GCNDCX</name>
+  <cmt>Alltglich &amp; Selbstverstndlich</cmt>
+  <desc>Alltglich &amp; Selbstverstndlich</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.418899922" lon="7.151599964">
+  <name>GCNDYT</name>
+  <cmt>Ruhrzauber by Morry (3/3)</cmt>
+  <desc>Ruhrzauber by Morry (3/3)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.560582919" lon="7.327932995">
+  <name>GCNGCP</name>
+  <cmt>Ich Suche Bis Neulich by jobea</cmt>
+  <desc>Ich Suche Bis Neulich by jobea</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.260449933" lon="7.608316960">
+  <name>GCNGWC</name>
+  <cmt>A 45 Express by der Nachtfalke</cmt>
+  <desc>A 45 Express by der Nachtfalke</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.568049937" lon="8.115116917">
+  <name>GCNGZM</name>
+  <cmt>Soester Kirchentag by gimberg</cmt>
+  <desc>Soester Kirchentag by gimberg</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.618232979" lon="7.329982957">
+  <name>GCNJ2V</name>
+  <cmt>Das Geheimnis der Schachtschle</cmt>
+  <desc>Das Geheimnis der Schachtschle</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.286232919" lon="7.604716932">
+  <name>GCNK6M</name>
+  <cmt>Fuchsweg by der Nachtfalke (3/</cmt>
+  <desc>Fuchsweg by der Nachtfalke (3/</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.394682927" lon="7.722049998">
+  <name>GCNK8G</name>
+  <cmt>mappisud 2 by matzepuma (2/2)</cmt>
+  <desc>mappisud 2 by matzepuma (2/2)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.604666952" lon="7.453199951">
+  <name>GCNK8X</name>
+  <cmt>Das Ei des Colani by erindjah</cmt>
+  <desc>Das Ei des Colani by erindjah</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.624066951" lon="7.398932995">
+  <name>GCNNWT</name>
+  <cmt>Trop&apos;en-cache (I) by erindjah</cmt>
+  <desc>Trop&apos;en-cache (I) by erindjah</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.710532987" lon="7.547099981">
+  <name>GCNR5R</name>
+  <cmt>Gotteshuser: St. Pankratius in</cmt>
+  <desc>Gotteshuser: St. Pankratius in</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.759116929" lon="7.397032985">
+  <name>GCNRJY</name>
+  <cmt>Seppenrade / Mnsterland 35km 2</cmt>
+  <desc>Seppenrade / Mnsterland 35km 2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.565349959" lon="7.724316968">
+  <name>GCNRXZ</name>
+  <cmt>Heimatkunde: Haus Heyde by ANI</cmt>
+  <desc>Heimatkunde: Haus Heyde by ANI</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.522482978" lon="7.679699929">
+  <name>GCNRYD</name>
+  <cmt>Bornekamp by iserlohner (25/25</cmt>
+  <desc>Bornekamp by iserlohner (25/25</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.416666983" lon="7.199999923">
+  <name>GCNT02</name>
+  <cmt>Steganographischer Akt im Stad</cmt>
+  <desc>Steganographischer Akt im Stad</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.506849974" lon="7.326066932">
+  <name>GCNT86</name>
+  <cmt>Alles Westen (d) s 2 by diebae</cmt>
+  <desc>Alles Westen (d) s 2 by diebae</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.599499928" lon="7.301066983">
+  <name>GCNTQB</name>
+  <cmt>Ich sehe was was Du nicht sieh</cmt>
+  <desc>Ich sehe was was Du nicht sieh</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.391832996" lon="7.983249966">
+  <name>GCNXFC</name>
+  <cmt>Der Alte vom Mssenberg by Eule</cmt>
+  <desc>Der Alte vom Mssenberg by Eule</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.483666971" lon="8.120166929">
+  <name>GCNYFK</name>
+  <cmt>Wilde Kreaturen by sulki (35/2</cmt>
+  <desc>Wilde Kreaturen by sulki (35/2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.764266938" lon="7.374766963">
+  <name>GCNZD2</name>
+  <cmt>Seppenrader Feierabendcache by</cmt>
+  <desc>Seppenrader Feierabendcache by</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.561532924" lon="8.114816928">
+  <name>GCP0B0</name>
+  <cmt>Straenbgler by gimberg (25/1)</cmt>
+  <desc>Straenbgler by gimberg (25/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.645616991" lon="7.450982938">
+  <name>GCP1XA</name>
+  <cmt>Unter dem MESSPUNKT by Flitze</cmt>
+  <desc>Unter dem MESSPUNKT by Flitze</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.668416942" lon="7.468932951">
+  <name>GCP563</name>
+  <cmt>Horst by Flitze (15/1)</cmt>
+  <desc>Horst by Flitze (15/1)</desc>
+  <sym>Custom 0</sym>
+</wpt>
+<wpt lat="51.679066988" lon="7.340332931">
+  <name>GCP6JZ</name>
+  <cmt>Easy Going V - H.B.A.v.R.SE* b</cmt>
+  <desc>Easy Going V - H.B.A.v.R.SE* b</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.668216949" lon="7.470949972">
+  <name>GCP7HZ</name>
+  <cmt>Papa schau doch mal da... by F</cmt>
+  <desc>Papa schau doch mal da... by F</desc>
+  <sym>Custom 0</sym>
+</wpt>
+<wpt lat="51.371132964" lon="7.250116998">
+  <name>GCP81N</name>
+  <cmt>Sprockytowncache I by Ka8rl (3</cmt>
+  <desc>Sprockytowncache I by Ka8rl (3</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.681982968" lon="7.188732969">
+  <name>GCPADB</name>
+  <cmt>Brinksknapp - Cache by dampfjo</cmt>
+  <desc>Brinksknapp - Cache by dampfjo</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.509349961" lon="7.144449949">
+  <name>GCPC24</name>
+  <cmt>Am Biotop by HugStuart (2/2)</cmt>
+  <desc>Am Biotop by HugStuart (2/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.730682999" lon="7.240249990">
+  <name>GCPD4F</name>
+  <cmt>Wildnis Westruper Heide by jav</cmt>
+  <desc>Wildnis Westruper Heide by jav</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.608332945" lon="7.254832992">
+  <name>GCPDW5</name>
+  <cmt>Knig Ludwig 4/5 by TeamBlack (</cmt>
+  <desc>Knig Ludwig 4/5 by TeamBlack (</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.392916944" lon="7.077999981">
+  <name>GCPEG0</name>
+  <cmt>Ruhrhalbinsel - Der Exkurs by</cmt>
+  <desc>Ruhrhalbinsel - Der Exkurs by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.764749987" lon="7.400149964">
+  <name>GCPF12</name>
+  <cmt>Rosengarten by jav (15/15)</cmt>
+  <desc>Rosengarten by jav (15/15)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.814899920" lon="7.400466967">
+  <name>GCPF21</name>
+  <cmt>Zwischen den Feldern by jav (3</cmt>
+  <desc>Zwischen den Feldern by jav (3</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.628882941" lon="7.181982938">
+  <name>GCPGVD</name>
+  <cmt>Rund ummen Rodelberch by Ejtsc</cmt>
+  <desc>Rund ummen Rodelberch by Ejtsc</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.777032996" lon="7.255416960">
+  <name>GCPHXT</name>
+  <cmt>Blaubeeren von Sythen RELOADED</cmt>
+  <desc>Blaubeeren von Sythen RELOADED</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.601666985" lon="7.304332992">
+  <name>GCPK1B</name>
+  <cmt>DPG: BONUS by Findefchse (15/4</cmt>
+  <desc>DPG: BONUS by Findefchse (15/4</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.613499969" lon="7.198666949">
+  <name>GCPK22</name>
+  <cmt>Stdtetreffen by TeamBlack (3/1</cmt>
+  <desc>Stdtetreffen by TeamBlack (3/1</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.603732957" lon="7.299782960">
+  <name>GCPK2P</name>
+  <cmt>DPG: Wood Mystery by Stefan vo</cmt>
+  <desc>DPG: Wood Mystery by Stefan vo</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.611966919" lon="7.314332938">
+  <name>GCPK38</name>
+  <cmt>DPG: Mystery Wood by Rainbow C</cmt>
+  <desc>DPG: Mystery Wood by Rainbow C</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.483332952" lon="7.199999923">
+  <name>GCPKTA</name>
+  <cmt>Jahrhunderthalle - Der Safe by</cmt>
+  <desc>Jahrhunderthalle - Der Safe by</desc>
+  <sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="51.603682917" lon="7.306782939">
+  <name>GCPKWK</name>
+  <cmt>DPG: Geheimnis der Mandala by</cmt>
+  <desc>DPG: Geheimnis der Mandala by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.605349993" lon="7.298432970">
+  <name>GCPKWN</name>
+  <cmt>DPG: BMX by Ruhrteam SE (1/1)</cmt>
+  <desc>DPG: BMX by Ruhrteam SE (1/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.426249929" lon="7.089166939">
+  <name>GCPMDP</name>
+  <cmt>Ruhrhalbinsel - GREIF REIN by</cmt>
+  <desc>Ruhrhalbinsel - GREIF REIN by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.776949931" lon="7.440282935">
+  <name>GCPN69</name>
+  <cmt>Burg Vischering by jav (25/15)</cmt>
+  <desc>Burg Vischering by jav (25/15)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.215482950" lon="7.187182987">
+  <name>GCPNFY</name>
+  <cmt>childrens court by dull &amp; sein</cmt>
+  <desc>childrens court by dull &amp; sein</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.469082963" lon="7.233499959">
+  <name>GCPNHH</name>
+  <cmt>Earthcache: Geologischer Garte</cmt>
+  <desc>Earthcache: Geologischer Garte</desc>
+  <sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="51.398566933" lon="7.075466970">
+  <name>GCPNHK</name>
+  <cmt>Dickebank Earthcache by Die 5</cmt>
+  <desc>Dickebank Earthcache by Die 5</desc>
+  <sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="51.720916992" lon="8.040049933">
+  <name>GCPRJH</name>
+  <cmt>Das Steingrab by Bob der Finde</cmt>
+  <desc>Das Steingrab by Bob der Finde</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.417199988" lon="7.124066921">
+  <name>GCPRZ2</name>
+  <cmt>Ruhrhalbinsel - Die Burg by Di</cmt>
+  <desc>Ruhrhalbinsel - Die Burg by Di</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.389366956" lon="7.400316931">
+  <name>GCPVPQ</name>
+  <cmt>Ruhrkampf by Zamomin (2/35)</cmt>
+  <desc>Ruhrkampf by Zamomin (2/35)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.537499996" lon="7.338999957">
+  <name>GCPX3D</name>
+  <cmt>ADVENTURE II by Findefchse (1/</cmt>
+  <desc>ADVENTURE II by Findefchse (1/</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.532382928" lon="7.296366999">
+  <name>GCPXVM</name>
+  <cmt>Just a.... Oooops - Reloaded b</cmt>
+  <desc>Just a.... Oooops - Reloaded b</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.315299934" lon="7.345832968">
+  <name>GCQ3GA</name>
+  <cmt>Setz Dich? by Santa-Fee (2/25)</cmt>
+  <desc>Setz Dich? by Santa-Fee (2/25)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.310666921" lon="7.349416986">
+  <name>GCQ3GH</name>
+  <cmt>Felsen-Cache by Santa-Fee (2/2</cmt>
+  <desc>Felsen-Cache by Santa-Fee (2/2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.678499952" lon="7.806049995">
+  <name>GCQ3JE</name>
+  <cmt>Hamm Hbf by sqrt (1/1)</cmt>
+  <desc>Hamm Hbf by sqrt (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.368699949" lon="7.249599919">
+  <name>GCQ8Y6</name>
+  <cmt>Sprockytown II by Ka8rl (15/1)</cmt>
+  <desc>Sprockytown II by Ka8rl (15/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.222866988" lon="7.908966942">
+  <name>GCQ9HR</name>
+  <cmt>Engelbertsstuhl by blaueelise</cmt>
+  <desc>Engelbertsstuhl by blaueelise</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.235916940" lon="8.020216925">
+  <name>GCQAJV</name>
+  <cmt>Schlubbercache by der.waldbaer</cmt>
+  <desc>Schlubbercache by der.waldbaer</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.549999928" lon="7.302249921">
+  <name>GCQAK7</name>
+  <cmt>Rainbow Wood Bonus Cache RWBC</cmt>
+  <desc>Rainbow Wood Bonus Cache RWBC</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.761516919" lon="7.228149958">
+  <name>GCQAXG</name>
+  <cmt>Stockwieser Damm by jav (2/2)</cmt>
+  <desc>Stockwieser Damm by jav (2/2)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.795832934" lon="7.333332952">
+  <name>GCQC41</name>
+  <cmt>Visbecker Wasserschlange by Sq</cmt>
+  <desc>Visbecker Wasserschlange by Sq</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.371949948" lon="7.093999945">
+  <name>GCQCE1</name>
+  <cmt>Asbachtal I - Am Pollen by Sno</cmt>
+  <desc>Asbachtal I - Am Pollen by Sno</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.328132963" lon="7.716549961">
+  <name>GCQCED</name>
+  <cmt>Kodie 2 D by matzepuma (15/1)</cmt>
+  <desc>Kodie 2 D by matzepuma (15/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.472832942" lon="7.316832924">
+  <name>GCQCPA</name>
+  <cmt>Meteor by auma (3/1)</cmt>
+  <desc>Meteor by auma (3/1)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.443916969" lon="7.192332996">
+  <name>GCQCQE</name>
+  <cmt>Heimatkunde: Haus Weitmar by -</cmt>
+  <desc>Heimatkunde: Haus Weitmar by -</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.709366981" lon="7.587166987">
+  <name>GCQGHK</name>
+  <cmt>U.F.O.-Circle by gromsepp (15/</cmt>
+  <desc>U.F.O.-Circle by gromsepp (15/</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.757149948" lon="7.541016983">
+  <name>GCQGHW</name>
+  <cmt>DLF 549 by gromsepp (15/15)</cmt>
+  <desc>DLF 549 by gromsepp (15/15)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.652399963" lon="7.535699923">
+  <name>GCQH10</name>
+  <cmt>Vom und zum Stein - kreis by e</cmt>
+  <desc>Vom und zum Stein - kreis by e</desc>
+  <sym>Custom 0</sym>
+</wpt>
+<wpt lat="51.655482994" lon="7.843866963">
+  <name>GCQJRC</name>
+  <cmt>Die gekreuzten Bume by StS Com</cmt>
+  <desc>Die gekreuzten Bume by StS Com</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.611666931" lon="7.199999923">
+  <name>GCQMM8</name>
+  <cmt>The Mystery Wall 1919 by Team</cmt>
+  <desc>The Mystery Wall 1919 by Team</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.640816927" lon="7.856249968">
+  <name>GCQMNA</name>
+  <cmt>Tnner Blick by StS Commander f</cmt>
+  <desc>Tnner Blick by StS Commander f</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.471599964" lon="7.228799975">
+  <name>GCQMYB</name>
+  <cmt>Hasselburg by auma (15/1)</cmt>
+  <desc>Hasselburg by auma (15/1)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.351599945" lon="7.118216939">
+  <name>GCQNTG</name>
+  <cmt>Von Hasen Fischen und alten Hu</cmt>
+  <desc>Von Hasen Fischen und alten Hu</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.769866971" lon="7.442766996">
+  <name>GCQQ7C</name>
+  <cmt>Der kleine &quot;Weinichtmehr&quot; #1 D</cmt>
+  <desc>Der kleine &quot;Weinichtmehr&quot; #1 D</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.433332972" lon="7.124999994">
+  <name>GCQR91</name>
+  <cmt>Wer Suchet der Findet by TeamP</cmt>
+  <desc>Wer Suchet der Findet by TeamP</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.590199955" lon="7.367966976">
+  <name>GCQV40</name>
+  <cmt>ADVENTURE III by Findefchse ju</cmt>
+  <desc>ADVENTURE III by Findefchse ju</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.706966991" lon="7.229549987">
+  <name>GCQV99</name>
+  <cmt>Dachsberg - Cache by dampfjojo</cmt>
+  <desc>Dachsberg - Cache by dampfjojo</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.473666942" lon="7.287999932">
+  <name>GCQWBJ</name>
+  <cmt>Sdsee by auma (3/1)</cmt>
+  <desc>Sdsee by auma (3/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.551932963" lon="7.308716979">
+  <name>GCQWPY</name>
+  <cmt>Castroper Altstadt by Die Baum</cmt>
+  <desc>Castroper Altstadt by Die Baum</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.432332927" lon="7.083166922">
+  <name>GCQY99</name>
+  <cmt>Ruhrhalbinsel - Der Zwerg von</cmt>
+  <desc>Ruhrhalbinsel - Der Zwerg von</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.482332991" lon="7.216666918">
+  <name>GCQYPX</name>
+  <cmt>Prsidenten Suite by Arndt&amp;Merl</cmt>
+  <desc>Prsidenten Suite by Arndt&amp;Merl</desc>
+  <sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="51.357799955" lon="7.134832973">
+  <name>GCR0YJ</name>
+  <cmt>Laakmann Kartonfabrik by komak</cmt>
+  <desc>Laakmann Kartonfabrik by komak</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.496516932" lon="7.165832939">
+  <name>GCR3HG</name>
+  <cmt>Ansichtssache by Arndt&amp;Merle (</cmt>
+  <desc>Ansichtssache by Arndt&amp;Merle (</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.479049968" lon="7.334449925">
+  <name>GCR3VK</name>
+  <cmt>Sieben Sieben in BO 7 by *catw</cmt>
+  <desc>Sieben Sieben in BO 7 by *catw</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.469982928" lon="7.297116928">
+  <name>GCR47E</name>
+  <cmt>Wasser Cache by auma (2/1)</cmt>
+  <desc>Wasser Cache by auma (2/1)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.408332940" lon="7.108332999">
+  <name>GCR4DA</name>
+  <cmt>Ruhrhalbinsel - Zahlensalat by</cmt>
+  <desc>Ruhrhalbinsel - Zahlensalat by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.627732944" lon="7.864066930">
+  <name>GCR635</name>
+  <cmt>Schwarz und Wei by fetzz (35/2</cmt>
+  <desc>Schwarz und Wei by fetzz (35/2</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.471666936" lon="7.287332984">
+  <name>GCR6RB</name>
+  <cmt>Runen by auma (4/1)</cmt>
+  <desc>Runen by auma (4/1)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.328616934" lon="8.098416980">
+  <name>GCR7VC</name>
+  <cmt>Kehlberg by onkel patrick (15/</cmt>
+  <desc>Kehlberg by onkel patrick (15/</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.346499976" lon="8.151132949">
+  <name>GCR7VE</name>
+  <cmt>Hainberg by onkel patrick (15/</cmt>
+  <desc>Hainberg by onkel patrick (15/</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.333332928" lon="8.084999984">
+  <name>GCR7VF</name>
+  <cmt>Lindenkreis by onkel patrick (</cmt>
+  <desc>Lindenkreis by onkel patrick (</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.399999987" lon="7.083332967">
+  <name>GCR9EC</name>
+  <cmt>... is there anybody out there</cmt>
+  <desc>... is there anybody out there</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.591316927" lon="7.428966947">
+  <name>GCRB2A</name>
+  <cmt>Easy Going 8: Rainb. Tr. Math</cmt>
+  <desc>Easy Going 8: Rainb. Tr. Math</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.420416962" lon="7.115499945">
+  <name>GCRBMR</name>
+  <cmt>Rubinhochzeit by Opanet (2/1)</cmt>
+  <desc>Rubinhochzeit by Opanet (2/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.652616970" lon="7.587332949">
+  <name>GCRD1V</name>
+  <cmt>Wanderhoehe 1 by poweredbyme (</cmt>
+  <desc>Wanderhoehe 1 by poweredbyme (</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.177632958" lon="7.644182956">
+  <name>GCRDV3</name>
+  <cmt>Homert Turm by der Nachtfalke</cmt>
+  <desc>Homert Turm by der Nachtfalke</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.180549944" lon="7.646766929">
+  <name>GCREPM</name>
+  <cmt>Homert by Night by der Nachtfa</cmt>
+  <desc>Homert by Night by der Nachtfa</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.591666956" lon="7.658699993">
+  <name>GCRETJ</name>
+  <cmt>der kleine Musikus by DJ Tomca</cmt>
+  <desc>der kleine Musikus by DJ Tomca</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.617782954" lon="7.524232976">
+  <name>GCREVD</name>
+  <cmt>The sound of the Underground..</cmt>
+  <desc>The sound of the Underground..</desc>
+  <sym>Custom 0</sym>
+</wpt>
+<wpt lat="51.660882952" lon="7.167232968">
+  <name>GCRJGC</name>
+  <cmt>Cache in der Burg by KaJu (2/3</cmt>
+  <desc>Cache in der Burg by KaJu (2/3</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.330899997" lon="7.353832992">
+  <name>GCRJPG</name>
+  <cmt>Setz Dich 2 by Santa-Fee (1/3)</cmt>
+  <desc>Setz Dich 2 by Santa-Fee (1/3)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.528949952" lon="7.263382953">
+  <name>GCRK7B</name>
+  <cmt>Wasser)XKurs - Die Ruhmbach-Qu</cmt>
+  <desc>Wasser)XKurs - Die Ruhmbach-Qu</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.572199985" lon="7.599532977">
+  <name>GCRK7G</name>
+  <cmt>Tour de Busch by DJ Tomcat (2/</cmt>
+  <desc>Tour de Busch by DJ Tomcat (2/</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.539216945" lon="7.269499982">
+  <name>GCRKR4</name>
+  <cmt>Wasser)XKurs - Wasserturm am V</cmt>
+  <desc>Wasser)XKurs - Wasserturm am V</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.466666963" lon="7.299999967">
+  <name>GCRMBT</name>
+  <cmt>Trias by auma (25/1)</cmt>
+  <desc>Trias by auma (25/1)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.580566969" lon="7.228432931">
+  <name>GCRNV8</name>
+  <cmt>Blaise Park by elframan (25/15</cmt>
+  <desc>Blaise Park by elframan (25/15</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.535299998" lon="7.997349920">
+  <name>GCRQ8Z</name>
+  <cmt>Lancaster at Night by ratzefat</cmt>
+  <desc>Lancaster at Night by ratzefat</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.565232947" lon="7.262899987">
+  <name>GCRT2A</name>
+  <cmt>Zwiebelfische by vagantx (2/1)</cmt>
+  <desc>Zwiebelfische by vagantx (2/1)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.552799987" lon="7.254849924">
+  <name>GCRT4N</name>
+  <cmt>Wasser)XKurs - Der Tmpel am Vo</cmt>
+  <desc>Wasser)XKurs - Der Tmpel am Vo</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.238316931" lon="7.556732967">
+  <name>GCRTDY</name>
+  <cmt>IMC No. 3 S-DE - Where is the</cmt>
+  <desc>IMC No. 3 S-DE - Where is the</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.563932998" lon="7.247016951">
+  <name>GCRTYY</name>
+  <cmt>Wasser)XKurs - Yachthafen Frie</cmt>
+  <desc>Wasser)XKurs - Yachthafen Frie</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.524782972" lon="7.244016984">
+  <name>GCRW06</name>
+  <cmt>SPAM! by vagantx (25/15)</cmt>
+  <desc>SPAM! by vagantx (25/15)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.570916967" lon="7.259432981">
+  <name>GCRX69</name>
+  <cmt>Find hin and Find out II by el</cmt>
+  <desc>Find hin and Find out II by el</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.549649984" lon="7.245249962">
+  <name>GCRXDJ</name>
+  <cmt>Quellenwerk by vagantx (3/2)</cmt>
+  <desc>Quellenwerk by vagantx (3/2)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.623649951" lon="7.182049993">
+  <name>GCRY2G</name>
+  <cmt>Schneller als das Licht / F.t.</cmt>
+  <desc>Schneller als das Licht / F.t.</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.616549976" lon="7.194916969">
+  <name>GCRZBP</name>
+  <cmt>Heimatkunde: Die  Engelsburg i</cmt>
+  <desc>Heimatkunde: Die  Engelsburg i</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.464116937" lon="7.216682928">
+  <name>GCRZV3</name>
+  <cmt>Meine Schule - Deine Schule? b</cmt>
+  <desc>Meine Schule - Deine Schule? b</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.354232952" lon="7.324599931">
+  <name>GCT035</name>
+  <cmt>Fast ein &quot;Just-a-Cache&quot; by hex</cmt>
+  <desc>Fast ein &quot;Just-a-Cache&quot; by hex</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.555549921" lon="7.314799977">
+  <name>GCT067</name>
+  <cmt>Schroeder -  H.B.B.v.d.Findefc</cmt>
+  <desc>Schroeder -  H.B.B.v.d.Findefc</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.345966971" lon="7.454166971">
+  <name>GCT0FA</name>
+  <cmt>Eugen - Richter - Turm by el b</cmt>
+  <desc>Eugen - Richter - Turm by el b</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.588049997" lon="7.185816988">
+  <name>GCT18K</name>
+  <cmt>Spurensuche / Tracking by Mich</cmt>
+  <desc>Spurensuche / Tracking by Mich</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.582066994" lon="7.314049965">
+  <name>GCT1V1</name>
+  <cmt>Lars&apos; Nightmare by BaumaGama (</cmt>
+  <desc>Lars&apos; Nightmare by BaumaGama (</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.579999933" lon="7.313332977">
+  <name>GCT28R</name>
+  <cmt>Lars&apos; Nightmare Bonus by Vasco</cmt>
+  <desc>Lars&apos; Nightmare Bonus by Vasco</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.688332930" lon="7.371667000">
+  <name>GCT2AB</name>
+  <cmt>SUch DOch KUrz - H. B. Stefan</cmt>
+  <desc>SUch DOch KUrz - H. B. Stefan</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.424216982" lon="7.714199927">
+  <name>GCT2KW</name>
+  <cmt>Smmerns Vier Steine by DerStef</cmt>
+  <desc>Smmerns Vier Steine by DerStef</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.438116943" lon="7.796032950">
+  <name>GCT2NB</name>
+  <cmt>Heiliger BimBam by DerStefan (</cmt>
+  <desc>Heiliger BimBam by DerStefan (</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.579916952" lon="7.277282998">
+  <name>GCT3HX</name>
+  <cmt>Find hin and Find out   III by</cmt>
+  <desc>Find hin and Find out   III by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.540832976" lon="7.309049992">
+  <name>GCT3JH</name>
+  <cmt>Schillerstrae by Lealein und d</cmt>
+  <desc>Schillerstrae by Lealein und d</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.324099926" lon="8.013299927">
+  <name>GCT49P</name>
+  <cmt>Wasserwerk Sundern 1950 by DB</cmt>
+  <desc>Wasserwerk Sundern 1950 by DB</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.330349976" lon="7.481816942">
+  <name>GCT5BP</name>
+  <cmt>Am Freilichtmuseum by DJ Tomca</cmt>
+  <desc>Am Freilichtmuseum by DJ Tomca</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.483166991" lon="7.212349987">
+  <name>GCT5NP</name>
+  <cmt>H5N1 by Tamiflu (with Arndt&amp;Me</cmt>
+  <desc>H5N1 by Tamiflu (with Arndt&amp;Me</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.341099935" lon="7.082549930">
+  <name>GCT6AA</name>
+  <cmt>Linie OV 6 by DelphinMaus (15/</cmt>
+  <desc>Linie OV 6 by DelphinMaus (15/</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.312782932" lon="7.087032991">
+  <name>GCT711</name>
+  <cmt>Gotteshuser: Der Mariendom in</cmt>
+  <desc>Gotteshuser: Der Mariendom in</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.339916997" lon="7.326266924">
+  <name>GCT8XM</name>
+  <cmt>Bahndamm Lostplace: Klosterhol</cmt>
+  <desc>Bahndamm Lostplace: Klosterhol</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.387182968" lon="7.201549988">
+  <name>GCT91V</name>
+  <cmt>Snsbruch-Cache by Cahoma (15/2</cmt>
+  <desc>Snsbruch-Cache by Cahoma (15/2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.314416984" lon="7.086999966">
+  <name>GCT9YY</name>
+  <cmt>Fehler in der Matrix by Goldre</cmt>
+  <desc>Fehler in der Matrix by Goldre</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.316449931" lon="7.196066966">
+  <name>GCTBZH</name>
+  <cmt>&quot;Der Schlssel zum Erfolg&quot; by R</cmt>
+  <desc>&quot;Der Schlssel zum Erfolg&quot; by R</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.559899962" lon="7.204166986">
+  <name>GCTC70</name>
+  <cmt>Chuzpe by vagantx (25/25)</cmt>
+  <desc>Chuzpe by vagantx (25/25)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.401516944" lon="7.202049969">
+  <name>GCTCB4</name>
+  <cmt>Sprockhveler Bach Cache 1 by C</cmt>
+  <desc>Sprockhveler Bach Cache 1 by C</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.524199927" lon="7.188049927">
+  <name>GCTEYG</name>
+  <cmt>Wasser)XKurs - Vom Regen in di</cmt>
+  <desc>Wasser)XKurs - Vom Regen in di</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.563566960" lon="7.224532999">
+  <name>GCTF16</name>
+  <cmt>Ekelhaft I : Der Fliegenplanet</cmt>
+  <desc>Ekelhaft I : Der Fliegenplanet</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.156466976" lon="7.327349950">
+  <name>GCTF1P</name>
+  <cmt>LSD - Beim Stollentroll by Die</cmt>
+  <desc>LSD - Beim Stollentroll by Die</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.161049949" lon="7.326766988">
+  <name>GCTF2F</name>
+  <cmt>LSD - Licht am Ende des Tunnel</cmt>
+  <desc>LSD - Licht am Ende des Tunnel</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.523366934" lon="7.193982974">
+  <name>GCTFAA</name>
+  <cmt>Wasser)XKurs - Alte Ziegeleigr</cmt>
+  <desc>Wasser)XKurs - Alte Ziegeleigr</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.266882960" lon="7.760682944">
+  <name>GCTFD7</name>
+  <cmt>Remmelshagen by Captain Finder</cmt>
+  <desc>Remmelshagen by Captain Finder</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.737449961" lon="7.183282971">
+  <name>GCTHWD</name>
+  <cmt>Haltern am See Bahnhofscache b</cmt>
+  <desc>Haltern am See Bahnhofscache b</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.185299968" lon="7.307616938">
+  <name>GCTHYM</name>
+  <cmt>CACHES DIE DIE WELT NICHT BRAU</cmt>
+  <desc>CACHES DIE DIE WELT NICHT BRAU</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.514816973" lon="7.225266919">
+  <name>GCTHZ3</name>
+  <cmt>Lapis philosophorum by vagantx</cmt>
+  <desc>Lapis philosophorum by vagantx</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.492582969" lon="7.227766989">
+  <name>GCTKQ3</name>
+  <cmt>A Walk In The Park by rolandum</cmt>
+  <desc>A Walk In The Park by rolandum</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.752649955" lon="7.191966958">
+  <name>GCTMR3</name>
+  <cmt>Easy Going Haltern by Siegfrie</cmt>
+  <desc>Easy Going Haltern by Siegfrie</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.334982989" lon="7.182916934">
+  <name>GCTNXB</name>
+  <cmt>Auerhof &apos;Hart aber fair&apos; by Re</cmt>
+  <desc>Auerhof &apos;Hart aber fair&apos; by Re</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.367916996" lon="7.118316935">
+  <name>GCTPBE</name>
+  <cmt>Linie OV8 by DelphinMaus (2/25</cmt>
+  <desc>Linie OV8 by DelphinMaus (2/25</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.372366948" lon="7.134166947">
+  <name>GCTPQ4</name>
+  <cmt>Der Flug des Adlers by Regenbo</cmt>
+  <desc>Der Flug des Adlers by Regenbo</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.496282993" lon="7.285182942">
+  <name>GCTQ8Z</name>
+  <cmt>AIDA by auma (2/2)</cmt>
+  <desc>AIDA by auma (2/2)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.527799955" lon="7.250382956">
+  <name>GCTQHQ</name>
+  <cmt>Gyros Pommes Pizza Margherita</cmt>
+  <desc>Gyros Pommes Pizza Margherita</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.233366998" lon="7.312516998">
+  <name>GCTR78</name>
+  <cmt>Zum Himmelspfad by Blindfisch6</cmt>
+  <desc>Zum Himmelspfad by Blindfisch6</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.528332960" lon="7.998916917">
+  <name>GCTW4D</name>
+  <cmt>Ich steh unter Strom by DJ Tom</cmt>
+  <desc>Ich steh unter Strom by DJ Tom</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.414499925" lon="7.265499970">
+  <name>GCTX6N</name>
+  <cmt>A43 Drive - In by GlobalPlayer</cmt>
+  <desc>A43 Drive - In by GlobalPlayer</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.392166931" lon="8.064499944">
+  <name>GCTY8Y</name>
+  <cmt>Laurentianer-Cache by hoshie79</cmt>
+  <desc>Laurentianer-Cache by hoshie79</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.611132920" lon="7.587199928">
+  <name>GCTYGV</name>
+  <cmt>The devil mountain by The Nigh</cmt>
+  <desc>The devil mountain by The Nigh</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.601449978" lon="7.603650000">
+  <name>GCTYGX</name>
+  <cmt>The dead of the devil mountain</cmt>
+  <desc>The dead of the devil mountain</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.313199932" lon="7.356049921">
+  <name>GCV096</name>
+  <cmt>Setz Dich 3 by Santa-Fee (3/1)</cmt>
+  <desc>Setz Dich 3 by Santa-Fee (3/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.329982933" lon="7.222816972">
+  <name>GCV1F3</name>
+  <cmt>Donald &amp; Guste am Winterberger</cmt>
+  <desc>Donald &amp; Guste am Winterberger</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.470866967" lon="7.184999920">
+  <name>GCV1YW</name>
+  <cmt>Luftangriff by Arndt&amp;Merle (4/</cmt>
+  <desc>Luftangriff by Arndt&amp;Merle (4/</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.480199965" lon="7.216116982">
+  <name>GCV2H8</name>
+  <cmt>CLPM I by *catweazle56 (2/2)</cmt>
+  <desc>CLPM I by *catweazle56 (2/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.484682942" lon="7.141032983">
+  <name>GCV2HB</name>
+  <cmt>Spaziergang im Stadtgarten by</cmt>
+  <desc>Spaziergang im Stadtgarten by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.504799929" lon="7.165032970">
+  <name>GCV2HW</name>
+  <cmt>Zeche Hannover by rolandum (3/</cmt>
+  <desc>Zeche Hannover by rolandum (3/</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.432499979" lon="7.336416990">
+  <name>GCV2QH</name>
+  <cmt>Doppelripp und Blmchenkleid by</cmt>
+  <desc>Doppelripp und Blmchenkleid by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.410249965" lon="8.001916967">
+  <name>GCV4XM</name>
+  <cmt>April ! April ! by Eulensucher</cmt>
+  <desc>April ! April ! by Eulensucher</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.666666968" lon="7.366666943">
+  <name>GCV5EK</name>
+  <cmt>Punktspiel H.B.R. by Die blich</cmt>
+  <desc>Punktspiel H.B.R. by Die blich</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.408266975" lon="8.188182972">
+  <name>GCV6G1</name>
+  <cmt>Heimatkunde: Der Frster vom La</cmt>
+  <desc>Heimatkunde: Der Frster vom La</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.659499938" lon="7.179849995">
+  <name>GCV91T</name>
+  <cmt>Trivial Pursuit Nachtcache by</cmt>
+  <desc>Trivial Pursuit Nachtcache by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.426182957" lon="7.088899976">
+  <name>GCVAD3</name>
+  <cmt>Aufruhr im Wichteltal by GaGa-</cmt>
+  <desc>Aufruhr im Wichteltal by GaGa-</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.736516971" lon="7.289999938">
+  <name>GCVADQ</name>
+  <cmt>Gotteshuser: St. Andreas - Hal</cmt>
+  <desc>Gotteshuser: St. Andreas - Hal</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.774299992" lon="7.223199941">
+  <name>GCVAE8</name>
+  <cmt>Gotteshuser: St. Joseph - Halt</cmt>
+  <desc>Gotteshuser: St. Joseph - Halt</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.719999928" lon="7.233249927">
+  <name>GCVAF3</name>
+  <cmt>Gotteshuser: St. Maria Magdale</cmt>
+  <desc>Gotteshuser: St. Maria Magdale</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.743016969" lon="7.186916946">
+  <name>GCVAFH</name>
+  <cmt>Gotteshuser: St. Sixtus - Halt</cmt>
+  <desc>Gotteshuser: St. Sixtus - Halt</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.506132986" lon="7.727166982">
+  <name>GCVBTD</name>
+  <cmt>ice age by team bikeman (1/15)</cmt>
+  <desc>ice age by team bikeman (1/15)</desc>
+  <sym>Custom 0</sym>
+</wpt>
+<wpt lat="51.746899970" lon="7.186782919">
+  <name>GCVBYA</name>
+  <cmt>Gotteshuser: St. Marien - Halt</cmt>
+  <desc>Gotteshuser: St. Marien - Halt</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.473166961" lon="7.961599929">
+  <name>GCVDH1</name>
+  <cmt>Die goldene Wiege by pdoffine</cmt>
+  <desc>Die goldene Wiege by pdoffine</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.736166943" lon="7.528599948">
+  <name>GCVDNF</name>
+  <cmt>Calcium fuer den Bischof by Pd</cmt>
+  <desc>Calcium fuer den Bischof by Pd</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.385282958" lon="7.850682959">
+  <name>GCVE3P</name>
+  <cmt>KLUSENSTEIN by Wildfang (3/3)</cmt>
+  <desc>KLUSENSTEIN by Wildfang (3/3)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.613032930" lon="7.525716992">
+  <name>GCVE5N</name>
+  <cmt>Lnen Rundgang by happyworld (2</cmt>
+  <desc>Lnen Rundgang by happyworld (2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.611982929" lon="7.526632966">
+  <name>GCVF87</name>
+  <cmt>Farbenspiel by happyworld (4/1</cmt>
+  <desc>Farbenspiel by happyworld (4/1</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.378432931" lon="7.932499973">
+  <name>GCVGB4</name>
+  <cmt>Windmill Hoevel by shapeshifte</cmt>
+  <desc>Windmill Hoevel by shapeshifte</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.342149936" lon="7.253249986">
+  <name>GCVGGX</name>
+  <cmt>Ein Raunen im Regenbogenland b</cmt>
+  <desc>Ein Raunen im Regenbogenland b</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.370632984" lon="7.687466936">
+  <name>GCVGKQ</name>
+  <cmt>Iserlohner Stadtwald by chmill</cmt>
+  <desc>Iserlohner Stadtwald by chmill</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.509616924" lon="7.267649928">
+  <name>GCVKRW</name>
+  <cmt>Per Anhalter durch Galila by v</cmt>
+  <desc>Per Anhalter durch Galila by v</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.388466991" lon="7.153632995">
+  <name>GCVM15</name>
+  <cmt>Isenberg Hattingen: Ruine Isen</cmt>
+  <desc>Isenberg Hattingen: Ruine Isen</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.294116937" lon="7.673366982">
+  <name>GCVM30</name>
+  <cmt>Weltjugendherberge by blaueeli</cmt>
+  <desc>Weltjugendherberge by blaueeli</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.342916964" lon="7.232482983">
+  <name>GCVMPE</name>
+  <cmt>Der Regenbogenschnitt by Regen</cmt>
+  <desc>Der Regenbogenschnitt by Regen</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.528499927" lon="7.210432962">
+  <name>GCVNZ5</name>
+  <cmt>Ekelhaft II: Leere Lehre by va</cmt>
+  <desc>Ekelhaft II: Leere Lehre by va</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.686166963" lon="7.269349946">
+  <name>GCVP0V</name>
+  <cmt>Jammertal - Cache by dampfjojo</cmt>
+  <desc>Jammertal - Cache by dampfjojo</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.392616956" lon="7.073082989">
+  <name>GCVPBQ</name>
+  <cmt>Baldeneysee-Rundtour OST (Schl</cmt>
+  <desc>Baldeneysee-Rundtour OST (Schl</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.430832986" lon="7.787366984">
+  <name>GCVPJQ</name>
+  <cmt>Waldemei by shapeshifter79 (2/</cmt>
+  <desc>Waldemei by shapeshifter79 (2/</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.606466966" lon="7.739899931">
+  <name>GCVPR0</name>
+  <cmt>TB Hotel Kamener Kreuz A1 / A2</cmt>
+  <desc>TB Hotel Kamener Kreuz A1 / A2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.259599924" lon="7.275366979">
+  <name>GCVQE0</name>
+  <cmt>IMC No. 3 P-DE Philosopher&apos;s S</cmt>
+  <desc>IMC No. 3 P-DE Philosopher&apos;s S</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.327582942" lon="7.115416965">
+  <name>GCVVDB</name>
+  <cmt>Windrather Kapelle by Snowdrea</cmt>
+  <desc>Windrather Kapelle by Snowdrea</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.327732978" lon="7.118316935">
+  <name>GCVVG0</name>
+  <cmt>Jubi - Cache by Snowdream (45/</cmt>
+  <desc>Jubi - Cache by Snowdream (45/</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.345266998" lon="7.910716999">
+  <name>GCVVWR</name>
+  <cmt>Balve: Schlsser und Burgen by</cmt>
+  <desc>Balve: Schlsser und Burgen by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.306766989" lon="7.241116930">
+  <name>GCVW71</name>
+  <cmt>The Gorge by The Snotty Orcs (</cmt>
+  <desc>The Gorge by The Snotty Orcs (</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.706799939" lon="7.185632922">
+  <name>GCVXFF</name>
+  <cmt>Haardliner by cscout (1/2)</cmt>
+  <desc>Haardliner by cscout (1/2)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.640682984" lon="8.051066939">
+  <name>GCVXFP</name>
+  <cmt>Ahsewiesen by HeinzM (1/1)</cmt>
+  <desc>Ahsewiesen by HeinzM (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.508749984" lon="8.067649947">
+  <name>GCW06Q</name>
+  <cmt>MHNE-RADL-TOUR I by Worti (2/2</cmt>
+  <desc>MHNE-RADL-TOUR I by Worti (2/2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.225899979" lon="7.190199969">
+  <name>GCW0P6</name>
+  <cmt>Question Mark ?? by Flago (25/</cmt>
+  <desc>Question Mark ?? by Flago (25/</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.320249951" lon="7.186032990">
+  <name>GCW1BD</name>
+  <cmt>MK1 by Regenbogen (2/2)</cmt>
+  <desc>MK1 by Regenbogen (2/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.319132978" lon="7.181949997">
+  <name>GCW1C1</name>
+  <cmt>MK3 by Regenbogen (15/3)</cmt>
+  <desc>MK3 by Regenbogen (15/3)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.550416928" lon="7.811316932">
+  <name>GCW21R</name>
+  <cmt>Heimatcache: PePe by ThPePe42</cmt>
+  <desc>Heimatcache: PePe by ThPePe42</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.319299946" lon="7.188866995">
+  <name>GCW228</name>
+  <cmt>MK2 by Regenbogen (15/2)</cmt>
+  <desc>MK2 by Regenbogen (15/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.426616972" lon="8.048399985">
+  <name>GCW2QK</name>
+  <cmt>Angels Cache by hoshie79 (15/1</cmt>
+  <desc>Angels Cache by hoshie79 (15/1</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.490499983" lon="7.729549957">
+  <name>GCW3PZ</name>
+  <cmt>Bergbau am Thabrauck by ThPePe</cmt>
+  <desc>Bergbau am Thabrauck by ThPePe</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.632566955" lon="7.732232921">
+  <name>GCW588</name>
+  <cmt>Urwald im Park by astorwbs (15</cmt>
+  <desc>Urwald im Park by astorwbs (15</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.437666919" lon="7.971566934">
+  <name>GCW8AE</name>
+  <cmt>Neheim Bahnhof by pdoffine (1/</cmt>
+  <desc>Neheim Bahnhof by pdoffine (1/</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.509732930" lon="7.312499983">
+  <name>GCW9C5</name>
+  <cmt>Tina&apos;s Birthday Cache - Far We</cmt>
+  <desc>Tina&apos;s Birthday Cache - Far We</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.429182924" lon="7.163199931">
+  <name>GCW9FH</name>
+  <cmt>Arche by Raphael (1/1)</cmt>
+  <desc>Arche by Raphael (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.666766964" lon="7.214266928">
+  <name>GCWA1R</name>
+  <cmt>Bobos Cache by jack. russell (</cmt>
+  <desc>Bobos Cache by jack. russell (</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.285332954" lon="7.295949999">
+  <name>GCWA7N</name>
+  <cmt>Schwelm City by schwelmer blue</cmt>
+  <desc>Schwelm City by schwelmer blue</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.716299988" lon="7.514282987">
+  <name>GCWA9J</name>
+  <cmt>Kindergeburtstag by gromsepp (</cmt>
+  <desc>Kindergeburtstag by gromsepp (</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.327782935" lon="7.301399997">
+  <name>GCWBGJ</name>
+  <cmt>Bruchmhle by Santa-Fee (15/1)</cmt>
+  <desc>Bruchmhle by Santa-Fee (15/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.387149943" lon="7.767632967">
+  <name>GCWC7W</name>
+  <cmt>Bahnhof Hemer by chmille (15/1</cmt>
+  <desc>Bahnhof Hemer by chmille (15/1</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.323649986" lon="7.215049965">
+  <name>GCWCEZ</name>
+  <cmt>Ping &amp; Pong by Regenbogen (25/</cmt>
+  <desc>Ping &amp; Pong by Regenbogen (25/</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.644432964" lon="7.242566999">
+  <name>GCWCJ5</name>
+  <cmt>Daniel und die Entschrfung by</cmt>
+  <desc>Daniel und die Entschrfung by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.431666985" lon="7.204516931">
+  <name>GCWDJT</name>
+  <cmt>Der Dunkle Turm by Team elfram</cmt>
+  <desc>Der Dunkle Turm by Team elfram</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.407916946" lon="7.250149939">
+  <name>GCWDM1</name>
+  <cmt>Wasserschlo Kemnade by Team el</cmt>
+  <desc>Wasserschlo Kemnade by Team el</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.429732945" lon="8.085732982">
+  <name>GCWDVV</name>
+  <cmt>Emil&apos;s Buche by ratzefatze (15</cmt>
+  <desc>Emil&apos;s Buche by ratzefatze (15</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.304332968" lon="7.087716954">
+  <name>GCWEYB</name>
+  <cmt>Two 1000 by Goldregen (4/25)</cmt>
+  <desc>Two 1000 by Goldregen (4/25)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.519432971" lon="7.615416935">
+  <name>GCWFBR</name>
+  <cmt>Another Brick In The Wall by A</cmt>
+  <desc>Another Brick In The Wall by A</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.416599927" lon="7.234882973">
+  <name>GCWFF5</name>
+  <cmt>Gotteshuser: Stiepeler Dorfkir</cmt>
+  <desc>Gotteshuser: Stiepeler Dorfkir</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.172399968" lon="7.307532951">
+  <name>GCWJJR</name>
+  <cmt>Friedenskapelle Vohagen by Die</cmt>
+  <desc>Friedenskapelle Vohagen by Die</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.264132941" lon="7.208383000">
+  <name>GCWMCP</name>
+  <cmt>Rundgang durch die Barmer-Anla</cmt>
+  <desc>Rundgang durch die Barmer-Anla</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.391332932" lon="8.116749963">
+  <name>GCWNGN</name>
+  <cmt>Under the bridge II - Kaiser-W</cmt>
+  <desc>Under the bridge II - Kaiser-W</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.400916968" lon="8.088299939">
+  <name>GCWP64</name>
+  <cmt>Under the bridge I - Umspannst</cmt>
+  <desc>Under the bridge I - Umspannst</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.388932941" lon="8.107982995">
+  <name>GCWP6G</name>
+  <cmt>Under the bridge III - Triangu</cmt>
+  <desc>Under the bridge III - Triangu</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.742499974" lon="7.199132983">
+  <name>GCWQ5G</name>
+  <cmt>Rund ummen Halterner Stausee b</cmt>
+  <desc>Rund ummen Halterner Stausee b</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.386082927" lon="7.184049999">
+  <name>GCWQ7H</name>
+  <cmt>Am Bismarkturm Hattingen by Ca</cmt>
+  <desc>Am Bismarkturm Hattingen by Ca</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.713699922" lon="7.382882992">
+  <name>GCWR0D</name>
+  <cmt>Wildlife in der Steveraue by S</cmt>
+  <desc>Wildlife in der Steveraue by S</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.557949996" lon="7.914549960">
+  <name>GCWRCN</name>
+  <cmt>Werl Bahnhof by pdoffine (1/1)</cmt>
+  <desc>Werl Bahnhof by pdoffine (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.533716992" lon="8.009016942">
+  <name>GCWRK0</name>
+  <cmt>Ich glaub ich steh im Wald by</cmt>
+  <desc>Ich glaub ich steh im Wald by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.248582918" lon="7.661932977">
+  <name>GCWT4C</name>
+  <cmt>jenseits der sonntagnachmittag</cmt>
+  <desc>jenseits der sonntagnachmittag</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.704549985" lon="7.774067000">
+  <name>GCX1B7</name>
+  <cmt>Die versteckten Diamanten by M</cmt>
+  <desc>Die versteckten Diamanten by M</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.619482972" lon="7.478816975">
+  <name>GCX1EH</name>
+  <cmt>Fischaufstieg Buddenburg by Te</cmt>
+  <desc>Fischaufstieg Buddenburg by Te</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.527349930" lon="7.245999975">
+  <name>GCX3F6</name>
+  <cmt>Vasco da Gama by Die Baumanns</cmt>
+  <desc>Vasco da Gama by Die Baumanns</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.589649934" lon="8.165566921">
+  <name>GCX5AC</name>
+  <cmt>Oh Sole Mio by Sommersprossen</cmt>
+  <desc>Oh Sole Mio by Sommersprossen</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.233832948" lon="7.683916949">
+  <name>GCX63T</name>
+  <cmt>Hochprozentig by Team Bush-Res</cmt>
+  <desc>Hochprozentig by Team Bush-Res</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.262549935" lon="7.519899951">
+  <name>GCX64B</name>
+  <cmt>An der Pulvermhle by Team Bush</cmt>
+  <desc>An der Pulvermhle by Team Bush</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.498532947" lon="7.157049961">
+  <name>GCX731</name>
+  <cmt>Altophobia by Arndt&amp;Merle&amp;Havr</cmt>
+  <desc>Altophobia by Arndt&amp;Merle&amp;Havr</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.296166983" lon="7.213466959">
+  <name>GCX7PJ</name>
+  <cmt>A 46 Mikro #3 by -Gecko- (1/1)</cmt>
+  <desc>A 46 Mikro #3 by -Gecko- (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.713416949" lon="7.228249954">
+  <name>GCX87A</name>
+  <cmt>Rennberg - Cache by dampfjojo</cmt>
+  <desc>Rennberg - Cache by dampfjojo</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.243816968" lon="7.639882956">
+  <name>GCX9MF</name>
+  <cmt>Der Helle by dasrudel (3/2)</cmt>
+  <desc>Der Helle by dasrudel (3/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.306866985" lon="7.220516978">
+  <name>GCX9N1</name>
+  <cmt>Nellis Nr 1 by nelli the best</cmt>
+  <desc>Nellis Nr 1 by nelli the best</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.669166954" lon="7.407866931">
+  <name>GCX9QR</name>
+  <cmt>Bis bald im Wald VI - Haste To</cmt>
+  <desc>Bis bald im Wald VI - Haste To</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.356266988" lon="7.134432988">
+  <name>GCX9Y4</name>
+  <cmt>Hochstand-XY  Herbst-tauglich</cmt>
+  <desc>Hochstand-XY  Herbst-tauglich</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.478699939" lon="7.343399953">
+  <name>GCXAG6</name>
+  <cmt>Mensch rgere Dich nicht im Sie</cmt>
+  <desc>Mensch rgere Dich nicht im Sie</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.336349994" lon="7.214432973">
+  <name>GCXB23</name>
+  <cmt>Einer wie Keiner by Regenbogen</cmt>
+  <desc>Einer wie Keiner by Regenbogen</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.238166979" lon="8.004249986">
+  <name>GCXEXD</name>
+  <cmt>Hhe 678 by onkel patrick (15/1</cmt>
+  <desc>Hhe 678 by onkel patrick (15/1</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.478832960" lon="7.691332921">
+  <name>GCXFY9</name>
+  <cmt>Dellwig by Ruhrpiraten (1/1)</cmt>
+  <desc>Dellwig by Ruhrpiraten (1/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.696549961" lon="7.465982940">
+  <name>GCXGD2</name>
+  <cmt>Ruhrpott-Tour #1 by E.C.Hi. (1</cmt>
+  <desc>Ruhrpott-Tour #1 by E.C.Hi. (1</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.316966927" lon="7.753199916">
+  <name>GCXGDG</name>
+  <cmt>Rueterschlad 1 by matzepuma (2</cmt>
+  <desc>Rueterschlad 1 by matzepuma (2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.309332941" lon="7.758749994">
+  <name>GCXGDK</name>
+  <cmt>Rueterschlad 2 by matzepuma (2</cmt>
+  <desc>Rueterschlad 2 by matzepuma (2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.307316925" lon="7.759749955">
+  <name>GCXGDN</name>
+  <cmt>Rueterschlad 3 by matzepuma (2</cmt>
+  <desc>Rueterschlad 3 by matzepuma (2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.312316982" lon="7.752249995">
+  <name>GCXGDP</name>
+  <cmt>Rueterschlad 4 by matzepuma (2</cmt>
+  <desc>Rueterschlad 4 by matzepuma (2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.310016988" lon="7.747382959">
+  <name>GCXGDQ</name>
+  <cmt>Rueterschlad 5 by matzepuma (1</cmt>
+  <desc>Rueterschlad 5 by matzepuma (1</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.306832954" lon="7.747866930">
+  <name>GCXGDR</name>
+  <cmt>Rueterschlad 6 by matzepuma (2</cmt>
+  <desc>Rueterschlad 6 by matzepuma (2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.511516934" lon="7.259299960">
+  <name>GCXGE7</name>
+  <cmt>Schatzsuche im Schwarzen Meer</cmt>
+  <desc>Schatzsuche im Schwarzen Meer</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.660049958" lon="7.534449929">
+  <name>GCXH5E</name>
+  <cmt>Spielplatz vergangener Zeiten</cmt>
+  <desc>Spielplatz vergangener Zeiten</desc>
+  <sym>Custom 0</sym>
+</wpt>
+<wpt lat="51.429999992" lon="7.683916949">
+  <name>GCXH5J</name>
+  <cmt>Smmerheide by Superhase (15/2)</cmt>
+  <desc>Smmerheide by Superhase (15/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.854149941" lon="7.548199939">
+  <name>GCXHM5</name>
+  <cmt>Gotteshuser: St. Johannes der</cmt>
+  <desc>Gotteshuser: St. Johannes der</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.177566992" lon="7.306949990">
+  <name>GCXJH1</name>
+  <cmt>Bilstein by Die Firlefanzis (1</cmt>
+  <desc>Bilstein by Die Firlefanzis (1</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.330199940" lon="7.736399984">
+  <name>GCXN6C</name>
+  <cmt>Der Zoeger by matzepuma (1/1)</cmt>
+  <desc>Der Zoeger by matzepuma (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.670682989" lon="7.356349993">
+  <name>GCXNYX</name>
+  <cmt>DPG2: Kanalknoten by Ruhrteam</cmt>
+  <desc>DPG2: Kanalknoten by Ruhrteam</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.805532975" lon="7.435582951">
+  <name>GCXPWC</name>
+  <cmt>Elverter Eck by Die sieben Zwe</cmt>
+  <desc>Elverter Eck by Die sieben Zwe</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.215682942" lon="7.229182944">
+  <name>GCXPX1</name>
+  <cmt>Schulhfe: Leibniz-Gymnasium RS</cmt>
+  <desc>Schulhfe: Leibniz-Gymnasium RS</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.313266987" lon="7.238799920">
+  <name>GCXR47</name>
+  <cmt>Bahndamm Lostplace: Schee Tunn</cmt>
+  <desc>Bahndamm Lostplace: Schee Tunn</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.557399975" lon="7.261099974">
+  <name>GCXR5K</name>
+  <cmt>Ein Berg toter Frauen/Der Anti</cmt>
+  <desc>Ein Berg toter Frauen/Der Anti</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.603482924" lon="7.311432967">
+  <name>GCXR6C</name>
+  <cmt>DPG2: Neo trifft das Orakel by</cmt>
+  <desc>DPG2: Neo trifft das Orakel by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.594016990" lon="7.241866942">
+  <name>GCXRN2</name>
+  <cmt>DPG2: Highway scene by jobear</cmt>
+  <desc>DPG2: Highway scene by jobear</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.604199996" lon="7.306082966">
+  <name>GCXT4K</name>
+  <cmt>DPG2: Tricky III (MaTricky) by</cmt>
+  <desc>DPG2: Tricky III (MaTricky) by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.800282970" lon="7.254299987">
+  <name>GCXWVQ</name>
+  <cmt>Der Sand ( Bonuscache ) by ede</cmt>
+  <desc>Der Sand ( Bonuscache ) by ede</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.333549935" lon="7.243866948">
+  <name>GCXXW9</name>
+  <cmt>Monte Casino by Regenbogen (25</cmt>
+  <desc>Monte Casino by Regenbogen (25</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.419166969" lon="7.150166994">
+  <name>GCXXZA</name>
+  <cmt>Bergbau(Bochum): Erbstollen Gl</cmt>
+  <desc>Bergbau(Bochum): Erbstollen Gl</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.649216935" lon="7.823716952">
+  <name>GCXY0Y</name>
+  <cmt>Berger Wassertrme by kauke (1/</cmt>
+  <desc>Berger Wassertrme by kauke (1/</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.371632945" lon="7.602082919">
+  <name>GCXYKK</name>
+  <cmt>Humpfert by Demy (1/1)</cmt>
+  <desc>Humpfert by Demy (1/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.491982993" lon="7.146182992">
+  <name>GCXZ1Z</name>
+  <cmt>Asthmabrcke by Raphael (1/15)</cmt>
+  <desc>Asthmabrcke by Raphael (1/15)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.402882943" lon="7.317816960">
+  <name>GCXZH9</name>
+  <cmt>Auf den Spuren der verlorenen</cmt>
+  <desc>Auf den Spuren der verlorenen</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.322299996" lon="7.364599966">
+  <name>GCXZRQ</name>
+  <cmt>Hagebllinger-Kopf by Santa-Fee</cmt>
+  <desc>Hagebllinger-Kopf by Santa-Fee</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.661466919" lon="7.217282988">
+  <name>GCY13V</name>
+  <cmt>Bobos Cache II by patschek (15</cmt>
+  <desc>Bobos Cache II by patschek (15</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.533332933" lon="7.205549916">
+  <name>GCY143</name>
+  <cmt>Chemtrails die Verdunklung der</cmt>
+  <desc>Chemtrails die Verdunklung der</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.509999977" lon="7.533999989">
+  <name>GCY1RW</name>
+  <cmt>Dortmunder Hauptfriedhof by to</cmt>
+  <desc>Dortmunder Hauptfriedhof by to</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.491832957" lon="7.294732947">
+  <name>GCY37N</name>
+  <cmt>Werner Teiche by Kokolori (3/2</cmt>
+  <desc>Werner Teiche by Kokolori (3/2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.551666921" lon="7.874882938">
+  <name>GCY3NR</name>
+  <cmt>Aesculus hippocastanum by Wegp</cmt>
+  <desc>Aesculus hippocastanum by Wegp</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.454999940" lon="7.260499997">
+  <name>GCY4D8</name>
+  <cmt>Der Fahrrad-Hirsch by Die 5 St</cmt>
+  <desc>Der Fahrrad-Hirsch by Die 5 St</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.380932918" lon="7.329099923">
+  <name>GCY4R4</name>
+  <cmt>4U by PASCHA (1/1)</cmt>
+  <desc>4U by PASCHA (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.584416945" lon="7.277216949">
+  <name>GCY5W6</name>
+  <cmt>Ein Elefant zum verlieben by T</cmt>
+  <desc>Ein Elefant zum verlieben by T</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.725566937" lon="7.192449924">
+  <name>GCY5WV</name>
+  <cmt>Hart - Haard Cache by patschek</cmt>
+  <desc>Hart - Haard Cache by patschek</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.534899930" lon="7.679666989">
+  <name>GCY5X5</name>
+  <cmt>Unna City Cache by LouEs (2/1)</cmt>
+  <desc>Unna City Cache by LouEs (2/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.333316918" lon="7.222132925">
+  <name>GCY6AC</name>
+  <cmt>&apos;Einer wie Keiner&apos; Bonus-Cache</cmt>
+  <desc>&apos;Einer wie Keiner&apos; Bonus-Cache</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.439499957" lon="7.717432994">
+  <name>GCY6CR</name>
+  <cmt>Scheda by MrZylinder &amp; shapesh</cmt>
+  <desc>Scheda by MrZylinder &amp; shapesh</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.445149947" lon="7.343699941">
+  <name>GCY6ER</name>
+  <cmt>Deep Throat In The Nurse Park</cmt>
+  <desc>Deep Throat In The Nurse Park</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.455399925" lon="7.960816976">
+  <name>GCY772</name>
+  <cmt>Mc Mhne by pdoffine (1/15)</cmt>
+  <desc>Mc Mhne by pdoffine (1/15)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.486582952" lon="7.940049972">
+  <name>GCY77J</name>
+  <cmt>Lebenswertes Ruhrtal by pdoffi</cmt>
+  <desc>Lebenswertes Ruhrtal by pdoffi</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.443049945" lon="7.301266976">
+  <name>GCY7R4</name>
+  <cmt>Stmmisch- Busch Cache by PC Ca</cmt>
+  <desc>Stmmisch- Busch Cache by PC Ca</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.566399960" lon="7.239249945">
+  <name>GCY7T3</name>
+  <cmt>Eichenforst by Strobo (1/1)</cmt>
+  <desc>Eichenforst by Strobo (1/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.504066931" lon="7.299132943">
+  <name>GCY7X5</name>
+  <cmt>&quot;Stempken&quot; by tiger-vogel (1/1</cmt>
+  <desc>&quot;Stempken&quot; by tiger-vogel (1/1</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.532732956" lon="8.113399968">
+  <name>GCY80M</name>
+  <cmt>Steinkistengrab von Hiddingsen</cmt>
+  <desc>Steinkistengrab von Hiddingsen</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.610982968" lon="7.616116991">
+  <name>GCY80X</name>
+  <cmt>GLCK AUF by SebastianR (25/15)</cmt>
+  <desc>GLCK AUF by SebastianR (25/15)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.204349939" lon="7.457699943">
+  <name>GCY8Q6</name>
+  <cmt>&apos;Follow Me&apos; 1 by Regenbogen (1</cmt>
+  <desc>&apos;Follow Me&apos; 1 by Regenbogen (1</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.435382934" lon="7.161466973">
+  <name>GCY8RZ</name>
+  <cmt>Bergbau(Bochum): Zeche Hasenwi</cmt>
+  <desc>Bergbau(Bochum): Zeche Hasenwi</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.574749928" lon="7.259299960">
+  <name>GCY8YD</name>
+  <cmt>Kinderkram 1 by Strobo (15/1)</cmt>
+  <desc>Kinderkram 1 by Strobo (15/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.232732991" lon="7.561799996">
+  <name>GCY99H</name>
+  <cmt>Speedy #1 by Fragezeichen (2/2</cmt>
+  <desc>Speedy #1 by Fragezeichen (2/2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.552532939" lon="8.090949962">
+  <name>GCY9E7</name>
+  <cmt>Bype &amp; Illse - Just married by</cmt>
+  <desc>Bype &amp; Illse - Just married by</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.201599920" lon="7.582416963">
+  <name>GCY9QT</name>
+  <cmt>Speedy #2 by Fragezeichen (2/2</cmt>
+  <desc>Speedy #2 by Fragezeichen (2/2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.231316952" lon="7.658416936">
+  <name>GCY9QW</name>
+  <cmt>Speedy #3 by Fragezeichen (2/1</cmt>
+  <desc>Speedy #3 by Fragezeichen (2/1</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.267299959" lon="7.624699976">
+  <name>GCY9QX</name>
+  <cmt>Speedy #4 by Fragezeichen (2/2</cmt>
+  <desc>Speedy #4 by Fragezeichen (2/2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.572499974" lon="7.294166917">
+  <name>GCYA4X</name>
+  <cmt>Chorobates by Lealein (15/1)</cmt>
+  <desc>Chorobates by Lealein (15/1)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.249582963" lon="7.587882970">
+  <name>GCYA6R</name>
+  <cmt>Speedy #5 by Fragezeichen (2/2</cmt>
+  <desc>Speedy #5 by Fragezeichen (2/2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.194766993" lon="7.669799980">
+  <name>GCYA6W</name>
+  <cmt>Speedy #6 by Fragezeichen (2/1</cmt>
+  <desc>Speedy #6 by Fragezeichen (2/1</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.203332962" lon="7.638332974">
+  <name>GCYA96</name>
+  <cmt>Speedy&apos;s Treasure Chest by Fra</cmt>
+  <desc>Speedy&apos;s Treasure Chest by Fra</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.677199919" lon="7.896249918">
+  <name>GCYAJQ</name>
+  <cmt>Die Jagd im Geithewald by koer</cmt>
+  <desc>Die Jagd im Geithewald by koer</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.189616984" lon="7.655249918">
+  <name>GCYAKE</name>
+  <cmt>Speedy #7 by Fragezeichen (2/2</cmt>
+  <desc>Speedy #7 by Fragezeichen (2/2</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.177116968" lon="7.309199944">
+  <name>GCYAM2</name>
+  <cmt>Die vergessene Strae by Die Fi</cmt>
+  <desc>Die vergessene Strae by Die Fi</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.385499965" lon="7.992149955">
+  <name>GCYBWT</name>
+  <cmt>Am Bilstein by Eulensucher (15</cmt>
+  <desc>Am Bilstein by Eulensucher (15</desc>
+  <sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="51.207816945" lon="7.235949989">
+  <name>GCYBXN</name>
+  <cmt>Sheep and Lion on Tour #2 - Wi</cmt>
+  <desc>Sheep and Lion on Tour #2 - Wi</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.562716952" lon="7.901899992">
+  <name>GCYC1Y</name>
+  <cmt>Groe Fuballfans by pdoffine (1</cmt>
+  <desc>Groe Fuballfans by pdoffine (1</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.435382934" lon="7.288599992">
+  <name>GCYCW8</name>
+  <cmt>Horst der Erste by thanner (1/</cmt>
+  <desc>Horst der Erste by thanner (1/</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.449999968" lon="7.499999972">
+  <name>GCYD8T</name>
+  <cmt>Urbi et Orbi by J.Cool &amp; P. Nu</cmt>
+  <desc>Urbi et Orbi by J.Cool &amp; P. Nu</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.218432961" lon="7.226882949">
+  <name>GCYDAV</name>
+  <cmt>Bunny&apos;s Lesson by The Hawks (2</cmt>
+  <desc>Bunny&apos;s Lesson by The Hawks (2</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.469332995" lon="7.946916930">
+  <name>GCYDDK</name>
+  <cmt>GuckGuck by pdoffine (15/1)</cmt>
+  <desc>GuckGuck by pdoffine (15/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.395582976" lon="7.310199989">
+  <name>GCYDFV</name>
+  <cmt>Bcherei: Elbschebachtal by PAS</cmt>
+  <desc>Bcherei: Elbschebachtal by PAS</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.205616947" lon="7.449299935">
+  <name>GCYDTM</name>
+  <cmt>&apos;Follow Me&apos; 2 by Regenbogen (3</cmt>
+  <desc>&apos;Follow Me&apos; 2 by Regenbogen (3</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.620399952" lon="7.240649974">
+  <name>GCYENZ</name>
+  <cmt>Waldschrat I by relight (15/1)</cmt>
+  <desc>Waldschrat I by relight (15/1)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.432182975" lon="7.121166950">
+  <name>GCYGTD</name>
+  <cmt>Der Prinz - Stationen eines Lo</cmt>
+  <desc>Der Prinz - Stationen eines Lo</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.366182948" lon="7.498399951">
+  <name>GCYHAR</name>
+  <cmt>Mrkische Fachhochschule Hagen</cmt>
+  <desc>Mrkische Fachhochschule Hagen</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.744666947" lon="7.262999984">
+  <name>GCYK3Y</name>
+  <cmt>Halb ummen Hullerner Stausee b</cmt>
+  <desc>Halb ummen Hullerner Stausee b</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.385332998" lon="7.841399917">
+  <name>GCYKVR</name>
+  <cmt>EISENKIES by Wildfang (4/4)</cmt>
+  <desc>EISENKIES by Wildfang (4/4)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.456666933" lon="7.506666938">
+  <name>GCYKXB</name>
+  <cmt>Hnsel und Gretel by J.Cool &amp; P</cmt>
+  <desc>Hnsel und Gretel by J.Cool &amp; P</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.544449935" lon="7.247832930">
+  <name>GCYMV7</name>
+  <cmt>BabyX-Riana  &quot;Pimp my Kindersc</cmt>
+  <desc>BabyX-Riana  &quot;Pimp my Kindersc</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.428199979" lon="7.195449974">
+  <name>GCYN4N</name>
+  <cmt>CUS: Die Apollo-Verschwrung by</cmt>
+  <desc>CUS: Die Apollo-Verschwrung by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.427999986" lon="7.188166939">
+  <name>GCYN52</name>
+  <cmt>CUS: Weit Du Wieviel...? by Va</cmt>
+  <desc>CUS: Weit Du Wieviel...? by Va</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.711816927" lon="7.225832948">
+  <name>GCYP6T</name>
+  <cmt>Finkenberg - Cache by dampfjoj</cmt>
+  <desc>Finkenberg - Cache by dampfjoj</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.544049950" lon="7.252782946">
+  <name>GCYP8M</name>
+  <cmt>Geschenktauschbrse Herne by ph</cmt>
+  <desc>Geschenktauschbrse Herne by ph</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.542749917" lon="7.239299985">
+  <name>GCYP9A</name>
+  <cmt>Frisch fromm frhlich frei... b</cmt>
+  <desc>Frisch fromm frhlich frei... b</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.395632932" lon="7.381332926">
+  <name>GCYPEN</name>
+  <cmt>Harkort-Cache 2 by Thommy (2/2</cmt>
+  <desc>Harkort-Cache 2 by Thommy (2/2</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.533332933" lon="7.699999977">
+  <name>GCYPX9</name>
+  <cmt>Ich trage einen groen Namen by</cmt>
+  <desc>Ich trage einen groen Namen by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.547466917" lon="7.574199932">
+  <name>GCYQ12</name>
+  <cmt>Revange by Mattes + PaulHarris</cmt>
+  <desc>Revange by Mattes + PaulHarris</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.820866996" lon="7.592182970">
+  <name>GCYQJH</name>
+  <cmt>Burgturm Davensberg by Die sie</cmt>
+  <desc>Burgturm Davensberg by Die sie</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.214966960" lon="7.242916944">
+  <name>GCYT95</name>
+  <cmt>Hawks go RB47: Lttringhausen B</cmt>
+  <desc>Hawks go RB47: Lttringhausen B</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.212216942" lon="7.251499929">
+  <name>GCYV3G</name>
+  <cmt>Traumhaus by Die Firlefanzis (</cmt>
+  <desc>Traumhaus by Die Firlefanzis (</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.721699946" lon="7.187232943">
+  <name>GCYVK2</name>
+  <cmt>Haardnckig by patschek (2/15)</cmt>
+  <desc>Haardnckig by patschek (2/15)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.521649985" lon="7.296582917">
+  <name>GCYVQQ</name>
+  <cmt>&quot;vergessene Schilder&quot; !!!Bonus</cmt>
+  <desc>&quot;vergessene Schilder&quot; !!!Bonus</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.432032939" lon="7.191832932">
+  <name>GCYW00</name>
+  <cmt>CUS: Ich seh&apos; ihn aber... II b</cmt>
+  <desc>CUS: Ich seh&apos; ihn aber... II b</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.459566988" lon="7.152199941">
+  <name>GCYW02</name>
+  <cmt>Wattenscheid-Hntrop S by Arndt</cmt>
+  <desc>Wattenscheid-Hntrop S by Arndt</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.407432975" lon="7.695499985">
+  <name>GCYW1E</name>
+  <cmt>Museum Barendorf by chmille (1</cmt>
+  <desc>Museum Barendorf by chmille (1</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.553299967" lon="7.344749942">
+  <name>GCYW1X</name>
+  <cmt>TECHNIK I: Pipeline by Findefc</cmt>
+  <desc>TECHNIK I: Pipeline by Findefc</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.420949968" lon="8.204999920">
+  <name>GCYW62</name>
+  <cmt>Eigentlich lohnt sichs nicht!</cmt>
+  <desc>Eigentlich lohnt sichs nicht!</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.433049999" lon="7.191549959">
+  <name>GCYWJN</name>
+  <cmt>CUS: Happy Halloween by VaGoBa</cmt>
+  <desc>CUS: Happy Halloween by VaGoBa</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.404932989" lon="7.292332957">
+  <name>GCYWN2</name>
+  <cmt>Wedding in the Woods by finchh</cmt>
+  <desc>Wedding in the Woods by finchh</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.514749918" lon="7.208332960">
+  <name>GCYWQ7</name>
+  <cmt>Nokia ???? by kuester2000 (25/</cmt>
+  <desc>Nokia ???? by kuester2000 (25/</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.541199936" lon="7.253432963">
+  <name>GCYY14</name>
+  <cmt>Primus inter pares by vagantx</cmt>
+  <desc>Primus inter pares by vagantx</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.424349919" lon="7.192582944">
+  <name>GCYZ1K</name>
+  <cmt>CUS: Eine total verrckte Gesch</cmt>
+  <desc>CUS: Eine total verrckte Gesch</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.429349976" lon="7.178016957">
+  <name>GCYZ4Y</name>
+  <cmt>Bergbau( Bochum ): Zeche Fried</cmt>
+  <desc>Bergbau( Bochum ): Zeche Fried</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.426749993" lon="7.165216953">
+  <name>GCYZ57</name>
+  <cmt>Lost School Linden by Cahoma (</cmt>
+  <desc>Lost School Linden by Cahoma (</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.471466944" lon="7.207582947">
+  <name>GCYZ7F</name>
+  <cmt>Das Ehrenfeld by Ein Ehrenfeld</cmt>
+  <desc>Das Ehrenfeld by Ein Ehrenfeld</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.386782983" lon="7.880499987">
+  <name>GCYZD4</name>
+  <cmt>Die Perle des Hnnetals by shap</cmt>
+  <desc>Die Perle des Hnnetals by shap</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.408499992" lon="8.178332979">
+  <name>GCYZFW</name>
+  <cmt>Wildwechsel Bonus by mtb-db (2</cmt>
+  <desc>Wildwechsel Bonus by mtb-db (2</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.406332934" lon="8.178832959">
+  <name>GCYZFZ</name>
+  <cmt>Wildwechsel Final by mtb-db (2</cmt>
+  <desc>Wildwechsel Final by mtb-db (2</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.404832993" lon="8.182666926">
+  <name>GCYZG0</name>
+  <cmt>Wildwechsel 6 by mtb-db (2/2)</cmt>
+  <desc>Wildwechsel 6 by mtb-db (2/2)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.405999921" lon="8.187499931">
+  <name>GCYZG5</name>
+  <cmt>Wildwechsel 5 by mtb-db (2/2)</cmt>
+  <desc>Wildwechsel 5 by mtb-db (2/2)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.408999972" lon="8.188666943">
+  <name>GCYZGP</name>
+  <cmt>Wildwechsel 4 by mtb-db (2/2)</cmt>
+  <desc>Wildwechsel 4 by mtb-db (2/2)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.410666965" lon="8.186832983">
+  <name>GCYZH4</name>
+  <cmt>Wildwechsel 3 by mtb-db (2/2)</cmt>
+  <desc>Wildwechsel 3 by mtb-db (2/2)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.411499958" lon="8.184166951">
+  <name>GCYZH6</name>
+  <cmt>Wildwechsel 2 by mtb-db (2/2)</cmt>
+  <desc>Wildwechsel 2 by mtb-db (2/2)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.407999927" lon="8.184166951">
+  <name>GCYZHA</name>
+  <cmt>Wildwechsel 1 by mtb-db (2/2)</cmt>
+  <desc>Wildwechsel 1 by mtb-db (2/2)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.425749948" lon="7.414132990">
+  <name>GCZ045</name>
+  <cmt>Wittener Landstrasse Cache by</cmt>
+  <desc>Wittener Landstrasse Cache by</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.366982916" lon="7.487666924">
+  <name>GCZ05M</name>
+  <cmt>Gotteshuser: St. Elisabeth Hag</cmt>
+  <desc>Gotteshuser: St. Elisabeth Hag</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.431649970" lon="7.196199987">
+  <name>GCZ06T</name>
+  <cmt>CUS: M vom Planet Magnum (Nach</cmt>
+  <desc>CUS: M vom Planet Magnum (Nach</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.321466919" lon="7.218416976">
+  <name>GCZ0XM</name>
+  <cmt>Brainstorming by Regenbogen (3</cmt>
+  <desc>Brainstorming by Regenbogen (3</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.470832936" lon="7.213049959">
+  <name>GCZ135</name>
+  <cmt>Geckos Date by -G- (2/15)</cmt>
+  <desc>Geckos Date by -G- (2/15)</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.447316920" lon="7.839416927">
+  <name>GCZ14M</name>
+  <cmt>Windmill Oesbern by shapeshift</cmt>
+  <desc>Windmill Oesbern by shapeshift</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.661582924" lon="7.217332944">
+  <name>GCZ1BV</name>
+  <cmt>Bobos Schatzkiste  (Happy Birt</cmt>
+  <desc>Bobos Schatzkiste  (Happy Birt</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.452232990" lon="7.801632984">
+  <name>GCZ1DT</name>
+  <cmt>Gotteshuser: Muttergottes von</cmt>
+  <desc>Gotteshuser: Muttergottes von</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.399866967" lon="8.194799982">
+  <name>GCZ1FM</name>
+  <cmt>Nur im Herbst by mtb-db (1/2)</cmt>
+  <desc>Nur im Herbst by mtb-db (1/2)</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.427149978" lon="7.193449968">
+  <name>GCZ1H9</name>
+  <cmt>CUS: Ganz genau ! Second Editi</cmt>
+  <desc>CUS: Ganz genau ! Second Editi</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.503282972" lon="7.805216918">
+  <name>GCZ1XD</name>
+  <cmt>Gotteshuser: St. Agnes by shap</cmt>
+  <desc>Gotteshuser: St. Agnes by shap</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.516666943" lon="7.466666987">
+  <name>GCZ207</name>
+  <cmt>DONG by J.Cool &amp; P. Nuts (5/1)</cmt>
+  <desc>DONG by J.Cool &amp; P. Nuts (5/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.412866963" lon="7.944916924">
+  <name>GCZ2PX</name>
+  <cmt>Gotteshuser: St. Petri Oelingh</cmt>
+  <desc>Gotteshuser: St. Petri Oelingh</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.414832938" lon="7.114132941">
+  <name>GCZ3XK</name>
+  <cmt>Gotteshuser: Herz-Jesu Kirche</cmt>
+  <desc>Gotteshuser: Herz-Jesu Kirche</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.549099963" lon="7.339849966">
+  <name>GCZ3XY</name>
+  <cmt>Greift nach den Sternen by Die</cmt>
+  <desc>Greift nach den Sternen by Die</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.191199990" lon="7.257166933">
+  <name>GCZ46M</name>
+  <cmt>Rundling by fahnder (1/1)</cmt>
+  <desc>Rundling by fahnder (1/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.540132919" lon="8.019799925">
+  <name>GCZ4KX</name>
+  <cmt>Nightmare on A44 by Sommerspro</cmt>
+  <desc>Nightmare on A44 by Sommerspro</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.540982928" lon="8.019532962">
+  <name>GCZ4MM</name>
+  <cmt>Nightmare on A44 Bonus Cache b</cmt>
+  <desc>Nightmare on A44 Bonus Cache b</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.373249982" lon="7.426749934">
+  <name>GCZ5VD</name>
+  <cmt>Independence I by martinkaush</cmt>
+  <desc>Independence I by martinkaush</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.397632938" lon="7.389066992">
+  <name>GCZ6MQ</name>
+  <cmt>Schnodderbach Furt by Weddlia</cmt>
+  <desc>Schnodderbach Furt by Weddlia</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.190066924" lon="7.253232971">
+  <name>GCZ6NH</name>
+  <cmt>Hawks go RB47: Lennep Bf by Th</cmt>
+  <desc>Hawks go RB47: Lennep Bf by Th</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.453099931" lon="7.232616926">
+  <name>GCZ77W</name>
+  <cmt>Gotteshuser: St. Johannes Boch</cmt>
+  <desc>Gotteshuser: St. Johannes Boch</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.515582995" lon="7.413916988">
+  <name>GCZ7BC</name>
+  <cmt>Tierheim-Cache I by The Nightw</cmt>
+  <desc>Tierheim-Cache I by The Nightw</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.551932963" lon="7.485116981">
+  <name>GCZ7BR</name>
+  <cmt>Nightwatchers-Homecache by The</cmt>
+  <desc>Nightwatchers-Homecache by The</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.480216980" lon="7.728016991">
+  <name>GCZ7F3</name>
+  <cmt>Burg Ardey by Die Grnen Naviga</cmt>
+  <desc>Burg Ardey by Die Grnen Naviga</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.502066925" lon="7.528316975">
+  <name>GCZ85H</name>
+  <cmt>STADTKRONE OST - BANKVIERTEL b</cmt>
+  <desc>STADTKRONE OST - BANKVIERTEL b</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.577816950" lon="7.523216922">
+  <name>GCZ897</name>
+  <cmt>Ohne die Mauer wre es laut by</cmt>
+  <desc>Ohne die Mauer wre es laut by</desc>
+  <sym>Custom 0</sym>
+</wpt>
+<wpt lat="51.602916978" lon="7.661366947">
+  <name>GCZ89K</name>
+  <cmt>Dr.? by The Nightwatchers (15/</cmt>
+  <desc>Dr.? by The Nightwatchers (15/</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.689316966" lon="7.829816965">
+  <name>GCZ8PG</name>
+  <cmt>Kurpark Bad Hamm by emilsamuel</cmt>
+  <desc>Kurpark Bad Hamm by emilsamuel</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.546666948" lon="7.464082930">
+  <name>GCZ92Q</name>
+  <cmt>Glckauf Herr Minister by thoma</cmt>
+  <desc>Glckauf Herr Minister by thoma</desc>
+  <sym>Custom 0</sym>
+</wpt>
+<wpt lat="51.615332924" lon="7.630499918">
+  <name>GCZ95N</name>
+  <cmt>Bergbauvergangenheit by Sebast</cmt>
+  <desc>Bergbauvergangenheit by Sebast</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.507699983" lon="7.449266994">
+  <name>GCZ9E6</name>
+  <cmt>Westentotenhof by Funkwelle (1</cmt>
+  <desc>Westentotenhof by Funkwelle (1</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.526099937" lon="7.661932977">
+  <name>GCZ9VP</name>
+  <cmt>THW by SaschaF (15/1)</cmt>
+  <desc>THW by SaschaF (15/1)</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.536899935" lon="7.246082956">
+  <name>GCZA8K</name>
+  <cmt>AlHazreds Schatulle des wogend</cmt>
+  <desc>AlHazreds Schatulle des wogend</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.494499994" lon="7.498166934">
+  <name>GCZAE3</name>
+  <cmt>04-DO &quot;Wo bin ich?&quot; by Argon (</cmt>
+  <desc>04-DO &quot;Wo bin ich?&quot; by Argon (</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.367966952" lon="7.412916943">
+  <name>GCZAE6</name>
+  <cmt>Independence II by martinkaush</cmt>
+  <desc>Independence II by martinkaush</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.551582934" lon="7.276116991">
+  <name>GCZAJZ</name>
+  <cmt>Volkersausbundfrausimonestause</cmt>
+  <desc>Volkersausbundfrausimonestause</desc>
+  <sym>Custom 2</sym>
+</wpt>
+<wpt lat="51.492332937" lon="7.719832985">
+  <name>GCZAZZ</name>
+  <cmt>Karies by Die Grnen Navigatore</cmt>
+  <desc>Karies by Die Grnen Navigatore</desc>
+  <sym>Custom 1</sym>
+</wpt>
+<wpt lat="51.588332970" lon="7.299999967">
+  <name>GCZB01</name>
+  <cmt>Look and log IV by Findefchse</cmt>
+  <desc>Look and log IV by Findefchse</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.659949962" lon="7.632782981">
+  <name>GCZB83</name>
+  <cmt>Die GERMANIA by BunnySeek (25/</cmt>
+  <desc>Die GERMANIA by BunnySeek (25/</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.483332952" lon="7.466666987">
+  <name>GCZBEF</name>
+  <cmt>Vernissage - Galerie Honri by</cmt>
+  <desc>Vernissage - Galerie Honri by</desc>
+  <sym>Custom 3</sym>
+</wpt>
+<wpt lat="51.426499961" lon="7.312182980">
+  <name>GCZC6E</name>
+  <cmt>Muttental - Ancient Coal-Minin</cmt>
+  <desc>Muttental - Ancient Coal-Minin</desc>
+  <sym>Flag, Blue</sym>
+</wpt>
+<wpt lat="51.505399989" lon="7.467417000">
+  <name>GCZD8B</name>
+  <cmt>Timo Beil by Pilba (15/1)</cmt>
+  <desc>Timo Beil by Pilba (15/1)</desc>
+  <sym>Custom 0</sym>
+</wpt>
+</gpx>
