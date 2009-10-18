@@ -1,3 +1,4 @@
+#include "WProgram.h"
 //example use of LCD4Bit library
 
 
@@ -5,6 +6,9 @@
 #undef int
 #include <stdio.h> 
 #include <LCD4Bit.h>
+void setup();
+void loop();
+void blink();
 LCD4Bit lcd = LCD4Bit(1);
 
 
@@ -24,7 +28,7 @@ int state = LOW;
 
  float f=0;
 
- char buffer[4]    = "";
+ char buffer[6]    = "";
  
  
 void setup()
@@ -55,9 +59,9 @@ void loop()
           
           
      // Serial.print (encoder);
-     //Serial.print (" ");
-     //Serial.print (val);
-     //Serial.print (" ");
+     Serial.print (" ");
+     Serial.print (val);
+     Serial.print (" ");
      
        
 
@@ -162,3 +166,16 @@ Serial data received while in the function may be lost. You should declare as vo
 that you modify within the attached function. 
 
 */
+
+int main(void)
+{
+	init();
+
+	setup();
+    
+	for (;;)
+		loop();
+        
+	return 0;
+}
+

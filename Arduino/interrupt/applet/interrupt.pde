@@ -17,7 +17,7 @@ int state = LOW;
  volatile int encoder = LOW;
  int encoder_old = LOW;
  int minimum = 0;
- int maximum = 1000;
+ int maximum = 500;
  int faktor = 10;
  int val = 0;
  int val_old = 0;
@@ -50,20 +50,14 @@ void loop()
 
   if (val !=val_old)
    { 
-   
-     val_old=val;
-          
-          
-     // Serial.print (encoder);
-     //Serial.print (" ");
-     //Serial.print (val);
-     //Serial.print (" ");
+    // Serial.print (encoder);
+    // Serial.print (" ");
+     Serial.print (val);
+     Serial.print (" ");
      
-       
-
-
-         itoa(val, buffer, 10);
-        // sprintf(buffer,"%3d",val);
+      val_old=val;
+      
+         sprintf(buffer,"%3d",val);
          lcd.clear();
          lcd.printIn("Poti:     ");
          lcd.printIn(buffer);
