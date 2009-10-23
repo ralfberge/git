@@ -4,8 +4,11 @@
 
 #undef int
 #include <stdio.h> 
-#include <LCD4Bit.h>
-LCD4Bit lcd = LCD4Bit(1);
+#include <LiquidCrystal.h>
+
+
+//LiquidCrystal(rs, enable, d4, d5, d6, d7) 
+  LiquidCrystal lcd (12, 2, 7, 8, 9, 10);
 
 
 int state = LOW;
@@ -29,11 +32,12 @@ int state = LOW;
  
 void setup()
 {
-   lcd.init();
+
    pinMode(ledPin, OUTPUT);
-   attachInterrupt(1, blink, FALLING); // pin 2
+   attachInterrupt(1, blink, FALLING); // pin 3
    pinMode (encoder0PinB,INPUT);
    Serial.begin (9600);
+   lcd.begin(20, 4);
 }
 
 void loop()
@@ -59,8 +63,8 @@ void loop()
       
          sprintf(buffer,"%3d",val);
          lcd.clear();
-         lcd.printIn("Poti:     ");
-         lcd.printIn(buffer);
+         lcd.print("Poti:     ");
+         lcd.print(buffer);
        
        //lcd.cursorTo(1, 10); 
       // lcd.printIn(buffer);

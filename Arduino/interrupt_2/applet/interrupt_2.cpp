@@ -1,15 +1,19 @@
-#include "WProgram.h"
 //example use of LCD4Bit library
 
 
 
 #undef int
 #include <stdio.h> 
-#include <LCD4Bit.h>
+#include <LiquidCrystal.h>
+
+
+//LiquidCrystal(rs, enable, d4, d5, d6, d7) 
+
+  #include "WProgram.h"
 void setup();
 void loop();
 void blink();
-LCD4Bit lcd = LCD4Bit(1);
+LiquidCrystal lcd (12, 2, 7, 8, 9, 10);
 
 
 int state = LOW;
@@ -22,7 +26,7 @@ int state = LOW;
  int encoder_old = LOW;
  int minimum = 0;
  int maximum = 500;
- int faktor = 10;
+ int faktor = 4;
  int val = 0;
  int val_old = 0;
 
@@ -33,11 +37,12 @@ int state = LOW;
  
 void setup()
 {
-   lcd.init();
+
    pinMode(ledPin, OUTPUT);
    attachInterrupt(1, blink, FALLING); // pin 2
    pinMode (encoder0PinB,INPUT);
    Serial.begin (9600);
+   lcd.begin(20, 4);
 }
 
 void loop()
@@ -63,8 +68,8 @@ void loop()
       
          sprintf(buffer,"%3d",val);
          lcd.clear();
-         lcd.printIn("Poti:     ");
-         lcd.printIn(buffer);
+         lcd.print("Poti:     ");
+         lcd.print(buffer);
        
        //lcd.cursorTo(1, 10); 
       // lcd.printIn(buffer);
