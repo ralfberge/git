@@ -1,27 +1,36 @@
-//example use of LCD4Bit library
 
 
 
 #undef int
 #include <stdio.h> 
+#include <Stepper.h>
 #include <LiquidCrystal.h>
 
 
-//LiquidCrystal(rs, enable, d4, d5, d6, d7) 
 
+// change this to the number of steps on your motor
+#define STEPS 200
+
+//LiquidCrystal(rs, enable, d4, d5, d6, d7) 
   #include "WProgram.h"
 void setup();
 void loop();
 void blink();
-LiquidCrystal lcd (12, 2, 7, 8, 9, 10);
+LiquidCrystal lcd (12, 11, 7, 8, 9, 10);
+  
+// create an instance of the stepper class, specifying
+// the number of steps of the motor and the pins it's
+// attached to
+
+Stepper stepper(STEPS, 7, 9, 8, 10);
 
 
-int state = LOW;
-
-
+ int state = LOW;
  int encoder0PinB = 1;
  int encoder0Pos = 0;
  int ledPin = 13;                // LED connected to digital pin 13
+ int stepper_enable=5;
+ int stepper_position=0;
  volatile int encoder = LOW;
  int encoder_old = LOW;
  int minimum = 0;
@@ -39,10 +48,25 @@ void setup()
 {
 
    pinMode(ledPin, OUTPUT);
-   attachInterrupt(1, blink, FALLING); // pin 2
+   attachInterrupt(1, blink, FALLING); // pin 3
    pinMode (encoder0PinB,INPUT);
-   Serial.begin (9600);
+   pinMode(stepper_enable, OUTPUT);
+   digitalWrite(stepper_enable, LOW);
+// set the speed of the motor to 30 RPMs
+  stepper.setSpeed(80);
+
    lcd.begin(20, 4);
+   lcd.clear();
+   lcd.print("Stepper, Vers. 1.0");
+   lcd.setCursor(0, 2);
+   lcd.print("Position:");
+   sprintf(buffer,"%3d",val);
+   lcd.setCursor(10, 2);
+   lcd.print(buffer);
+   
+   
+ //  Serial.begin (9600);
+ 
 }
 
 void loop()
@@ -61,26 +85,36 @@ void loop()
    { 
     // Serial.print (encoder);
     // Serial.print (" ");
-     Serial.print (val);
-     Serial.print (" ");
+    // Serial.print (val);
+    // Serial.print (" ");
      
       val_old=val;
       
          sprintf(buffer,"%3d",val);
-         lcd.clear();
-         lcd.print("Poti:     ");
+         digitalWrite(stepper_enable, LOW);
+        
+         lcd.setCursor(10, 2);
          lcd.print(buffer);
        
        //lcd.cursorTo(1, 10); 
       // lcd.printIn(buffer);
-       
+      
+        stepper.step(100);
 
    } 
 
 
-
-digitalWrite(ledPin, state);
-
+digitalWrite(stepper_enable, HIGH);
+          if (abs (val - stepper_position) >10)
+          { lcd.setCursor(19, 3);
+            lcd.blink();}
+         
+          stepper.step(val - stepper_position);
+         
+          lcd.noBlink();
+   
+digitalWrite(stepper_enable, LOW);
+stepper_position=val;
 }
 
 
