@@ -25,7 +25,7 @@ Stepper stepper(STEPS, 7, 9, 8, 10);
    pinMode (encoder0PinB,INPUT);
    pinMode(stepper_enable, OUTPUT);
    Serial.begin (9600);
-   stepper.setSpeed(60);
+   stepper.setSpeed(80);
    
    lcd.begin(20, 4);
    lcd.clear();
@@ -42,24 +42,21 @@ Stepper stepper(STEPS, 7, 9, 8, 10);
   n = digitalRead(encoder0PinA);
    if ((encoder0PinALast == LOW) && (n == HIGH)) {
      if (digitalRead(encoder0PinB) == LOW) {
-       encoder0Pos--;
+     encoder0Pos=encoder0Pos;
          digitalWrite(stepper_enable, HIGH);
          stepper.step(-1);
               digitalWrite(stepper_enable, LOW);
      } else {
-       encoder0Pos++;
+      // encoder0Pos++;
          digitalWrite(stepper_enable, HIGH);
          stepper.step(1);
               digitalWrite(stepper_enable, LOW);
      }
 
      sprintf(buffer,"%3d",encoder0Pos);    
-     lcd.setCursor(10, 2);
+    // lcd.setCursor(10, 2);
     // lcd.print(buffer);
-        pinMode(7, OUTPUT);
-           pinMode(8, OUTPUT);
-              pinMode(9, OUTPUT);
-                 pinMode(10, OUTPUT);
+       
      Serial.print (encoder0Pos);
      Serial.print ("/");
    } 
