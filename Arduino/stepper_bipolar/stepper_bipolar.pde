@@ -20,14 +20,23 @@
  * @date: 20 Oct. 2005
  */
 
-int motorPins[] = {8, 9, 10, 11};
+int motorPins[] = {7, 9, 8, 10};
 int count = 0;
 int count2 = 0;
-int delayTime = 500;
+int count3 = 0;
+int delayTime = 20;
 int val = 0;
 
-void setup() {
-  pinMode(ledPin, OUTPUT);
+int enablePin = 5;
+
+
+
+void setup() 
+
+{
+  pinMode(enablePin, OUTPUT);
+  digitalWrite(enablePin, HIGH);
+
   for (count = 0; count < 4; count++) {
     pinMode(motorPins[count], OUTPUT);
   }
@@ -55,17 +64,21 @@ void moveBackward() {
   delay(delayTime);
 }
 
+
+
+
 void loop() {
-  val = analogRead(0);
-  if (val > 540) {
-    // move faster the higher the value from the potentiometer
-    delayTime = 2048 - 1024 * val / 512 + 1; 
-    moveForward();
-  } else if (val < 480) {
-    // move faster the lower the value from the potentiometer
-    delayTime = 1024 * val / 512 + 1; 
-    moveBackward();
-  } else {
-    delayTime = 1024;
+  
+  for (count3 = 0; count3 < 1116; count3++) {
+   moveForward();
+   }
+   
+      delay(1000);
+      
+     for (count3 = 0; count3 < 1116; count3++) {
+   moveBackward();
+   }
+     delay(1000);
+   
   }
-}
+

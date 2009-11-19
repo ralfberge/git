@@ -25,20 +25,23 @@ void setup();
 void moveForward();
 void moveBackward();
 void loop();
-int motorPins[] = {7, 9, 8, 10 };
+int motorPins[] = {7, 9, 8, 10};
 int count = 0;
 int count2 = 0;
-int delayTime = 500;
+int count3 = 0;
+int delayTime = 20;
 int val = 0;
-int enablePin =5;
-int ledPin = 13;
+
+int enablePin = 5;
 
 
-void setup() {
-  pinMode(ledPin, OUTPUT);
+
+void setup() 
+
+{
   pinMode(enablePin, OUTPUT);
-      digitalWrite(enablePin, HIGH);
-      
+  digitalWrite(enablePin, HIGH);
+
   for (count = 0; count < 4; count++) {
     pinMode(motorPins[count], OUTPUT);
   }
@@ -66,10 +69,22 @@ void moveBackward() {
   delay(delayTime);
 }
 
+
+
+
 void loop() {
   
-    moveForward();
-    delayTime = 10;
+  for (count3 = 0; count3 < 1116; count3++) {
+   moveForward();
+   }
+   
+      delay(1000);
+      
+     for (count3 = 0; count3 < 1116; count3++) {
+   moveBackward();
+   }
+     delay(1000);
+   
   }
 
 
