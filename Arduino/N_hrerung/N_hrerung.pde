@@ -16,9 +16,10 @@
 #include <LiquidCrystal.h>
 
 
-LiquidCrystal lcd (12, 11, 7, 8, 9, 10);
 
- int val; 
+ LiquidCrystal lcd (12, 11, 7, 8, 9, 10);
+ int n;
+ int val[10]; 
  int analogPin = 5;
  char buffer[4]    = "";
  
@@ -29,36 +30,50 @@ int delayTime = 20;
 
 
 
- void setup() { 
+int mean ()
+
+{ 
  
+   for (int n=0; n <= 9; n++)
+   {
+     val[n] = analogRead(analogPin);
+     delay(10);
    
+   }   
  
-  
+  for (int n=1; n <= 9; n++)
+   {
+     val[0] = val[0]+ val[n];
+   
+   }   
+   
+ return (val[0]/10);
+ } 
+ 
+
+ void setup() { 
+   
+   
    lcd.begin(20, 4);
    lcd.clear();
-   lcd.print("Stepper, Vers. 1.0");
+   lcd.print("Entfernung 1.0");
   
   
   
   
-  
- 
  } 
 
 
 
  void loop() { 
-
-
-   val = analogRead(analogPin);
-   
+  
 
    lcd.setCursor(0, 2);
    lcd.print("Wert:");
-   sprintf(buffer,"%3d",val);
+   sprintf(buffer,"%3d",mean());
    lcd.setCursor(10, 2);
    lcd.print(buffer);
 
-delay(50);
+delay(20);
 
  } 

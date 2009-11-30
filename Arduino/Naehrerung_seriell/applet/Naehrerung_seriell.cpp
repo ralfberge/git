@@ -2,53 +2,40 @@
 
 
 
-//example use of LCD4Bit library
 
-#include <stdio.h> 
-#include <Wire.h>
+/* Read Quadrature Encoder
+  * Connect Encoder to Pins encoder0PinA, encoder0PinB, and +5V.
+  *
+  * Sketch by max wolf / www.meso.net
+  * v. 0.1 - very basic functions - mw 20061220
+  *
+  */  
+  
+#include <stdio.h>   
 
-
+#include <LiquidCrystal.h>
 #include "pins_arduino.h"
-
-//create object to control an LCD.  
-//number of lines in display=1
+#include <DmxSimple.h>
 
 
-#include "WProgram.h"
+ #include "WProgram.h"
 void shiftDmxOut(int pin, int theByte);
+int mean ();
 void setup();
 void loop();
-int  sig          = 3; // signal
-int  value[10]    = {0,0,100,255,0};
-int  valueadd[5]  = {0,1,2,4,5};
-int  rtc          = 104;
-int  potPin       = 1;    // select the input pin for the potentiometer
-int  ledPin       = 13;   // select the pin for the LED
-int  val          = 0;    // variable to store the value coming from the sensor
-char buffer[4]    = "";   // must be large enough to hold your longest string including trailing 0 !!!
-
-
-
-#define R_SECS      0 
-#define R_MINS      1 
-#define R_HRS       2 
-#define R_WKDAY     3 
-#define R_DATE      4 
-#define R_MONTH     5 
-#define R_YEAR      6 
-#define R_SQW       7 
-
-
-byte second = 0x00;                             // default to 01 JAN 2008, midnight 
-byte minute = 0x00; 
-byte hour = 0x00; 
-byte wkDay = 0x02; 
-byte day = 0x01; 
-byte month = 0x01; 
-byte year = 0x08; 
-byte ctrl = 0x00; 
+LiquidCrystal lcd (12, 11, 7, 8, 9, 10);
  
+ int n;
+ int i;
+ int dmx_wert;
+ int dmx_sig = 2;
+ int val[10]; 
+ int analogPin = 0;
+ char buffer[4]    = "";
  
+
+ int delayTime = 20;
+
  
   void shiftDmxOut(int pin, int theByte)
 {
@@ -117,44 +104,70 @@ byte ctrl = 0x00;
   // reenable interrupts.
   // sei();
 }
- 
- 
- 
- 
 
 
 
-void setup() 
+int mean ()
+
 { 
-       pinMode(ledPin, OUTPUT);  //we'll use the debug LED to output a heartbeat
-       pinMode(sig, OUTPUT);
+ 
+   for (int n=0; n <= 9; n++)
+   {
+     val[n] = analogRead(analogPin);
+     delay(10);
+   
+   }   
+ 
+  for (int n=1; n <= 9; n++)
+   {
+     val[0] = val[0]+ val[n];
+   
+   }   
+   
+ return (val[0]/10);
+ } 
+ 
+
+ void setup() { 
+   
+   pinMode(dmx_sig, OUTPUT);
+   lcd.begin(20, 4);
+   lcd.clear();
+   lcd.print("Entfernung 1.0");
+  
+   Serial.begin(9600);
+  
+  
+ } 
+
+
+
+ void loop() { 
+  
+  
+   dmx_wert = mean()/2;
+   
+   if (dmx_wert > 255)
+     {
+       dmx_wert = 255;
+     }
+     
+   lcd.setCursor(0, 2);
+   lcd.print("Wert:");
+   sprintf(buffer,"%3d",dmx_wert);
+   lcd.setCursor(10, 2);
+   lcd.print(buffer);
+
+  Serial.print(dmx_wert); 
+  Serial.println(); 
+  
     
-}
-
-void loop() 
-{  
-
-
-  /***** sending the dmx signal *****/
-  // sending the break (the break can be between 88us and 1sec)
-  digitalWrite(sig, LOW);
-
-  delay(10);
-
-  // sending the start byte
-  shiftDmxOut(sig, 0);
-
     
-  for (int count = 1; count <= 512; count++)
-  {
-    shiftDmxOut(sig, 255);
-  }
+  DmxSimple.write(1, dmx_wert);
+  
+delay(10);
 
-
-delay (50);
-
-}
-
+ } 
 
 int main(void)
 {
