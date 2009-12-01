@@ -1,4 +1,3 @@
-#include "WProgram.h"
 
 
 
@@ -13,6 +12,7 @@
 
 //create object to control an LCD.  
 //number of lines in display=1
+#include "WProgram.h"
 void shiftDmxOut(int pin, int theByte);
 void setClock();
 int bcd2Dec(byte bcdVal);
