@@ -36,7 +36,7 @@ LiquidCrystal lcd (12, 11, 7, 8, 9, 10);
 int motorPins[] = {7, 9, 8, 10 };
 int count = 0;
 int count2 = 0;
-int delayTime = 10;
+int delayTime = 20;
 
 
 int stepper_enable=5;
@@ -79,13 +79,14 @@ void moveBackward() {
    pinMode (encoder0PinA,INPUT);
    pinMode (encoder0PinB,INPUT);
    pinMode (stepper_enable, OUTPUT);
-   Serial.begin (9600);
-
+ 
+//   Serial.begin (9600);
    digitalWrite(stepper_enable, HIGH);
     
    for (count = 0; count < 4; count++) {
      pinMode(motorPins[count], OUTPUT);
      }
+  
    lcd.begin(20, 4);
    lcd.clear();
    lcd.print("Stepper, Vers. 1.0");
@@ -104,29 +105,30 @@ void moveBackward() {
 
    n = digitalRead(encoder0PinA);
    if ((encoder0PinALast == LOW) && (n == HIGH)  ) {
-     if ((digitalRead(encoder0PinB) == LOW) && (encoder0Pos > encoder_min)) {
-        
-
-         digitalWrite(stepper_enable, HIGH);
+      digitalWrite(stepper_enable, HIGH);
+      
+      if ((digitalRead(encoder0PinB) == LOW) && (encoder0Pos > encoder_min)) {
+           
          encoder0Pos--;
-    moveBackward();
+         moveBackward();
     
 
      
    } else {
    
  if  (encoder0Pos < encoder_max)    {
-         digitalWrite(stepper_enable, HIGH);
-         encoder0Pos++;
+        
+           encoder0Pos++;
            moveForward();
  }
    
      }
 
 
-    Serial.print (encoder0Pos);
-    Serial.print ("/");
-    digitalWrite(stepper_enable, LOW);
+ //   Serial.print (encoder0Pos);
+ //   Serial.print ("/");
+   
+   digitalWrite(stepper_enable, LOW);
 
    lcd.setCursor(0, 2);
    lcd.print("Position:");
@@ -136,8 +138,6 @@ void moveBackward() {
         
   } 
    encoder0PinALast = n;
-   
-   
    
  } 
 

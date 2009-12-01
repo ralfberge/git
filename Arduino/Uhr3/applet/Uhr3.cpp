@@ -1,4 +1,3 @@
-#include "WProgram.h"
 
 
 
@@ -8,20 +7,17 @@
 #include <stdio.h> 
 #include <Wire.h>
 
-#include <LCD4Bit.h> 
+
 #include "pins_arduino.h"
 
 //create object to control an LCD.  
 //number of lines in display=1
+
+
+#include "WProgram.h"
 void shiftDmxOut(int pin, int theByte);
-void setClock();
-int bcd2Dec(byte bcdVal);
-void getClock();
-void printHex2(byte hexVal);
 void setup();
 void loop();
-LCD4Bit lcd = LCD4Bit(2); 
-
 int  sig          = 3; // signal
 int  value[10]    = {0,0,100,255,0};
 int  valueadd[5]  = {0,1,2,4,5};
@@ -125,59 +121,6 @@ byte ctrl = 0x00;
  
  
  
- 
- void setClock() 
-{ 
-  Wire.beginTransmission(rtc); 
-  Wire.send(R_SECS); 
-  Wire.send(second); 
-  Wire.send(minute); 
-  Wire.send(hour); 
-  Wire.send(wkDay); 
-  Wire.send(day); 
-  Wire.send(month); 
-  Wire.send(year); 
-  Wire.send(ctrl); 
-  Wire.endTransmission(); 
-} 
- 
- 
- 
- int bcd2Dec(byte bcdVal) 
-
-{ 
-  return bcdVal / 16 * 10 + bcdVal % 16; 
-}
- 
- 
- 
- 
-void getClock() 
-{ 
-  Wire.beginTransmission(rtc); 
-  Wire.send(0); 
-  Wire.endTransmission(); 
-  
-  delay(10);
-  
-  Wire.requestFrom(rtc, 8); 
-  second = Wire.receive(); 
-  minute = Wire.receive(); 
-  hour   = Wire.receive(); 
-  wkDay  = Wire.receive(); 
-  day    = Wire.receive(); 
-  month  = Wire.receive(); 
-  year   = Wire.receive(); 
-  ctrl   = Wire.receive(); 
-} 
-
-
-void printHex2(byte hexVal) 
-{ 
-  if (hexVal < 0x10) 
-    Serial.print("0"); 
-    Serial.print(hexVal, HEX); 
-} 
 
 
 
@@ -185,102 +128,12 @@ void setup()
 { 
        pinMode(ledPin, OUTPUT);  //we'll use the debug LED to output a heartbeat
        pinMode(sig, OUTPUT);
-       
-       lcd.init();
-       lcd.clear();
-       val = analogRead(potPin);
-       sprintf(buffer,"%4d",val);
-       lcd.printIn("Poti:");
-       lcd.cursorTo(1, 10); 
-       lcd.printIn(buffer);
-       lcd.cursorTo(2, 0); 
-       lcd.printIn("time:");
-       lcd.cursorTo(3, 0); 
-       lcd.printIn("date:");
-        
-       Wire.begin();
-       Serial.begin(9600);
-
- /*
-       second = 0x00;                                // demo time 
-       minute = 0x12; 
-       hour   = 0x19; 
-       wkDay  = 0x07; 
-       day    = 0x06; 
-       month  = 0x01; 
-       year   = 0x08; 
-       ctrl   = 0x00;   
-       
-       setClock() ;
-*/
-   
- 
+    
 }
 
 void loop() 
 {  
-  
-       val = analogRead(potPin);
-       sprintf(buffer,"%4d",val);
-       lcd.cursorTo(1, 10); 
-       lcd.printIn(buffer);
- 
-getClock() ;
 
-
-/*
-  printHex2(hour); 
-  Serial.print(":"); 
-  printHex2(minute); 
-  Serial.print(":"); 
-  printHex2(second); 
-  Serial.print("  "); 
-  printHex2(day); 
-  Serial.print("."); 
-  printHex2(month); 
-  Serial.print(".20"); 
-  printHex2(year); 
-  Serial.println(); 
-*/
-
-
-
-       lcd.cursorTo(2, 10); 
-       sprintf(buffer,"%02d",bcd2Dec(hour));
-       lcd.printIn(buffer);
-       lcd.printIn(":");
-       sprintf(buffer,"%02d",bcd2Dec(minute));
-       lcd.printIn(buffer);
-       lcd.printIn(":");
-       sprintf(buffer,"%02d",bcd2Dec(second));
-       lcd.printIn(buffer);
-
-       lcd.cursorTo(3, 10); 
-       sprintf(buffer,"%02d",bcd2Dec(day));
-       lcd.printIn(buffer);
-       lcd.printIn(".");
-       sprintf(buffer,"%02d",bcd2Dec(month));
-       lcd.printIn(buffer);
-       lcd.printIn(".");
-       sprintf(buffer,"%02d",bcd2Dec(year));
-       lcd.printIn(buffer);
-
-
-if(bcd2Dec(hour)>= 6 && bcd2Dec(hour)<= 8)
-{
-  val=255;
-}
-else
-{
-   val=0;
-}
-
-
-
-if(bcd2Dec(hour)>= 17 && bcd2Dec(hour)<= 21)
-{
-    val=255;
-}
 
   /***** sending the dmx signal *****/
   // sending the break (the break can be between 88us and 1sec)
@@ -294,11 +147,11 @@ if(bcd2Dec(hour)>= 17 && bcd2Dec(hour)<= 21)
     
   for (int count = 1; count <= 512; count++)
   {
-    shiftDmxOut(sig, val);
+    shiftDmxOut(sig, 255);
   }
 
 
-delay (100);
+delay (50);
 
 }
 
