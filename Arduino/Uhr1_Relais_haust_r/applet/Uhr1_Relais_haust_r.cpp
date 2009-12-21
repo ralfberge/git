@@ -1,10 +1,3 @@
-#include "WProgram.h"
-void getClock();
-void printHex2(byte hexVal);
-#include "stdio.h"
-#include "Wire.h"
-#include "LCD4Bit.h"
-#include "pins_arduino.h"
 
 
 
@@ -12,8 +5,21 @@ void printHex2(byte hexVal);
 //example use of LCD4Bit library
 
 #undef int
+#include <stdio.h> 
+#include <Wire.h>
+
+#include <LCD4Bit.h> 
+#include "pins_arduino.h"
+
 //create object to control an LCD.  
 //number of lines in display=1
+#include "WProgram.h"
+void setClock();
+int bcd2Dec(byte bcdVal);
+void getClock();
+void printHex2(byte hexVal);
+void setup();
+void loop();
 LCD4Bit lcd = LCD4Bit(2); 
 
 int  sig          = 3; // signal
@@ -127,10 +133,10 @@ void setup()
         
  
        Serial.begin(9600);
-
+/*
    Wire.begin(); 
        
-   /*    second = 0x00;                                // demo time 
+      second = 0x00;                                // demo time 
        minute = 0x26; 
        hour   = 0x00; 
        wkDay  = 0x60; 
@@ -140,8 +146,8 @@ void setup()
        ctrl   = 0x00;   
        
        
-         setClock() ;
-
+       
+       setClock() ;
 */
  
 }
@@ -179,7 +185,7 @@ val = digitalRead(inPin);  // read input value
   printHex2(year); 
   Serial.println(); 
 
-   getClock() ;
+  // getClock() ;
 
 
        lcd.cursorTo(2, 8); 
@@ -201,13 +207,19 @@ val = digitalRead(inPin);  // read input value
        lcd.printIn(".");
        sprintf(buffer,"%02d",bcd2Dec(year));
        lcd.printIn(buffer);
-
+    
     digitalWrite(ledPin, HIGH);  // turn LED ON
+    
+    delay (5000);
+
+
     digitalWrite(relais1Pin, HIGH);  // turn LED ON
     digitalWrite(relais2Pin, HIGH);  // turn LED ON
 
     delay (500);
-
+    
+    digitalWrite(ledPin, LOW);  // turn LED ON
+    
     digitalWrite(relais1Pin, LOW);  // turn LED ON
     digitalWrite(relais2Pin, LOW);  // turn LED ON
    
@@ -234,8 +246,6 @@ val = digitalRead(inPin);  // read input value
 
 
 
-
-delay (500);
 
 }
 
