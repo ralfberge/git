@@ -2,14 +2,13 @@
 
 
 
-//example use of LCD4Bit library
-
 #undef int
 #include <stdio.h> 
 #include <Wire.h>
 
 #include <LCD4Bit.h> 
 #include "pins_arduino.h"
+#include <SoftwareSerial.h>
 
 //create object to control an LCD.  
 //number of lines in display=1
@@ -45,6 +44,17 @@ int inPin = 4;                     // choose the input pin (for a pushbutton)
 #define R_SQW       7 
 
 
+#define rxPin 3
+#define txPin 11
+
+const byte command = 0x1B;
+const byte fullcut = 0x69;
+const byte partialcut = 0x6D;
+
+
+SoftwareSerial mySerial =  SoftwareSerial(rxPin, txPin);
+
+
 byte second = 0x00;                             // default to 01 JAN 2008, midnight 
 byte minute = 0x00; 
 byte hour = 0x00; 
@@ -53,6 +63,7 @@ byte day = 0x01;
 byte month = 0x01; 
 byte year = 0x08; 
 byte ctrl = 0x00; 
+ 
  
  
  
@@ -111,32 +122,55 @@ void setup()
        pinMode(inPin, INPUT);            // declare pushbutton as input
        
        lcd.init();
-       lcd.clear();
-    
-
+       lcd.clear();    
        lcd.printIn("date:");
-   
        lcd.cursorTo(2, 0); 
        lcd.printIn("time:");
    
-        
-
-   Wire.begin(); 
+  // define pin modes for tx, rx, led pins:
+  pinMode(rxPin, INPUT);
+  pinMode(txPin, OUTPUT);
+ 
+  // set the data rate for the SoftwareSerial port
+  mySerial.begin(9600);
+  Wire.begin(); 
        
-  /*
+ /*
        second = 0x00;                                // demo time 
-       minute = 0x17; 
-       hour   = 0x19; 
-       wkDay  = 0x30; 
-       day    = 0x18; 
-       month  = 0x11; 
-       year   = 0x09; 
+       minute = 0x38; 
+       hour   = 0x16; 
+       wkDay  = 0x07; 
+       day    = 0x10; 
+       month  = 0x02; 
+       year   = 0x10; 
        ctrl   = 0x00;   
        
     
          setClock() ;
 
-  */ 
+*/
+ 
+       getClock();
+ 
+       mySerial.println("Startup: ");
+       mySerial.print(bcd2Dec(hour));
+       mySerial.print(":");
+       mySerial.print(bcd2Dec(minute));
+       mySerial.print(":");
+       mySerial.print(bcd2Dec(second));
+       
+       mySerial.print("  ");
+         
+       mySerial.print(bcd2Dec(day));
+       mySerial.print(".");
+       mySerial.print(bcd2Dec(month));
+       mySerial.print(".");
+       mySerial.print(bcd2Dec(year));
+       mySerial.println("");
+       mySerial.println("");
+       mySerial.println("****************************************");    
+       mySerial.println("");         
+       mySerial.println("");   
  
 }
 
@@ -158,6 +192,10 @@ val = digitalRead(inPin);                // read input value
   } 
   
   else {
+    
+       
+    
+    
     
        digitalWrite(ledPin, HIGH);           // turn LED ON
        getClock();
@@ -181,6 +219,25 @@ val = digitalRead(inPin);                // read input value
        lcd.printIn(".");
        sprintf(buffer,"%02d",bcd2Dec(year));
        lcd.printIn(buffer);
+    
+       mySerial.print("Alarm: ");
+       mySerial.print(bcd2Dec(hour));
+       mySerial.print(":");
+       mySerial.print(bcd2Dec(minute));
+       mySerial.print(":");
+       mySerial.print(bcd2Dec(second));
+       
+       mySerial.print("  ");
+         
+        mySerial.print(bcd2Dec(day));
+       mySerial.print(".");
+       mySerial.print(bcd2Dec(month));
+       mySerial.print(".");
+       mySerial.print(bcd2Dec(year));
+       mySerial.println("");  
+              
+       mySerial.println("****************************************");  
+     
     
     delay (5000);  // 
     
@@ -216,7 +273,6 @@ val = digitalRead(inPin);                // read input value
 
 
 }
-
 
 
 
