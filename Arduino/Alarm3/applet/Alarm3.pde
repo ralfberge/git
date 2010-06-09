@@ -117,19 +117,20 @@ void setup()
 
    Wire.begin(); 
        
-   /*    second = 0x00;                                // demo time 
-       minute = 0x26; 
-       hour   = 0x00; 
-       wkDay  = 0x60; 
-       day    = 0x11; 
-       month  = 0x10; 
+  /*
+       second = 0x00;                                // demo time 
+       minute = 0x17; 
+       hour   = 0x19; 
+       wkDay  = 0x30; 
+       day    = 0x18; 
+       month  = 0x11; 
        year   = 0x09; 
        ctrl   = 0x00;   
        
-       
+    
          setClock() ;
 
-*/
+  */ 
  
 }
 
@@ -137,11 +138,11 @@ void loop()
 {  
   
 
-  val = analogRead(potPin);
+/*  val = analogRead(potPin);
        sprintf(buffer,"%4d",val);
        lcd.cursorTo(1, 1); 
        lcd.printIn(buffer); 
-
+*/
 
 val = digitalRead(inPin);                // read input value
   if (val == LOW) {                      // check if the input is HIGH (button released)
@@ -152,6 +153,7 @@ val = digitalRead(inPin);                // read input value
   
   else {
     
+       digitalWrite(ledPin, HIGH);           // turn LED ON
        getClock();
        
        lcd.cursorTo(2, 8); 
@@ -200,7 +202,9 @@ val = digitalRead(inPin);                // read input value
     digitalWrite(ledPin, LOW);  // turn LED ON
    
  delay (10000);
-  
+ 
+ 
+      digitalWrite(ledPin, LOW);           // turn LED OFF
   }
 
 
