@@ -29,7 +29,7 @@ int motorPins[] = {7, 9, 8, 10};
 int count = 0;
 int count2 = 0;
 int count3 = 0;
-int delayTime = 20;
+int delayTime = 1;
 int val = 0;
 
 int enablePin = 5;
@@ -75,13 +75,15 @@ void moveBackward() {
 void loop() {
   
   for (count3 = 0; count3 < 1116; count3++) {
-   moveForward();
+    
+    moveForward();
    }
    
       delay(1000);
       
      for (count3 = 0; count3 < 1116; count3++) {
-   moveBackward();
+       
+       moveBackward();
    }
      delay(1000);
    

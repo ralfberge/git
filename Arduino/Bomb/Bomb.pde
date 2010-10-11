@@ -16,9 +16,6 @@
 #include <LiquidCrystal.h>
 
 
-#include "WProgram.h"
-void setup();
-void loop();
 LiquidCrystal lcd (12, 11, 7, 8, 9, 10);
 
  int val; 
@@ -167,16 +164,3 @@ lcd.clear();
    } 
 
 } 
-
-int main(void)
-{
-	init();
-
-	setup();
-    
-	for (;;)
-		loop();
-        
-	return 0;
-}
-
