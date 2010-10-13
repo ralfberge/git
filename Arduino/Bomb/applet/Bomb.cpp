@@ -11,7 +11,7 @@
 #define LED_PIN 13
 
 
-#define TONE_PIN 2  // ----------------------------------- Töne -----------------------------------
+#define TONE_PIN 2  // ----------------------------------- T\u00f6ne -----------------------------------
 #define OCTAVE_OFFSET 0
 #define NOTE_C4  262
 #define NOTE_CS4 277
@@ -64,6 +64,22 @@
 
 #define isdigit(n) (n >= '0' && n <= '9')
 
+#include "WProgram.h"
+void custom5S();
+void customA();
+void customB();
+void customE();
+void customG();
+void customN();
+void customP();
+void customR();
+void customU();
+void play_rtttl(char *p);
+boolean checkWait();
+void printscreen ( char screen[4] [21]);
+void blink();
+void setup();
+void loop();
 int notes[] = { 0,
 NOTE_C4, NOTE_CS4, NOTE_D4, NOTE_DS4, NOTE_E4, NOTE_F4, NOTE_FS4, NOTE_G4, NOTE_GS4, NOTE_A4, NOTE_AS4, NOTE_B4,
 NOTE_C5, NOTE_CS5, NOTE_D5, NOTE_DS5, NOTE_E5, NOTE_F5, NOTE_FS5, NOTE_G5, NOTE_GS5, NOTE_A5, NOTE_AS5, NOTE_B5,
@@ -592,7 +608,7 @@ lcd.display();
 
 
 
-void setup()  //  ______________________________________ void setup ______________________________
+void setup() 
 { 
 
    // assignes each segment a write number
@@ -632,12 +648,12 @@ printscreen (screen1);
 tone1.play(PiezoRes,120);
 delay (5000);
 blink();
-delay (2000);
+delay (5000);
 
 } 
 
 
-void loop()  //  ______________________________________void loop______________________________
+void loop() 
 { 
 
 start:
@@ -1111,3 +1127,16 @@ void customZ()
 
 
 */
+
+int main(void)
+{
+	init();
+
+	setup();
+    
+	for (;;)
+		loop();
+        
+	return 0;
+}
+
