@@ -1,3 +1,4 @@
+
 #undef int
 #include <stdio.h> 
 #include <Wire.h>
@@ -29,7 +30,7 @@ char buffer[4]    = "";            // must be large enough to hold your longest 
 int relais1Pin = 6;                // LED connected to digital pin 13
 int relais2Pin = 7;                // LED connected to digital pin 13
 int LS_Pin = 4;                     // choose the input pin (for a pushbutton)
-
+int BM1_Pin = 5;    
 
 #define R_SECS      0 
 #define R_MINS      1 
@@ -60,14 +61,39 @@ byte month = 0x01;
 byte year = 0x08; 
 byte ctrl = 0x00; 
  
-
-
  void growl()
  {
       if (client.connect()) { //connect to server
       Serial.println("connected to server");
       // Make a HTTP request:
       client.println("GET http://www.buero-berge.com/growlscripts/example.php"); //location of ProwlPHP script
+      client.println();
+    } 
+    else {
+      Serial.println("connection failed");
+    }
+    delay(1000);
+    Serial.print("Response from server: ");
+    while (client.available()) {
+      char c = client.read();
+      Serial.print(c);
+    }
+  
+    // if the server's disconnected, stop the client:
+    if (!client.connected()) {
+      Serial.println("disconnecting from server");
+      client.stop();
+    }
+    
+    
+  } 
+
+ void growl2()
+ {
+      if (client.connect()) { //connect to server
+      Serial.println("connected to server");
+      // Make a HTTP request:
+      client.println("GET http://www.buero-berge.com/growlscripts/example_m1.php"); //location of ProwlPHP script
       client.println();
     } 
     else {
@@ -95,29 +121,33 @@ void setup()
       
   Ethernet.begin(mac, ip, gateway);
   Serial.begin(9600);
-  delay(1000);
-
  
        pinMode(ledPin, OUTPUT);          //we'll use the debug LED to output a heartbeat
        pinMode(relais1Pin, OUTPUT);      // sets the digital pin as output
        pinMode(relais2Pin, OUTPUT);      // sets the digital pin as output
+       digitalWrite(relais1Pin, LOW);   // turn LED OFF
+       digitalWrite(relais2Pin, LOW);   // turn LED OFF
+     
        pinMode(LS_Pin, INPUT);            // declare pushbutton as input
+       pinMode(BM1_Pin, INPUT);            // declare pushbutton as input
        
-       lcd.init();
+  /*     lcd.init();
        lcd.clear();    
        lcd.printIn("date:");
        lcd.cursorTo(2, 0); 
        lcd.printIn("time:");
+       print_startup();  
+   */
    
   // define pin modes for tx, rx, led pins:
   pinMode(rxPin, INPUT);
   pinMode(txPin, OUTPUT);
   mySerial.begin(9600);// set the data rate for the SoftwareSerial port
   Wire.begin(); 
-  
-  
-  
-  print_startup();  
+
+
+delay (5000);
+
 
 }  //setup
 
@@ -131,17 +161,42 @@ void loop()
   val = digitalRead(LS_Pin);               // read Lichtschranke value
   if (val == LOW) {                      // check if the input is HIGH (button released)
     digitalWrite(ledPin, LOW);           // turn LED OFF
-        digitalWrite(relais1Pin, LOW);   // turn LED OFF
-        digitalWrite(relais2Pin, LOW);   // turn LED OFF
+    digitalWrite(relais1Pin, LOW);   // turn LED OFF
+    digitalWrite(relais2Pin, LOW);   // turn LED OFF
+  } 
+  
+  else {
+    
+    Serial.println("Lichtschranke unterbrochen");
+    growl();
+   // printAlarm(); 
+    Lichtsequenz();
+   delay (10000);
+  }
+  
+  
+  
+//**************** BM Wintergarten aktiviert ***********************
+  
+  
+  
+  val = digitalRead(BM1_Pin);               // read Lichtschranke value
+  if (val == LOW) {                      // check if the input is HIGH (button released)
+    digitalWrite(ledPin, LOW);           // turn LED OFF
+    digitalWrite(relais1Pin, LOW);   // turn LED OFF
+    digitalWrite(relais2Pin, LOW);   // turn LED OFF
   } 
   
   else {
  
-    growl();
-    printAlarm(); 
+    Serial.println("Bewegungsmelder Wintergarten");
+    growl2();
+   // printAlarm(); 
     Lichtsequenz();
- 
-  }
+    delay (10000);
+  }  
+  
+  
 delay (500);
 
 }   /// loop
@@ -150,18 +205,19 @@ delay (500);
 
 void Lichtsequenz()
   {
-    delay (2000);  // 
-    digitalWrite(ledPin, HIGH);
-    digitalWrite(relais2Pin, HIGH);
-    delay (500);
-    digitalWrite(relais2Pin, LOW);  
-      
-    delay (3000); 
+    delay (1500);  // 
+    
     digitalWrite(relais1Pin, HIGH);
     delay (500);
-    digitalWrite(relais1Pin, LOW);
+    digitalWrite(relais1Pin, LOW);  
+      
+    delay (3000); 
+    
+    digitalWrite(relais2Pin, HIGH);
+    delay (500);
+    digitalWrite(relais2Pin, LOW);
    
-    delay (50000);
+    delay (60000);
    
     digitalWrite(relais1Pin, HIGH);
     digitalWrite(relais2Pin, HIGH);
@@ -169,10 +225,6 @@ void Lichtsequenz()
     digitalWrite(relais1Pin, LOW);  // turn LED ON
     digitalWrite(relais2Pin, LOW);  // turn LED ON
     
-    digitalWrite(ledPin, LOW);  // turn LED ON
-   
-    delay (10000);
-    digitalWrite(ledPin, LOW);           // turn LED OFF
  
  }
  
