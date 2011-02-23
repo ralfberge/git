@@ -17,12 +17,13 @@
 
 byte mac[] = {  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 byte ip[] = { 192,168,0,77 }; // local Arduino IP
-byte server[] = { 192,168,0,99 }; // IP of your web server
+byte gateway[] = { 192,168,0,1 }; // IP of your gateway
+byte server[] = { 62,80,29,14 }; // IP of your web server
 
 Client client(server, 80);
 
 void setup() {
-  Ethernet.begin(mac, ip);
+  Ethernet.begin(mac, ip, gateway);
   Serial.begin(9600);
   delay(1000);
   pinMode(switchPin, INPUT);
@@ -36,7 +37,7 @@ void loop()
     if (client.connect()) { //connect to server
       Serial.println("connected to server");
       // Make a HTTP request:
-      client.println("GET /example.php"); //location of ProwlPHP script
+      client.println("GET http://www.buero-berge.com/growlscripts/example.php"); //location of ProwlPHP script
       client.println();
     } 
     else {
