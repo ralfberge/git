@@ -16,7 +16,7 @@ byte gateway[] = { 192,168,0,1 }; // IP of your gateway
 byte server[] = { 62,80,29,14 }; // IP of your web server
 Client client(server, 80);
 
-int  startup_sec  = 40;            // Zeit, bis alle Sensoren aktiv sind
+int  startup_sec  = 60;            // Zeit, bis alle Sensoren aktiv sind
 int  sig          = 3;             // signal
 int  value[10]    = {0,0,100,255,0};
 int  valueadd[5]  = {0,1,2,4,5};
@@ -27,6 +27,7 @@ int  val          = 0;             // variable to store the value coming from th
 char buffer[4]    = "";            // must be large enough to hold your longest string including trailing 0 !!!
 
 const int relais1Pin = 6;          // EIB Küchenlicht
+const int HauptPin   = 0;          // EIB Küchenlicht
 const int relais2Pin = 7;          // EIB Aussenlicht
 
 const int LS_Pin = 4;              // Lichtschranke Garten
@@ -173,6 +174,22 @@ for (int i=0; i < startup_sec; i++)
 
 void loop() 
 {  
+
+
+if (analogRead(HauptPin) < 200)
+
+{
+  selectLineTwo();
+  mySerial.print("-stand by-          ");
+}
+
+else 
+{
+  selectLineTwo();
+  mySerial.print("running...          ");
+
+
+
   
 //**************** Lichtschranke aktiviert ***********************
   
@@ -245,12 +262,10 @@ void loop()
   }  
   
  
-  delay (500);
+
     
   selectLineOne();
   mySerial.print("Alarmanlage Vers 1.2");
-  selectLineTwo();
-  mySerial.print("                    ");
   selectLineThree();
   mySerial.print("                    ");
   
@@ -258,7 +273,10 @@ void loop()
   timestamp();
   
   
-  
+}    /// else von analog Haupt
+
+  delay (500);
+
 }   /// loop
 
 
