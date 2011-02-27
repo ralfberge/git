@@ -16,8 +16,7 @@ byte gateway[] = { 192,168,0,1 }; // IP of your gateway
 byte server[] = { 62,80,29,14 }; // IP of your web server
 Client client(server, 80);
 
-LCD4Bit lcd = LCD4Bit(2); 
-
+int  startup_sec  = 40;            // Zeit, bis alle Sensoren aktiv sind
 int  sig          = 3;             // signal
 int  value[10]    = {0,0,100,255,0};
 int  valueadd[5]  = {0,1,2,4,5};
@@ -68,37 +67,43 @@ void growl(String event, String app, String descr, String prior, String user)
  {
       if (client.connect()) { //connect to server
 
-      selectLineFour();
-      mySerial.println("connected to server  ");
+    
       // Make a HTTP request:
-      client.println("GET http://www.buero-berge.com/growlscripts/example.php/?event=anlage&app=Alarm&descr=" + descr + "&prior=0&user=" + user);  // "&app=" + app + "&descr=" + descr + "&prior=" + prior +  location of ProwlPHP script  /?event=Event&app=Applikation&descr=an%20beide&prior=-2&user=ralf
-      Serial.println ("test- ");
-      Serial.println("GET http://www.buero-berge.com/growlscripts/example.php/?event=Alarm&app=anlage&descr=" + descr + "&prior=0&user=" + user); 
-      Serial.println (" -test");
+      client.println("GET http://www.buero-berge.com/growlscripts/example.php/?event=anlage&app=Alarm&descr=" + descr + "&prior=" + prior + "&user=" + user);  // "&app=" + app + "&descr=" + descr + "&prior=" + prior +  location of ProwlPHP script  /?event=Event&app=Applikation&descr=an%20beide&prior=-2&user=ralf
       client.println();
+      selectLineFour();
+      mySerial.print("connected to server ");
     } 
     else {         
       selectLineFour();
-      mySerial.println("connection failed   ");
+      mySerial.print("connection failed   ");
     }
     
-    delay(1000);
+    delay(2000);
     selectLineFour();
-    mySerial.print("Response from server: ");
+    mySerial.print  ("Response server:    ");
 
-    delay(1000);
+    delay(2000);
     
     selectLineFour();    
     while (client.available()) {
-      char c = client.read();
-      Serial.print(c);
-    }
-  
+      for (int i=0; i < 20; i++)
+       { char c = client.read();
+         mySerial.print(c);
+       }
+       delay(2000);
+       selectLineFour();
+       mySerial.print("                    ");
+       selectLineFour();   
+   }
     // if the server's disconnected, stop the client:
     if (!client.connected()) {
-      selectLineThree();
-      mySerial.print("disconnecting from server");
-      client.stop();
+       delay(2000);
+       selectLineFour();
+       mySerial.print("                    ");
+       selectLineFour();   
+       mySerial.print("disconnecting server");
+       client.stop();
     }
     
     
@@ -127,15 +132,25 @@ void setup()
   pinMode(rxPin, INPUT);
   pinMode(txPin, OUTPUT);
   
- 
+  delay(3000); // um das dispalay hochfahren zu lassen
   backlightOn();
   clearLCD();  
   selectLineOne();
   mySerial.print("Alarmanlage Vers 1.2");
   selectLineTwo();
   mySerial.print("starting up...");
+ 
+
+for (int i=0; i < startup_sec; i++)
+
+{ 
   selectLineFour();
   timestamp();
+  delay (1000);
+ 
+}
+  selectLineTwo();
+  mySerial.print("running!            ");
  
 /*
        second = 0x00;                                // demo time 
@@ -151,9 +166,6 @@ void setup()
          setClock() ;
 */
 
-  delay (50000);
-  selectLineTwo();
-  mySerial.print("                    ");
 
 }  //setup
 
@@ -175,10 +187,7 @@ void loop()
     
     selectLineThree();
     mySerial.print("Lichtschranke Garten");
-    
-            
-    selectLineTwo();
-    timestamp();
+ 
     Serial.println("Lichtschranke Garten");
         
     growl("Alarm", "Anlage", "Garten", "1","ralf");   // void growl(char event[10], char app[10], char descr[15], char prior[2], char user[5])
@@ -204,12 +213,9 @@ void loop()
  
     selectLineThree();
     mySerial.print("Wintergarten");
-        
-    selectLineTwo();
-    timestamp();
-    
+
     Serial.println("Bewegungsmelder Wintergarten");
-    growl("Alarm", "Anlage", "Wintergarten", "0","ralf");  
+    growl("Alarm", "Anlage", "WG", "0","ralf");  
    // printAlarm(); 
     Lichtsequenz();
     delay (10000);
@@ -230,24 +236,26 @@ void loop()
     
     selectLineThree();
     mySerial.print("Bewegungsmelder OG  ");
-    
-    selectLineTwo();
-    timestamp();
-    
+
     Serial.println("Bewegungsmelder OG");
     growl("Alarm", "Anlage", "OG", "2","ralf");  
+    
     delay (10000);// printAlarm(); 
  
   }  
   
  
   delay (500);
-  
-  
-  backlightOn();
-  clearLCD();  
+    
   selectLineOne();
   mySerial.print("Alarmanlage Vers 1.2");
+  selectLineTwo();
+  mySerial.print("                    ");
+  selectLineThree();
+  mySerial.print("                    ");
+  
+  selectLineFour();
+  timestamp();
   
   
   
@@ -303,7 +311,7 @@ void Lichtsequenz()
                      }
        else { mySerial.print(bcd2Dec(second));}
        
-       mySerial.print("  ");
+       mySerial.print("    ");
        
          if (day< 10) {mySerial.print("0");
                       mySerial.print(bcd2Dec(day));
@@ -324,6 +332,7 @@ void Lichtsequenz()
                      }
        else { mySerial.print(bcd2Dec(year));}
 
+
 }
   
  
@@ -333,25 +342,6 @@ void Lichtsequenz()
  
        digitalWrite(ledPin, HIGH);           // turn LED ON
        getClock();
-       lcd.cursorTo(2, 8); 
-       sprintf(buffer,"%02d",bcd2Dec(hour));
-       lcd.printIn(buffer);
-       lcd.printIn(":");
-       sprintf(buffer,"%02d",bcd2Dec(minute));
-       lcd.printIn(buffer);
-       lcd.printIn(":");
-       sprintf(buffer,"%02d",bcd2Dec(second));
-       lcd.printIn(buffer);
-
-       lcd.cursorTo(1, 8); 
-       sprintf(buffer,"%02d",bcd2Dec(day));
-       lcd.printIn(buffer);
-       lcd.printIn(".");
-       sprintf(buffer,"%02d",bcd2Dec(month));
-       lcd.printIn(buffer);
-       lcd.printIn(".");
-       sprintf(buffer,"%02d",bcd2Dec(year));
-       lcd.printIn(buffer);
     
        mySerial.print("Alarm: ");
        mySerial.print(bcd2Dec(hour));
@@ -367,9 +357,9 @@ void Lichtsequenz()
        mySerial.print(bcd2Dec(month));
        mySerial.print(".");
        mySerial.print(bcd2Dec(year));
-       mySerial.println("");  
+       mySerial.print("");  
               
-       mySerial.println("****************************************");  
+       mySerial.print("****************************************");  
      
  
  }
