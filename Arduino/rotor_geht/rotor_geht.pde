@@ -12,7 +12,8 @@ int poti_AZ=0;
 int poti_EL=0;
 
 const int poti_AZ_Pin =  0;   
-const int poti_EL_Pin =  1;  
+const int poti_EL_Pin =  1;
+const int man_switch =  5;  
 
 const int kulanz_AZ =  3;   
 const int kulanz_EL =  3;  
@@ -115,10 +116,19 @@ void setup()
   backlightOn();
   clearLCD();  
   selectLineOne();
-  mySerial.print("Hello, world?");
+  mySerial.print("  Hello world!  ");
   
   delay(3000);
+  poti_AZ = analogRead(poti_AZ_Pin);
+  poti_EL = analogRead(poti_EL_Pin);
 
+  poti_AZ = (poti_AZ - offset_AZ) / faktor_AZ;
+  poti_EL = (poti_EL - offset_EL) / faktor_EL;
+  
+  AZ = poti_AZ;
+  EL = poti_EL;
+  
+  
 }
 
 
@@ -127,6 +137,42 @@ void setup()
 void loop()
 {  
  
+  
+if (analogRead( man_switch) < 100)  
+  
+  { 
+  digitalWrite(leftPin, LOW); 
+  digitalWrite(rightPin, LOW); 
+  digitalWrite(upPin, LOW); 
+  digitalWrite(downPin, LOW); 
+  
+
+  selectLineOne();
+  mySerial.print(" HANDSTEUERUNG! ");
+  
+  
+  poti_AZ = analogRead(poti_AZ_Pin);
+  poti_EL = analogRead(poti_EL_Pin);
+
+  poti_AZ = (poti_AZ - offset_AZ) / faktor_AZ;
+  poti_EL = (poti_EL - offset_EL) / faktor_EL;
+  
+  AZ = poti_AZ;
+  EL = poti_EL;
+  
+  selectLineTwo();
+  mySerial.print("AZ: ");
+  mySerial.print(poti_AZ);
+  mySerial.print(" EL: ");
+  mySerial.print(poti_EL);
+  
+  Serial.flush();
+  
+  }
+  
+else   // switch auf automatisch
+  {
+       
   if (Serial.available()>0) {
     delay (100);
     inlenght=Serial.available()-1;
@@ -134,7 +180,10 @@ void loop()
     for (i=0; i <= inlenght; i++) {
       inbyte[i] = Serial.read();
        }
-   }
+       
+   getAZEL(); 
+ 
+ }
 
 /* if  (inlenght > 0) {
    selectLineOne();   
@@ -144,16 +193,16 @@ void loop()
      }
    mySerial.print("<");
  */ 
-     delay(100);
+
   
-   getAZEL();
+
    
    selectLineOne();
     mySerial.print("AZ: ");
     mySerial.print(AZ);
     mySerial.print(" EL: ");
     mySerial.print(EL);
-   
+    mySerial.print("    ");
    
    position();
    
@@ -163,12 +212,14 @@ void loop()
     mySerial.print(" EL: ");
     mySerial.print(poti_EL);
     
-   delay(1000);
-   clearLCD();  
-   selectLineOne();
+   delay(500);
 
-   }
+   } //
 
+
+delay(500);
+
+} // loop
 
   
 
