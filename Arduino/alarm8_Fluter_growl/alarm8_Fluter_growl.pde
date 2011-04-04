@@ -12,7 +12,7 @@ byte gateway[] = { 192,168,0,1 };    // IP of your gateway
 byte subnet[] =  { 255,255,255,0 };   // subnet mask
 byte server[] =  { 62,80,29,14 };    // IP of your web server
 
-int  startup_sec  = 50;             // Zeit, bis alle Sensoren aktiv sind
+int  startup_sec  = 20;             // Zeit, bis alle Sensoren aktiv sind
 int  rtc          = 104;
 int  status;                        //scharf HIGH, unscharf LOW
 
@@ -23,6 +23,7 @@ const int relais2Pin = 7;           // EIB Aussenlicht
 const int LS_Pin   = 8;             // Lichtschranke Garten
 const int BM1_Pin  = 5;             // Bewegungsmelder Wintergarten 
 const int BM2_Pin  = 3;             // Bewegungsmelder OG
+const int TK1_Pin  = 4;             // Türkontakt Wintergarten
 
 #define rxPin 3
 #define txPin 2
@@ -66,11 +67,11 @@ void setup()
   backlightOn();
   clearLCD();  
   selectLine(1);
-  mySerial.print("Alarmanlage   V. 2.1");
+  mySerial.print("Alarmanlage   V. 2.2");
   selectLine(2);
   mySerial.print("starting up...");
   
-  Serial.println("Alarmanlage   V. 2.1");
+  Serial.println("Alarmanlage   V. 2.2");
   Serial.println();
   Serial.print("Startup: ");
 
@@ -95,13 +96,14 @@ void setup()
     delay (1000);
   }
 
-
 /*
+
 second = 0x00;                                // demo time 
-minute = 0x32; 
+minute = 0x24; 
 hour   = 0x22; 
 wkDay  = 0x01; 
-month  = 0x02; 
+day    = 0x04; 
+month  = 0x04; 
 year   = 0x11; 
 ctrl   = 0x00;   
    
@@ -210,11 +212,34 @@ void loop()
 
       Serial.print("Bewegungsmelder OG: ");
       print_timestamp();
-      growl("Obergeschoss", 2,"ralf");  
+      growl("Obergeschoss", 1,"ralf");  
 
       delay (10000);
 
     } 
+
+
+    //**************** TK WG aktiviert ***********************
+
+    if (digitalRead(TK1_Pin)== LOW) {                    
+      digitalWrite(relais1Pin, LOW);   
+      digitalWrite(relais2Pin, LOW); 
+    } 
+
+    else {
+
+      selectLine(3);
+      mySerial.print("TUER WINTERGARTEN!!!");
+
+      Serial.print  ("TUER WINTERGARTEN!!!");
+      print_timestamp();
+      growl("WGTuer", 2,"all");  
+
+      delay (10000);
+
+    } 
+
+
 
   }    /// else von analog Haupt
 
