@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "core\core.vcproj", "{F3067B0D-4F1E-457A-AE9C-AAB6CCD5C1A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "orbit", "orbit\orbit.vcproj", "{E7D39150-D44F-426D-B0E2-5ACFA19042DE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F3067B0D-4F1E-457A-AE9C-AAB6CCD5C1A3} = {F3067B0D-4F1E-457A-AE9C-AAB6CCD5C1A3}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{876EF50C-EB48-4A30-9A06-63F82FD20832}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3067B0D-4F1E-457A-AE9C-AAB6CCD5C1A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F3067B0D-4F1E-457A-AE9C-AAB6CCD5C1A3}.Debug|Win32.Build.0 = Debug|Win32
+		{F3067B0D-4F1E-457A-AE9C-AAB6CCD5C1A3}.Release|Win32.ActiveCfg = Release|Win32
+		{F3067B0D-4F1E-457A-AE9C-AAB6CCD5C1A3}.Release|Win32.Build.0 = Release|Win32
+		{E7D39150-D44F-426D-B0E2-5ACFA19042DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7D39150-D44F-426D-B0E2-5ACFA19042DE}.Debug|Win32.Build.0 = Debug|Win32
+		{E7D39150-D44F-426D-B0E2-5ACFA19042DE}.Release|Win32.ActiveCfg = Release|Win32
+		{E7D39150-D44F-426D-B0E2-5ACFA19042DE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
