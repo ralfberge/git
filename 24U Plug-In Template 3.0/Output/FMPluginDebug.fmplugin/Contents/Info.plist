@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+<key>CFBundleIdentifier</key>
+<string>com.yourcompany.myplugin</string>
+<key>CFBundleName</key>
+<string>FMPluginDebug</string>
+<key>CFBundleGetInfoString</key>
+<string>FMPluginDebug version 1.0, Copyright ©2010 by Your Company</string>
+<key>CFBundleShortVersionString</key>
+<string>FMPluginDebug version 1.0</string>
+<key>CFBundlePackageType</key>
+<string>BNDL</string>
+<key>CFBundleSignature</key>
+<string>24FT</string>
+<key>CFBundleVersion</key>
+<string>1.0</string>
+<key>CFBundleDevelopmentRegion</key>
+<string>English</string>
+<key>CFBundleInfoDictionaryVersion</key>
+<string>6.0</string>
+</dict>
+</plist>
+

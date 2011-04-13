@@ -274,9 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>25</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -299,7 +297,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>14 112 1069 866 0 0 1280 1002 </string>
+						<string>146 136 1069 866 0 0 1280 1002 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -317,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MyFunction.cpp</string>
+								<string>cSite.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,38 +323,48 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MyFunction.cpp</string>
+										<string>cSite.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D7E3F2DF13564F4000838B2F</string>
+										<string>D76322AC1356541600A3FA27</string>
 										<key>history</key>
 										<array>
-											<string>D7995F211354D9B2009C0158</string>
-											<string>D7995F401354DA6D009C0158</string>
-											<string>D7995F5B1354DCE1009C0158</string>
-											<string>D7E3F2CF13564F4000838B2F</string>
-											<string>D7E3F2D013564F4000838B2F</string>
-											<string>D7E3F2D113564F4000838B2F</string>
-											<string>D7E3F2D213564F4000838B2F</string>
+											<string>D76321F2135651C200A3FA27</string>
+											<string>D763228F1356541600A3FA27</string>
+											<string>D76322901356541600A3FA27</string>
+											<string>D76322911356541600A3FA27</string>
+											<string>D76322921356541600A3FA27</string>
+											<string>D76322931356541600A3FA27</string>
+											<string>D76322941356541600A3FA27</string>
+											<string>D76322951356541600A3FA27</string>
+											<string>D76322961356541600A3FA27</string>
 										</array>
 										<key>prevStack</key>
 										<array>
-											<string>D7995F241354D9B2009C0158</string>
-											<string>D7995F251354D9B2009C0158</string>
-											<string>D7995F261354D9B2009C0158</string>
-											<string>D7995F271354D9B2009C0158</string>
-											<string>D7995F281354D9B2009C0158</string>
-											<string>D7995F601354DCE1009C0158</string>
 											<string>D7995F681354DCE1009C0158</string>
-											<string>D7E3F2D313564F4000838B2F</string>
-											<string>D7E3F2D413564F4000838B2F</string>
-											<string>D7E3F2D513564F4000838B2F</string>
-											<string>D7E3F2D613564F4000838B2F</string>
-											<string>D7E3F2D713564F4000838B2F</string>
-											<string>D7E3F2D813564F4000838B2F</string>
-											<string>D7E3F2D913564F4000838B2F</string>
-											<string>D7E3F2DA13564F4000838B2F</string>
+											<string>D76321F4135651C200A3FA27</string>
+											<string>D76322971356541600A3FA27</string>
+											<string>D76322981356541600A3FA27</string>
+											<string>D76322991356541600A3FA27</string>
+											<string>D763229A1356541600A3FA27</string>
+											<string>D763229B1356541600A3FA27</string>
+											<string>D763229C1356541600A3FA27</string>
+											<string>D763229D1356541600A3FA27</string>
+											<string>D763229E1356541600A3FA27</string>
+											<string>D763229F1356541600A3FA27</string>
+											<string>D76322A01356541600A3FA27</string>
+											<string>D76322A11356541600A3FA27</string>
+											<string>D76322A21356541600A3FA27</string>
+											<string>D76322A31356541600A3FA27</string>
+											<string>D76322A41356541600A3FA27</string>
+											<string>D76322A51356541600A3FA27</string>
+											<string>D76322A61356541600A3FA27</string>
+											<string>D76322A71356541600A3FA27</string>
+											<string>D76322A81356541600A3FA27</string>
+											<string>D76322A91356541600A3FA27</string>
+											<string>D76322AA1356541600A3FA27</string>
+											<string>D76322AB1356541600A3FA27</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -370,7 +378,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {861, 602}}</string>
 								<key>RubberWindowFrame</key>
-								<string>14 112 1069 866 0 0 1280 1002 </string>
+								<string>146 136 1069 866 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -390,7 +398,7 @@
 								<key>Frame</key>
 								<string>{{0, 607}, {861, 218}}</string>
 								<key>RubberWindowFrame</key>
-								<string>14 112 1069 866 0 0 1280 1002 </string>
+								<string>146 136 1069 866 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -414,9 +422,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D7E3F2DC13564F4000838B2F</string>
+				<string>D7632197135650D300A3FA27</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D7E3F2DD13564F4000838B2F</string>
+				<string>D7632198135650D300A3FA27</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -551,10 +559,10 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>D7995EF81354D1B1009C0158</string>
-		<string>/Users/ralfberge/Desktop/24U Plug-In Template 3.0/Projects/XCode/PlugInTemplate.xcodeproj</string>
+		<string>/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/PlugInTemplate.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>14 112 1069 866 0 0 1280 1002 </string>
+	<string>146 136 1069 866 0 0 1280 1002 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -631,7 +639,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D7995EF81354D1B1009C0158</string>
-				<string>D7E3F2DE13564F4000838B2F</string>
+				<string>D76321F9135651C200A3FA27</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

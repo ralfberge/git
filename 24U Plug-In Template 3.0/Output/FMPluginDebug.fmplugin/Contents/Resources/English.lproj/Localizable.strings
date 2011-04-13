@@ -1,0 +1,9 @@
+/* Plug-In name appearing in FM's preferences dialog */
+String1 = "My Plug-In";
+/* Options text appearing in FM's preferences dialog */
+String2 = "This plug-in extends FileMaker applications by adding external functions.";
+/* Version */
+String3 = "1.0";
+/* External functions prototypes go here */
+String101 = "X24FT_Version( { versionFormat } )";
+String102 = "MyFunction( param1; { param2 } )";
