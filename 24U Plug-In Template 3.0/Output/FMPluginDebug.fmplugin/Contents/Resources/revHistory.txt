@@ -1,23 +1,14 @@
 
-Revision History for orbitTools.core.lib library - Public version.
+Revision History for orbitTools.orbit.lib library - Public version.
 Michael F. Henry
 www.zeptomoby.com/satellites
 
-Version 1.0.01 12/21/2010
-
-   Refactored cTle::ExpToDecimal(), in some cases it could cause rounding
-   errors. Renamed the method to ExpToAtof().
-   Removed assertion in cTle::Initialize(); the satellite name may
-   now be a zero-length string.
-   cTle::TrimRight() works properly on zero-length strings.
-
-   
-Version 1.0.00 10/30/2010
+Version 1.0.0 10/30/2010
 
    Split the orbitTools project into two libraries:
 
-      orbitTools.core.lib  - base functionality (cTle, cJulian, etc.)
-      orbitTools.orbit.lib - all SGP4/SDP4 tracking code
+      core.lib  - base functionality (cTle, cJulian, etc.)
+      orbit.lib - all SGP4/SDP4 tracking code
       
    Dividing the project into two libraries allows an easier upgrade path
    for users who wish to transition to licensed versions of the
@@ -27,86 +18,58 @@ Version 1.0.00 10/30/2010
               
    All methods renamed to Pascal casing. Classes and methods affected:
         
-      Class cSite:
+      Class cNoradBase/cNoradSGP4/cNoradSDP4/cOrbit:
         getPosition() to GetPosition()
-        getLookAngle() to GetLookAngle()
         
-      Class cTle:
-        getField() to GetField()
-        getName() to GetName()
-        getLine1() to GetLine1()
-        getLine2() to GetLine2()
-        radGet() to RadGet()
-        degGet() to DegGet()
-        
-      Class cJulian:
-        toGMST() to ToGmst()
-        toLMST() to ToLmst()
-        toTime() to ToTime()
-        getComponent() to GetComponent()
-        getDate() to GetDate()
-        addDay() to AddDay()
-        addHour() to AddHour()
-        addMin() to AddMin()
-        addSec() to AddSec()
-        spanDay() to SpanDay()
-        spanHour() to SpanHour()
-        spanMin() to SpanMin()
-        spanSec() to SpanSec()
-
-      Class cEci:
-        toGeo() to ToGeo()
-        getPos() to GetPos()
-        getVel()  to GetVel()
-        getDate() to GetDate()
-        setUnitsAe() to SetUnitsAe()
-        setUnitsKm() to SetUnitsKm()
-        ae2km() to Ae2Km()
-        
-   Renamed methods:
-        
-      Method cTle::mnMotion() renamed to MeanMotionTle().
-      Method cTle::mnAnomaly() (2 overloads) renamed to MeanAnomaly().
+   Public methods with new signatures:
+      Method cOrbit::GetPosition() - now returns type cEci instead of bool;
+      the cEci parameter has been removed.
+      
+   Public methods with new behaviors:
+      Method cOrbit::GetPosition() - can now throw new exception types
+      cPropagationException and cDecayException.
       
    Other changes:
 
-   Class cEci: Use member initialization list syntax for the constructor.
-   Return cVector references from GetPos() and GetVel(). Thanks to S. Torri
-   for these improvements.
+   Removed many unneeded member variables from cNoradBase and cNoradSDP4.
+   Moved the functionality of cNoradSDP4::DeepInit() into the cNoradSDP4
+   constructor, and no longer call the method on every GetPosition() calculation.
+   This speeds up repetitive SDP4 position calculations by about 35%.
+              
+   Removed dp_savtsn; it was used to determine if the number of propagation
+   minutes had changed by more than 30. If so, lunar-solar terms were
+   recalculated. The terms are now always recalculated, regardless of 
+   propagation time. This not only smooths ephemerides for some orbits, but
+   also matches what was done in prior versions of the library.
+
+   cNoradBase::Initialize() has been subsumed by the constructor.
 
    Compile with Visual Studio 2008.
 
 -----------------------------------------------------------------------------
    Revision history below this point was for the single-library version of
   the source code. Only comments relevant to the files that were moved into
-   the core.lib library have been retained. All other comments were moved 
-           into the revision notes file for the orbit.lib library.
+   the orbit.lib library have been retained. All other comments were moved 
+           into the revision notes file for the core.lib library.
 -----------------------------------------------------------------------------
 
-01/25/2009 Repaired a debug assert call in cJulian.cpp that was incorrectly
-           triggering when calculating dates on December 31 during leap
-           years. Thanks to R. Kummerer for uncovering this problem.
+09/11/2009 The variable "dpi_day" was not being initialized in cNoradSDP4.
+           Thanks to H. Krispin et al.
 
-10/16/2005 Do not use time_t type when calculating the epoch for ECI 
-           coordinates. Thanks to the U.K's M. Trethewey for locating yet 
-           another time_t problem.
-           
-           Updated class cJulian with a new constructor and "span" functions.
-   
-06/22/2005 MSVC++ 7.0 compiler/library change: pow(int, int) now returns 0 if
-           the exponent is less than 0. Updated ExpToDecimal() to use 
-           pow(double, double) instead. This was not pow() behavior in 
-           MSVC++ 6.0. Thanks to Dr. Andy Register for first reporting this 
-           issue.
+01/02/2009 The orbit axis recovered from orbital elements is now correctly
+           associated with the semimajor axis (and not the semiminor axis).
+           This change does not effect SGP4/SDP4 output calculations, but
+           does correct class cOrbit's convenience methods SemiMajor, SemiMinor,
+           Major, Minor, etc. Thanks to C. Wee for discovering this issue.
 
-08/29/2004 More time_t problems: A truncation error in CJulian::toTime() was
-           causing time_t values to have an average error of 0.5 seconds from
-           their Julian counterpart.
+           The cOrbit class method "mnMotionRec" was renamed to "MeanMotion".
+
+06/21/2006 Since the cNoradBase class has a virtual function, good design
+           practice dictates it also have a virtual destructor. A Gnu
+           compiler warning sent by R. Graham.
+
+07/19/2005 Fixed error in calculating m_kmPerigeeRec, which is not used by 
+           SGP4 or SDP4 calculations. Added m_kmApogeeRec and corresponding
+           accessor function cOrbit.Apogee().
            
-05/23/2004 Julian date class now calculates year, month, day, without using
-           time_t type, which only has a resolution of 1 second. This was 
-           causing errors when calculating azimuth and elevation for 
-           satellites which pass near the zenith. Thanks to Markus Knapek 
-           in Germany for first reporting this issue.
-                               
 12/07/2003 First writing.
