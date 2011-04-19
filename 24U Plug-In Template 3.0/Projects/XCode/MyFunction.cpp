@@ -31,9 +31,10 @@ FMX_PROC(fmx::errcode) MyFunction(       short          funcId,
     fmx::TextAutoPtr    tempText;
     fmx::TextAutoPtr    resultText;
 
+	char buffer[40]; 
 	
-	
-	
+	const fmx::Text& parameter1 = dataVect.AtAsText(0);
+	buffer = *parameter1;
 	
 	
 	fmx::LocaleAutoPtr locale;
@@ -92,19 +93,18 @@ FMX_PROC(fmx::errcode) MyFunction(       short          funcId,
 	
 	
 
-	
-    resultText->Assign("AZ:  EL: ");
-					  
-					   
+		   
 					 //  rad2deg(topoLook.m_Az), 
 					 //  rad2deg(topoLook.m_El));	
 					   
-	    char buffer[40]; 
-    sprintf(buffer,"AZ: %f EL: %f",  rad2deg(topoLook.m_Az), rad2deg(topoLook.m_El) ); 
-	
 
+    sprintf(buffer,"AZ: %f EL: %f : ",  rad2deg(topoLook.m_Az), rad2deg(topoLook.m_El) ); 
 	
-	resultText->Assign(buffer);
+	tempText->Assign("so: ");
+	resultText->AppendText(*tempText);
+	
+	//resultText->Assign(buffer);
+	
 	
 	err = result.SetAsText( *resultText, *locale );
 
