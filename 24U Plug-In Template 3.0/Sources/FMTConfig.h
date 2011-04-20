@@ -166,8 +166,8 @@ enum {
 
 #define FUNCTION_2_C_NAME         MyFunction
 #define FUNCTION_2_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs
-#define FUNCTION_2_PARAMS         kAtLeast_1_Parameter, kAtWorst_2_Parameters
-#define FUNCTION_2_PROTOTYPE      "MyFunction( param1; { param2 } )"
+#define FUNCTION_2_PARAMS         kAtLeast_1_Parameter, kAtWorst_3_Parameters
+#define FUNCTION_2_PROTOTYPE      "MyFunction( param1; { param2}; { param3})"
 
 //#define FUNCTION_3_C_NAME         X24FT_Function3
 //#define FUNCTION_3_FLAGS          fmx::ExprEnv::kMayEvaluateOnServer | fmx::ExprEnv::kDisplayInAllDialogs

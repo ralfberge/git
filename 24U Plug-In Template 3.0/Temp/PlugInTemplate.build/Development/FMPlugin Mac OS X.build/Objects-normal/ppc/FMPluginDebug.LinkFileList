@@ -3,11 +3,6 @@
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/FMPluginHandlers.o
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/FMPluginVersion.o
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/MyFunction.o
-/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cNoradBase.o
-/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cNoradSDP4.o
-/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cNoradSGP4.o
-/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cOrbit.o
-/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/stdafx-312B9E6F.o
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cEci.o
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cJulian.o
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/coord.o
@@ -15,6 +10,11 @@
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cTLE.o
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cVector.o
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/globals.o
-/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/stdafx-2C546F7C.o
+/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/stdafx-DCE15569.o
+/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cNoradBase.o
+/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cNoradSDP4.o
+/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cNoradSGP4.o
+/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/cOrbit.o
+/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/stdafx-97B8C660.o
 /Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/main.o
-/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/stdafx-52CFA366.o
+/Users/ralfberge/Documents/git/24U Plug-In Template 3.0/Projects/XCode/../../Temp/PlugInTemplate.build/Development/FMPlugin Mac OS X.build/Objects-normal/ppc/stdafx-7DC1B66F.o

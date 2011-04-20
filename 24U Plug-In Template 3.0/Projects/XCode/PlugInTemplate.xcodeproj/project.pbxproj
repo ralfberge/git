@@ -29,46 +29,46 @@
 		8268A928078E96A3008CA7C1 /* FMWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8268A926078E96A3008CA7C1 /* FMWrapper.framework */; };
 		82E58B840795DF7900592B32 /* FMTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E58B830795DF7900592B32 /* FMTConfig.h */; };
 		B9BD41710A400925005A4D9D /* FMTemplatePrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BD41700A400925005A4D9D /* FMTemplatePrefix.h */; };
+		D771D171135F11AD0009C9A7 /* cEci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D148135F11AD0009C9A7 /* cEci.cpp */; };
+		D771D172135F11AD0009C9A7 /* cEci.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D149135F11AD0009C9A7 /* cEci.h */; };
+		D771D173135F11AD0009C9A7 /* cJulian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D14A135F11AD0009C9A7 /* cJulian.cpp */; };
+		D771D174135F11AD0009C9A7 /* cJulian.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D14B135F11AD0009C9A7 /* cJulian.h */; };
+		D771D175135F11AD0009C9A7 /* coord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D14C135F11AD0009C9A7 /* coord.cpp */; };
+		D771D176135F11AD0009C9A7 /* coord.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D14D135F11AD0009C9A7 /* coord.h */; };
+		D771D177135F11AD0009C9A7 /* core.vcproj in Resources */ = {isa = PBXBuildFile; fileRef = D771D14E135F11AD0009C9A7 /* core.vcproj */; };
+		D771D178135F11AD0009C9A7 /* coreLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D14F135F11AD0009C9A7 /* coreLib.h */; };
+		D771D179135F11AD0009C9A7 /* cSite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D150135F11AD0009C9A7 /* cSite.cpp */; };
+		D771D17A135F11AD0009C9A7 /* cSite.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D151135F11AD0009C9A7 /* cSite.h */; };
+		D771D17B135F11AD0009C9A7 /* cTLE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D152135F11AD0009C9A7 /* cTLE.cpp */; };
+		D771D17C135F11AD0009C9A7 /* cTLE.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D153135F11AD0009C9A7 /* cTLE.h */; };
+		D771D17D135F11AD0009C9A7 /* cVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D154135F11AD0009C9A7 /* cVector.cpp */; };
+		D771D17E135F11AD0009C9A7 /* cVector.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D155135F11AD0009C9A7 /* cVector.h */; };
+		D771D17F135F11AD0009C9A7 /* exceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D156135F11AD0009C9A7 /* exceptions.h */; };
+		D771D180135F11AD0009C9A7 /* globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D157135F11AD0009C9A7 /* globals.cpp */; };
+		D771D181135F11AD0009C9A7 /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D158135F11AD0009C9A7 /* globals.h */; };
+		D771D182135F11AD0009C9A7 /* revHistory.txt in Resources */ = {isa = PBXBuildFile; fileRef = D771D159135F11AD0009C9A7 /* revHistory.txt */; };
+		D771D183135F11AD0009C9A7 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D15A135F11AD0009C9A7 /* stdafx.cpp */; };
+		D771D184135F11AD0009C9A7 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D15B135F11AD0009C9A7 /* stdafx.h */; };
+		D771D185135F11AD0009C9A7 /* cNoradBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D15D135F11AD0009C9A7 /* cNoradBase.cpp */; };
+		D771D186135F11AD0009C9A7 /* cNoradBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D15E135F11AD0009C9A7 /* cNoradBase.h */; };
+		D771D187135F11AD0009C9A7 /* cNoradSDP4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D15F135F11AD0009C9A7 /* cNoradSDP4.cpp */; };
+		D771D188135F11AD0009C9A7 /* cNoradSDP4.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D160135F11AD0009C9A7 /* cNoradSDP4.h */; };
+		D771D189135F11AD0009C9A7 /* cNoradSGP4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D161135F11AD0009C9A7 /* cNoradSGP4.cpp */; };
+		D771D18A135F11AD0009C9A7 /* cNoradSGP4.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D162135F11AD0009C9A7 /* cNoradSGP4.h */; };
+		D771D18B135F11AD0009C9A7 /* cOrbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D163135F11AD0009C9A7 /* cOrbit.cpp */; };
+		D771D18C135F11AD0009C9A7 /* cOrbit.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D164135F11AD0009C9A7 /* cOrbit.h */; };
+		D771D18D135F11AD0009C9A7 /* orbit.vcproj in Resources */ = {isa = PBXBuildFile; fileRef = D771D165135F11AD0009C9A7 /* orbit.vcproj */; };
+		D771D18E135F11AD0009C9A7 /* revHistory.txt in Resources */ = {isa = PBXBuildFile; fileRef = D771D166135F11AD0009C9A7 /* revHistory.txt */; };
+		D771D18F135F11AD0009C9A7 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D167135F11AD0009C9A7 /* stdafx.cpp */; };
+		D771D190135F11AD0009C9A7 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D168135F11AD0009C9A7 /* stdafx.h */; };
+		D771D191135F11AD0009C9A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D16A135F11AD0009C9A7 /* main.cpp */; };
+		D771D192135F11AD0009C9A7 /* orbitToolsDemo.sln in Resources */ = {isa = PBXBuildFile; fileRef = D771D16B135F11AD0009C9A7 /* orbitToolsDemo.sln */; };
+		D771D193135F11AD0009C9A7 /* orbitToolsDemo.vcproj in Resources */ = {isa = PBXBuildFile; fileRef = D771D16C135F11AD0009C9A7 /* orbitToolsDemo.vcproj */; };
+		D771D194135F11AD0009C9A7 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = D771D16D135F11AD0009C9A7 /* readme.txt */; };
+		D771D195135F11AD0009C9A7 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D16E135F11AD0009C9A7 /* resource.h */; };
+		D771D196135F11AD0009C9A7 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D771D16F135F11AD0009C9A7 /* stdafx.cpp */; };
+		D771D197135F11AD0009C9A7 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = D771D170135F11AD0009C9A7 /* stdafx.h */; };
 		D7995F491354DBD9009C0158 /* MyFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7995F481354DBD9009C0158 /* MyFunction.cpp */; };
-		D7E6737E135654DE00DD8B43 /* cNoradBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E6735D135654DE00DD8B43 /* cNoradBase.cpp */; };
-		D7E6737F135654DE00DD8B43 /* cNoradBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E6735E135654DE00DD8B43 /* cNoradBase.h */; };
-		D7E67380135654DE00DD8B43 /* cNoradSDP4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E6735F135654DE00DD8B43 /* cNoradSDP4.cpp */; };
-		D7E67381135654DE00DD8B43 /* cNoradSDP4.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E67360135654DE00DD8B43 /* cNoradSDP4.h */; };
-		D7E67382135654DE00DD8B43 /* cNoradSGP4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E67361135654DE00DD8B43 /* cNoradSGP4.cpp */; };
-		D7E67383135654DE00DD8B43 /* cNoradSGP4.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E67362135654DE00DD8B43 /* cNoradSGP4.h */; };
-		D7E67384135654DE00DD8B43 /* cOrbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E67363135654DE00DD8B43 /* cOrbit.cpp */; };
-		D7E67385135654DE00DD8B43 /* cOrbit.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E67364135654DE00DD8B43 /* cOrbit.h */; };
-		D7E67386135654DE00DD8B43 /* orbit.vcproj in Resources */ = {isa = PBXBuildFile; fileRef = D7E67365135654DE00DD8B43 /* orbit.vcproj */; };
-		D7E67387135654DE00DD8B43 /* revHistory.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7E67366135654DE00DD8B43 /* revHistory.txt */; };
-		D7E67388135654DE00DD8B43 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E67367135654DE00DD8B43 /* stdafx.cpp */; };
-		D7E67389135654DE00DD8B43 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E67368135654DE00DD8B43 /* stdafx.h */; };
-		D7E6738A135654DE00DD8B43 /* cEci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E6736A135654DE00DD8B43 /* cEci.cpp */; };
-		D7E6738B135654DE00DD8B43 /* cEci.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E6736B135654DE00DD8B43 /* cEci.h */; };
-		D7E6738C135654DE00DD8B43 /* cJulian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E6736C135654DE00DD8B43 /* cJulian.cpp */; };
-		D7E6738D135654DE00DD8B43 /* cJulian.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E6736D135654DE00DD8B43 /* cJulian.h */; };
-		D7E6738E135654DE00DD8B43 /* coord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E6736E135654DE00DD8B43 /* coord.cpp */; };
-		D7E6738F135654DE00DD8B43 /* coord.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E6736F135654DE00DD8B43 /* coord.h */; };
-		D7E67390135654DE00DD8B43 /* core.vcproj in Resources */ = {isa = PBXBuildFile; fileRef = D7E67370135654DE00DD8B43 /* core.vcproj */; };
-		D7E67391135654DE00DD8B43 /* coreLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E67371135654DE00DD8B43 /* coreLib.h */; };
-		D7E67392135654DE00DD8B43 /* cSite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E67372135654DE00DD8B43 /* cSite.cpp */; };
-		D7E67393135654DE00DD8B43 /* cSite.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E67373135654DE00DD8B43 /* cSite.h */; };
-		D7E67394135654DE00DD8B43 /* cTLE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E67374135654DE00DD8B43 /* cTLE.cpp */; };
-		D7E67395135654DE00DD8B43 /* cTLE.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E67375135654DE00DD8B43 /* cTLE.h */; };
-		D7E67396135654DE00DD8B43 /* cVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E67376135654DE00DD8B43 /* cVector.cpp */; };
-		D7E67397135654DE00DD8B43 /* cVector.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E67377135654DE00DD8B43 /* cVector.h */; };
-		D7E67398135654DE00DD8B43 /* exceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E67378135654DE00DD8B43 /* exceptions.h */; };
-		D7E67399135654DE00DD8B43 /* globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E67379135654DE00DD8B43 /* globals.cpp */; };
-		D7E6739A135654DE00DD8B43 /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E6737A135654DE00DD8B43 /* globals.h */; };
-		D7E6739B135654DE00DD8B43 /* revHistory.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7E6737B135654DE00DD8B43 /* revHistory.txt */; };
-		D7E6739C135654DE00DD8B43 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E6737C135654DE00DD8B43 /* stdafx.cpp */; };
-		D7E6739D135654DE00DD8B43 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E6737D135654DE00DD8B43 /* stdafx.h */; };
-		D7E673A6135654F200DD8B43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E6739F135654F200DD8B43 /* main.cpp */; };
-		D7E673A7135654F200DD8B43 /* orbitToolsDemo.sln in Resources */ = {isa = PBXBuildFile; fileRef = D7E673A0135654F200DD8B43 /* orbitToolsDemo.sln */; };
-		D7E673A8135654F200DD8B43 /* orbitToolsDemo.vcproj in Resources */ = {isa = PBXBuildFile; fileRef = D7E673A1135654F200DD8B43 /* orbitToolsDemo.vcproj */; };
-		D7E673A9135654F200DD8B43 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7E673A2135654F200DD8B43 /* readme.txt */; };
-		D7E673AA135654F200DD8B43 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E673A3135654F200DD8B43 /* resource.h */; };
-		D7E673AB135654F200DD8B43 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E673A4135654F200DD8B43 /* stdafx.cpp */; };
-		D7E673AC135654F200DD8B43 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E673A5135654F200DD8B43 /* stdafx.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,46 +98,46 @@
 		82D72FDF07BE25630063F5A9 /* FMPluginDebug.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMPluginDebug.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E58B830795DF7900592B32 /* FMTConfig.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMTConfig.h; path = ../../Sources/FMTConfig.h; sourceTree = SOURCE_ROOT; };
 		B9BD41700A400925005A4D9D /* FMTemplatePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTemplatePrefix.h; path = ../../Support/FMTemplate/FMTemplatePrefix.h; sourceTree = SOURCE_ROOT; };
+		D771D148135F11AD0009C9A7 /* cEci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cEci.cpp; sourceTree = "<group>"; };
+		D771D149135F11AD0009C9A7 /* cEci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cEci.h; sourceTree = "<group>"; };
+		D771D14A135F11AD0009C9A7 /* cJulian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cJulian.cpp; sourceTree = "<group>"; };
+		D771D14B135F11AD0009C9A7 /* cJulian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cJulian.h; sourceTree = "<group>"; };
+		D771D14C135F11AD0009C9A7 /* coord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coord.cpp; sourceTree = "<group>"; };
+		D771D14D135F11AD0009C9A7 /* coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coord.h; sourceTree = "<group>"; };
+		D771D14E135F11AD0009C9A7 /* core.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = core.vcproj; sourceTree = "<group>"; };
+		D771D14F135F11AD0009C9A7 /* coreLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coreLib.h; sourceTree = "<group>"; };
+		D771D150135F11AD0009C9A7 /* cSite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cSite.cpp; sourceTree = "<group>"; };
+		D771D151135F11AD0009C9A7 /* cSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cSite.h; sourceTree = "<group>"; };
+		D771D152135F11AD0009C9A7 /* cTLE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cTLE.cpp; sourceTree = "<group>"; };
+		D771D153135F11AD0009C9A7 /* cTLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cTLE.h; sourceTree = "<group>"; };
+		D771D154135F11AD0009C9A7 /* cVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cVector.cpp; sourceTree = "<group>"; };
+		D771D155135F11AD0009C9A7 /* cVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cVector.h; sourceTree = "<group>"; };
+		D771D156135F11AD0009C9A7 /* exceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exceptions.h; sourceTree = "<group>"; };
+		D771D157135F11AD0009C9A7 /* globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = globals.cpp; sourceTree = "<group>"; };
+		D771D158135F11AD0009C9A7 /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		D771D159135F11AD0009C9A7 /* revHistory.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = revHistory.txt; sourceTree = "<group>"; };
+		D771D15A135F11AD0009C9A7 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		D771D15B135F11AD0009C9A7 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		D771D15D135F11AD0009C9A7 /* cNoradBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cNoradBase.cpp; sourceTree = "<group>"; };
+		D771D15E135F11AD0009C9A7 /* cNoradBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cNoradBase.h; sourceTree = "<group>"; };
+		D771D15F135F11AD0009C9A7 /* cNoradSDP4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cNoradSDP4.cpp; sourceTree = "<group>"; };
+		D771D160135F11AD0009C9A7 /* cNoradSDP4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cNoradSDP4.h; sourceTree = "<group>"; };
+		D771D161135F11AD0009C9A7 /* cNoradSGP4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cNoradSGP4.cpp; sourceTree = "<group>"; };
+		D771D162135F11AD0009C9A7 /* cNoradSGP4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cNoradSGP4.h; sourceTree = "<group>"; };
+		D771D163135F11AD0009C9A7 /* cOrbit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cOrbit.cpp; sourceTree = "<group>"; };
+		D771D164135F11AD0009C9A7 /* cOrbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cOrbit.h; sourceTree = "<group>"; };
+		D771D165135F11AD0009C9A7 /* orbit.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = orbit.vcproj; sourceTree = "<group>"; };
+		D771D166135F11AD0009C9A7 /* revHistory.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = revHistory.txt; sourceTree = "<group>"; };
+		D771D167135F11AD0009C9A7 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		D771D168135F11AD0009C9A7 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		D771D16A135F11AD0009C9A7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D771D16B135F11AD0009C9A7 /* orbitToolsDemo.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = orbitToolsDemo.sln; sourceTree = "<group>"; };
+		D771D16C135F11AD0009C9A7 /* orbitToolsDemo.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = orbitToolsDemo.vcproj; sourceTree = "<group>"; };
+		D771D16D135F11AD0009C9A7 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		D771D16E135F11AD0009C9A7 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		D771D16F135F11AD0009C9A7 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		D771D170135F11AD0009C9A7 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
 		D7995F481354DBD9009C0158 /* MyFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyFunction.cpp; sourceTree = "<group>"; };
-		D7E6735D135654DE00DD8B43 /* cNoradBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cNoradBase.cpp; sourceTree = "<group>"; };
-		D7E6735E135654DE00DD8B43 /* cNoradBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cNoradBase.h; sourceTree = "<group>"; };
-		D7E6735F135654DE00DD8B43 /* cNoradSDP4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cNoradSDP4.cpp; sourceTree = "<group>"; };
-		D7E67360135654DE00DD8B43 /* cNoradSDP4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cNoradSDP4.h; sourceTree = "<group>"; };
-		D7E67361135654DE00DD8B43 /* cNoradSGP4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cNoradSGP4.cpp; sourceTree = "<group>"; };
-		D7E67362135654DE00DD8B43 /* cNoradSGP4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cNoradSGP4.h; sourceTree = "<group>"; };
-		D7E67363135654DE00DD8B43 /* cOrbit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cOrbit.cpp; sourceTree = "<group>"; };
-		D7E67364135654DE00DD8B43 /* cOrbit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cOrbit.h; sourceTree = "<group>"; };
-		D7E67365135654DE00DD8B43 /* orbit.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = orbit.vcproj; sourceTree = "<group>"; };
-		D7E67366135654DE00DD8B43 /* revHistory.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = revHistory.txt; sourceTree = "<group>"; };
-		D7E67367135654DE00DD8B43 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
-		D7E67368135654DE00DD8B43 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
-		D7E6736A135654DE00DD8B43 /* cEci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cEci.cpp; sourceTree = "<group>"; };
-		D7E6736B135654DE00DD8B43 /* cEci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cEci.h; sourceTree = "<group>"; };
-		D7E6736C135654DE00DD8B43 /* cJulian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cJulian.cpp; sourceTree = "<group>"; };
-		D7E6736D135654DE00DD8B43 /* cJulian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cJulian.h; sourceTree = "<group>"; };
-		D7E6736E135654DE00DD8B43 /* coord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coord.cpp; sourceTree = "<group>"; };
-		D7E6736F135654DE00DD8B43 /* coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coord.h; sourceTree = "<group>"; };
-		D7E67370135654DE00DD8B43 /* core.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = core.vcproj; sourceTree = "<group>"; };
-		D7E67371135654DE00DD8B43 /* coreLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coreLib.h; sourceTree = "<group>"; };
-		D7E67372135654DE00DD8B43 /* cSite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cSite.cpp; sourceTree = "<group>"; };
-		D7E67373135654DE00DD8B43 /* cSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cSite.h; sourceTree = "<group>"; };
-		D7E67374135654DE00DD8B43 /* cTLE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cTLE.cpp; sourceTree = "<group>"; };
-		D7E67375135654DE00DD8B43 /* cTLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cTLE.h; sourceTree = "<group>"; };
-		D7E67376135654DE00DD8B43 /* cVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cVector.cpp; sourceTree = "<group>"; };
-		D7E67377135654DE00DD8B43 /* cVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cVector.h; sourceTree = "<group>"; };
-		D7E67378135654DE00DD8B43 /* exceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exceptions.h; sourceTree = "<group>"; };
-		D7E67379135654DE00DD8B43 /* globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = globals.cpp; sourceTree = "<group>"; };
-		D7E6737A135654DE00DD8B43 /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
-		D7E6737B135654DE00DD8B43 /* revHistory.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = revHistory.txt; sourceTree = "<group>"; };
-		D7E6737C135654DE00DD8B43 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
-		D7E6737D135654DE00DD8B43 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
-		D7E6739F135654F200DD8B43 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D7E673A0135654F200DD8B43 /* orbitToolsDemo.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = orbitToolsDemo.sln; sourceTree = "<group>"; };
-		D7E673A1135654F200DD8B43 /* orbitToolsDemo.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = orbitToolsDemo.vcproj; sourceTree = "<group>"; };
-		D7E673A2135654F200DD8B43 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
-		D7E673A3135654F200DD8B43 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
-		D7E673A4135654F200DD8B43 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
-		D7E673A5135654F200DD8B43 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +156,9 @@
 		821E3161078E9068004B645E = {
 			isa = PBXGroup;
 			children = (
+				D771D147135F11AD0009C9A7 /* core */,
+				D771D15C135F11AD0009C9A7 /* orbit */,
+				D771D169135F11AD0009C9A7 /* orbitToolsDemo */,
 				821E3174078E9069004B645E /* Sources */,
 				821E3179078E9069004B645E /* Resources */,
 				821E317A078E9069004B645E /* Support */,
@@ -168,9 +171,6 @@
 		821E3174078E9069004B645E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D7E6739E135654F200DD8B43 /* orbitToolsDemo */,
-				D7E6735C135654DE00DD8B43 /* orbit */,
-				D7E67369135654DE00DD8B43 /* core */,
 				821E3176078E9069004B645E /* FMPlugin.h */,
 				82E58B830795DF7900592B32 /* FMTConfig.h */,
 				821E3177078E9069004B645E /* FMPluginHandlers.cpp */,
@@ -254,67 +254,64 @@
 			path = ../../Support/XCode;
 			sourceTree = SOURCE_ROOT;
 		};
-		D7E6735C135654DE00DD8B43 /* orbit */ = {
+		D771D147135F11AD0009C9A7 /* core */ = {
 			isa = PBXGroup;
 			children = (
-				D7E6735D135654DE00DD8B43 /* cNoradBase.cpp */,
-				D7E6735E135654DE00DD8B43 /* cNoradBase.h */,
-				D7E6735F135654DE00DD8B43 /* cNoradSDP4.cpp */,
-				D7E67360135654DE00DD8B43 /* cNoradSDP4.h */,
-				D7E67361135654DE00DD8B43 /* cNoradSGP4.cpp */,
-				D7E67362135654DE00DD8B43 /* cNoradSGP4.h */,
-				D7E67363135654DE00DD8B43 /* cOrbit.cpp */,
-				D7E67364135654DE00DD8B43 /* cOrbit.h */,
-				D7E67365135654DE00DD8B43 /* orbit.vcproj */,
-				D7E67366135654DE00DD8B43 /* revHistory.txt */,
-				D7E67367135654DE00DD8B43 /* stdafx.cpp */,
-				D7E67368135654DE00DD8B43 /* stdafx.h */,
+				D771D148135F11AD0009C9A7 /* cEci.cpp */,
+				D771D149135F11AD0009C9A7 /* cEci.h */,
+				D771D14A135F11AD0009C9A7 /* cJulian.cpp */,
+				D771D14B135F11AD0009C9A7 /* cJulian.h */,
+				D771D14C135F11AD0009C9A7 /* coord.cpp */,
+				D771D14D135F11AD0009C9A7 /* coord.h */,
+				D771D14E135F11AD0009C9A7 /* core.vcproj */,
+				D771D14F135F11AD0009C9A7 /* coreLib.h */,
+				D771D150135F11AD0009C9A7 /* cSite.cpp */,
+				D771D151135F11AD0009C9A7 /* cSite.h */,
+				D771D152135F11AD0009C9A7 /* cTLE.cpp */,
+				D771D153135F11AD0009C9A7 /* cTLE.h */,
+				D771D154135F11AD0009C9A7 /* cVector.cpp */,
+				D771D155135F11AD0009C9A7 /* cVector.h */,
+				D771D156135F11AD0009C9A7 /* exceptions.h */,
+				D771D157135F11AD0009C9A7 /* globals.cpp */,
+				D771D158135F11AD0009C9A7 /* globals.h */,
+				D771D159135F11AD0009C9A7 /* revHistory.txt */,
+				D771D15A135F11AD0009C9A7 /* stdafx.cpp */,
+				D771D15B135F11AD0009C9A7 /* stdafx.h */,
 			);
-			name = orbit;
-			path = cpp/orbitTools/orbit;
+			path = core;
 			sourceTree = "<group>";
 		};
-		D7E67369135654DE00DD8B43 /* core */ = {
+		D771D15C135F11AD0009C9A7 /* orbit */ = {
 			isa = PBXGroup;
 			children = (
-				D7E6736A135654DE00DD8B43 /* cEci.cpp */,
-				D7E6736B135654DE00DD8B43 /* cEci.h */,
-				D7E6736C135654DE00DD8B43 /* cJulian.cpp */,
-				D7E6736D135654DE00DD8B43 /* cJulian.h */,
-				D7E6736E135654DE00DD8B43 /* coord.cpp */,
-				D7E6736F135654DE00DD8B43 /* coord.h */,
-				D7E67370135654DE00DD8B43 /* core.vcproj */,
-				D7E67371135654DE00DD8B43 /* coreLib.h */,
-				D7E67372135654DE00DD8B43 /* cSite.cpp */,
-				D7E67373135654DE00DD8B43 /* cSite.h */,
-				D7E67374135654DE00DD8B43 /* cTLE.cpp */,
-				D7E67375135654DE00DD8B43 /* cTLE.h */,
-				D7E67376135654DE00DD8B43 /* cVector.cpp */,
-				D7E67377135654DE00DD8B43 /* cVector.h */,
-				D7E67378135654DE00DD8B43 /* exceptions.h */,
-				D7E67379135654DE00DD8B43 /* globals.cpp */,
-				D7E6737A135654DE00DD8B43 /* globals.h */,
-				D7E6737B135654DE00DD8B43 /* revHistory.txt */,
-				D7E6737C135654DE00DD8B43 /* stdafx.cpp */,
-				D7E6737D135654DE00DD8B43 /* stdafx.h */,
+				D771D15D135F11AD0009C9A7 /* cNoradBase.cpp */,
+				D771D15E135F11AD0009C9A7 /* cNoradBase.h */,
+				D771D15F135F11AD0009C9A7 /* cNoradSDP4.cpp */,
+				D771D160135F11AD0009C9A7 /* cNoradSDP4.h */,
+				D771D161135F11AD0009C9A7 /* cNoradSGP4.cpp */,
+				D771D162135F11AD0009C9A7 /* cNoradSGP4.h */,
+				D771D163135F11AD0009C9A7 /* cOrbit.cpp */,
+				D771D164135F11AD0009C9A7 /* cOrbit.h */,
+				D771D165135F11AD0009C9A7 /* orbit.vcproj */,
+				D771D166135F11AD0009C9A7 /* revHistory.txt */,
+				D771D167135F11AD0009C9A7 /* stdafx.cpp */,
+				D771D168135F11AD0009C9A7 /* stdafx.h */,
 			);
-			name = core;
-			path = cpp/orbitTools/core;
+			path = orbit;
 			sourceTree = "<group>";
 		};
-		D7E6739E135654F200DD8B43 /* orbitToolsDemo */ = {
+		D771D169135F11AD0009C9A7 /* orbitToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D7E6739F135654F200DD8B43 /* main.cpp */,
-				D7E673A0135654F200DD8B43 /* orbitToolsDemo.sln */,
-				D7E673A1135654F200DD8B43 /* orbitToolsDemo.vcproj */,
-				D7E673A2135654F200DD8B43 /* readme.txt */,
-				D7E673A3135654F200DD8B43 /* resource.h */,
-				D7E673A4135654F200DD8B43 /* stdafx.cpp */,
-				D7E673A5135654F200DD8B43 /* stdafx.h */,
+				D771D16A135F11AD0009C9A7 /* main.cpp */,
+				D771D16B135F11AD0009C9A7 /* orbitToolsDemo.sln */,
+				D771D16C135F11AD0009C9A7 /* orbitToolsDemo.vcproj */,
+				D771D16D135F11AD0009C9A7 /* readme.txt */,
+				D771D16E135F11AD0009C9A7 /* resource.h */,
+				D771D16F135F11AD0009C9A7 /* stdafx.cpp */,
+				D771D170135F11AD0009C9A7 /* stdafx.h */,
 			);
-			name = orbitToolsDemo;
-			path = cpp/orbitToolsDemo;
+			path = orbitToolsDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,23 +337,23 @@
 				821E31BE078E906A004B645E /* FMPlugin.h in Headers */,
 				82E58B840795DF7900592B32 /* FMTConfig.h in Headers */,
 				B9BD41710A400925005A4D9D /* FMTemplatePrefix.h in Headers */,
-				D7E6737F135654DE00DD8B43 /* cNoradBase.h in Headers */,
-				D7E67381135654DE00DD8B43 /* cNoradSDP4.h in Headers */,
-				D7E67383135654DE00DD8B43 /* cNoradSGP4.h in Headers */,
-				D7E67385135654DE00DD8B43 /* cOrbit.h in Headers */,
-				D7E67389135654DE00DD8B43 /* stdafx.h in Headers */,
-				D7E6738B135654DE00DD8B43 /* cEci.h in Headers */,
-				D7E6738D135654DE00DD8B43 /* cJulian.h in Headers */,
-				D7E6738F135654DE00DD8B43 /* coord.h in Headers */,
-				D7E67391135654DE00DD8B43 /* coreLib.h in Headers */,
-				D7E67393135654DE00DD8B43 /* cSite.h in Headers */,
-				D7E67395135654DE00DD8B43 /* cTLE.h in Headers */,
-				D7E67397135654DE00DD8B43 /* cVector.h in Headers */,
-				D7E67398135654DE00DD8B43 /* exceptions.h in Headers */,
-				D7E6739A135654DE00DD8B43 /* globals.h in Headers */,
-				D7E6739D135654DE00DD8B43 /* stdafx.h in Headers */,
-				D7E673AA135654F200DD8B43 /* resource.h in Headers */,
-				D7E673AC135654F200DD8B43 /* stdafx.h in Headers */,
+				D771D172135F11AD0009C9A7 /* cEci.h in Headers */,
+				D771D174135F11AD0009C9A7 /* cJulian.h in Headers */,
+				D771D176135F11AD0009C9A7 /* coord.h in Headers */,
+				D771D178135F11AD0009C9A7 /* coreLib.h in Headers */,
+				D771D17A135F11AD0009C9A7 /* cSite.h in Headers */,
+				D771D17C135F11AD0009C9A7 /* cTLE.h in Headers */,
+				D771D17E135F11AD0009C9A7 /* cVector.h in Headers */,
+				D771D17F135F11AD0009C9A7 /* exceptions.h in Headers */,
+				D771D181135F11AD0009C9A7 /* globals.h in Headers */,
+				D771D184135F11AD0009C9A7 /* stdafx.h in Headers */,
+				D771D186135F11AD0009C9A7 /* cNoradBase.h in Headers */,
+				D771D188135F11AD0009C9A7 /* cNoradSDP4.h in Headers */,
+				D771D18A135F11AD0009C9A7 /* cNoradSGP4.h in Headers */,
+				D771D18C135F11AD0009C9A7 /* cOrbit.h in Headers */,
+				D771D190135F11AD0009C9A7 /* stdafx.h in Headers */,
+				D771D195135F11AD0009C9A7 /* resource.h in Headers */,
+				D771D197135F11AD0009C9A7 /* stdafx.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,13 +403,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E67386135654DE00DD8B43 /* orbit.vcproj in Resources */,
-				D7E67387135654DE00DD8B43 /* revHistory.txt in Resources */,
-				D7E67390135654DE00DD8B43 /* core.vcproj in Resources */,
-				D7E6739B135654DE00DD8B43 /* revHistory.txt in Resources */,
-				D7E673A7135654F200DD8B43 /* orbitToolsDemo.sln in Resources */,
-				D7E673A8135654F200DD8B43 /* orbitToolsDemo.vcproj in Resources */,
-				D7E673A9135654F200DD8B43 /* readme.txt in Resources */,
+				D771D177135F11AD0009C9A7 /* core.vcproj in Resources */,
+				D771D182135F11AD0009C9A7 /* revHistory.txt in Resources */,
+				D771D18D135F11AD0009C9A7 /* orbit.vcproj in Resources */,
+				D771D18E135F11AD0009C9A7 /* revHistory.txt in Resources */,
+				D771D192135F11AD0009C9A7 /* orbitToolsDemo.sln in Resources */,
+				D771D193135F11AD0009C9A7 /* orbitToolsDemo.vcproj in Resources */,
+				D771D194135F11AD0009C9A7 /* readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,21 +458,21 @@
 				821E31BF078E906A004B645E /* FMPluginHandlers.cpp in Sources */,
 				821E31C0078E906A004B645E /* FMPluginVersion.cpp in Sources */,
 				D7995F491354DBD9009C0158 /* MyFunction.cpp in Sources */,
-				D7E6737E135654DE00DD8B43 /* cNoradBase.cpp in Sources */,
-				D7E67380135654DE00DD8B43 /* cNoradSDP4.cpp in Sources */,
-				D7E67382135654DE00DD8B43 /* cNoradSGP4.cpp in Sources */,
-				D7E67384135654DE00DD8B43 /* cOrbit.cpp in Sources */,
-				D7E67388135654DE00DD8B43 /* stdafx.cpp in Sources */,
-				D7E6738A135654DE00DD8B43 /* cEci.cpp in Sources */,
-				D7E6738C135654DE00DD8B43 /* cJulian.cpp in Sources */,
-				D7E6738E135654DE00DD8B43 /* coord.cpp in Sources */,
-				D7E67392135654DE00DD8B43 /* cSite.cpp in Sources */,
-				D7E67394135654DE00DD8B43 /* cTLE.cpp in Sources */,
-				D7E67396135654DE00DD8B43 /* cVector.cpp in Sources */,
-				D7E67399135654DE00DD8B43 /* globals.cpp in Sources */,
-				D7E6739C135654DE00DD8B43 /* stdafx.cpp in Sources */,
-				D7E673A6135654F200DD8B43 /* main.cpp in Sources */,
-				D7E673AB135654F200DD8B43 /* stdafx.cpp in Sources */,
+				D771D171135F11AD0009C9A7 /* cEci.cpp in Sources */,
+				D771D173135F11AD0009C9A7 /* cJulian.cpp in Sources */,
+				D771D175135F11AD0009C9A7 /* coord.cpp in Sources */,
+				D771D179135F11AD0009C9A7 /* cSite.cpp in Sources */,
+				D771D17B135F11AD0009C9A7 /* cTLE.cpp in Sources */,
+				D771D17D135F11AD0009C9A7 /* cVector.cpp in Sources */,
+				D771D180135F11AD0009C9A7 /* globals.cpp in Sources */,
+				D771D183135F11AD0009C9A7 /* stdafx.cpp in Sources */,
+				D771D185135F11AD0009C9A7 /* cNoradBase.cpp in Sources */,
+				D771D187135F11AD0009C9A7 /* cNoradSDP4.cpp in Sources */,
+				D771D189135F11AD0009C9A7 /* cNoradSGP4.cpp in Sources */,
+				D771D18B135F11AD0009C9A7 /* cOrbit.cpp in Sources */,
+				D771D18F135F11AD0009C9A7 /* stdafx.cpp in Sources */,
+				D771D191135F11AD0009C9A7 /* main.cpp in Sources */,
+				D771D196135F11AD0009C9A7 /* stdafx.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
